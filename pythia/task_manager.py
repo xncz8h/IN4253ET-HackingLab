@@ -216,18 +216,18 @@ def fetch_info(ELEM):
                 SOURCE_IP=GL_SOURCE_IP,
                 URI=uri,
                 # browser
-                PAGE_SOURCE=page_source,
-                PAGE_TITLE=page_title,
-                RESOURCES_ORDLIST=resources_ordlist,
-                REDIRECTION_CHAIN=redirection_chain,
-                EXCEPTION=exception,
-                EXCEPTION_STR=exception_str,
-                BROWSERSTART_TS=browserstart_ts,
-                BROWSEREND_TS=browserend_ts,
+                PAGE_SOURCE=None,
+                PAGE_TITLE=None,
+                RESOURCES_ORDLIST=None,
+                REDIRECTION_CHAIN=None,
+                EXCEPTION=None,
+                EXCEPTION_STR=None,
+                BROWSERSTART_TS=None,
+                BROWSEREND_TS=None,
                 # dns
-                UNIQUE_DOMAINS_RESOLUTIONS=unique_domains_resolutions,
+                UNIQUE_DOMAINS_RESOLUTIONS=None,
                 # rdap
-                RDAP_INFOS_DICT=rdap_infos_dict)
+                RDAP_INFOS_DICT=None)
         else:
             struct = generate_struct(COOKIES=cookies,SOURCE_IP=GL_SOURCE_IP,
                                      URI=uri,
