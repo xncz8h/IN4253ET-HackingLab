@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import json
 
-def generate_struct(SOURCE_IP,
+def generate_struct(COOKIES, SOURCE_IP,
                     URI,
                     # browser
                     PAGE_SOURCE, PAGE_TITLE,
@@ -14,6 +14,7 @@ def generate_struct(SOURCE_IP,
                     RDAP_INFOS_DICT):
     browser_module = {
         "uri": URI,
+        "cookies": COOKIES,
         "page_source": PAGE_SOURCE,
         "page_title": PAGE_TITLE,
         "resources_ordlist": RESOURCES_ORDLIST,

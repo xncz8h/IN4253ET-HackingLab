@@ -163,7 +163,7 @@ def fetch_info(ELEM):
         str(datetime.now()).split(".")[0], uri, rank))
     try:
         # selenium page loads...
-        (page_source, page_title, resources_ordlist, redirection_chain,
+        (cookies, page_source, page_title, resources_ordlist, redirection_chain,
          exception, exception_str, browserstart_ts,
          browserend_ts) = download_with_browser(
              URL=uri,
@@ -212,6 +212,7 @@ def fetch_info(ELEM):
 
             # dump the results into a json
             struct = generate_struct(
+                COOKIES=cookies,
                 SOURCE_IP=GL_SOURCE_IP,
                 URI=uri,
                 # browser
@@ -228,7 +229,7 @@ def fetch_info(ELEM):
                 # rdap
                 RDAP_INFOS_DICT=rdap_infos_dict)
         else:
-            struct = generate_struct(SOURCE_IP=GL_SOURCE_IP,
+            struct = generate_struct(COOKIES=cookies,SOURCE_IP=GL_SOURCE_IP,
                                      URI=uri,
                                      # browser
                                      PAGE_SOURCE=None,
