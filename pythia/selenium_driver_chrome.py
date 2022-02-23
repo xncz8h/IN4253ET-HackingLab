@@ -12,7 +12,7 @@ if ('gl_PATH_CHROMEDRIVER' not in globals()) or \
    ('gl_PATH_CHROME_BROWSER' not in globals()) or \
    ('gl_SPOOFED_USER_AGENT' not in globals()):
     gl_PATH_CHROMEDRIVER = "chromedriver.exe"
-    gl_PATH_CHROME_BROWSER = "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+    gl_PATH_CHROME_BROWSER = "C:\Program Files\Google\Chrome\Application\chrome.exe"
     gl_SPOOFED_USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) "
                              "AppleWebKit/537.36 "
                              "(KHTML, like Gecko) Chrome/70.0.3538.77 "
