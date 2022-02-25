@@ -5,6 +5,8 @@ Cooooookiiies
 ### How
 This project only focusses on the websites owned by the Dutch government. The domains used for this project were fetched from the Dutch goverrnment [website](https://www.overheid.nl/english/dutch-government-websites). Using the script in this repository it is possible to fetch all the domain names automatically.
 
+TODO: add univeristies, hospitals, police & banks to the list
+
 ## Setup
 This project makes use of Python3. In order to run this repository the dependencies of the [Pythia](https://bitbucket.org/srdjanmatic/pythia/src/master/) library are required. Run the following command to install all dependencies:
 
