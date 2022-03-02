@@ -113,7 +113,7 @@ def download_with_browser(URL,
         # Fetch the resource and all embedded URLs
         driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
         driver.get(URL)
-        cookies = driver.get_cookies()
+        driver.get_cookies()
 
         # We need to put it into a variable, otherwise when
         # calling again "driver.get_log('performance')" it will
@@ -260,7 +260,7 @@ def download_with_browser(URL,
         if (CHROMEDRIVER_LOCK is not None) and (lock_released is False):
             CHROMEDRIVER_LOCK.release()
     end_ts = time.time()
-    return (cookies, page_source, page_title, resources_ordlist,
+    return (page_source, page_title, resources_ordlist,
             redirection_chain, exception, exception_str,
             start_ts, end_ts)
 
