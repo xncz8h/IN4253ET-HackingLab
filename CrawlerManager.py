@@ -29,6 +29,9 @@ class CrawlerManager:
     def initCrawlers(self):
         print("Initializing first wave of crawlers...")
         for x in range(self.numThreads):
+            if len(self.urls) == 0:
+                break
+
             self.crawlers.append(Crawler(self.chromeOptions, self.urls.pop()))
             self.threads.append(threading.Thread(target=self.crawlers[x].startCrawl))
 
