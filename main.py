@@ -1,6 +1,8 @@
 from ThirdPartytracker import checkForTrackers
 from cookie import Cookie
 
+from CrawlerManager import CrawlerManager
+
 def main():
     print("Started")
     cookie_list = []
@@ -16,7 +18,12 @@ def main():
                 print(tracker)
 
 
+def startCrawling():
+    print("Start crawling")
 
+    websiteFiles = ["overheid.txt", "universities.txt"]
+    crawlerManager = CrawlerManager(websiteFiles, numThreads=10)
+    crawlerManager.start()
 
 if __name__ == "__main__":
-    main()
+    startCrawling()
