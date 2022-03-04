@@ -16,6 +16,12 @@ class CrawlerManager:
         self.crawlers = []
         self.threads = []
         self.setupUrls(websiteFiles)
+        self.setupOptions()
+
+    def setupOptions(self):
+        print("Setting up chrome options")
+        self.chromeOptions.add_argument("--headless")
+        self.chromeOptions.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36")
 
     def setupUrls(self, files):
         print("Initializing urls...")
@@ -86,6 +92,8 @@ class Crawler:
             self.cookies = driver.execute_cdp_cmd('Network.getAllCookies', dict())
         else:
             print("ERROR: error while trying to crawl " + self.websiteUrl)
-
         driver.close()
+        # print(len(self.cookies["cookies"]))
+        # for cookie in self.cookies["cookies"]:
+        #    print(cookie)
         # Eventually might add error handling

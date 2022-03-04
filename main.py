@@ -21,8 +21,8 @@ def main():
 def startCrawling():
     print("Start crawling")
 
-    # websiteFiles = ["overheid.txt", "universities.txt"]
-    websiteFiles = ["example.txt"]
+    websiteFiles = ["overheid.txt", "universities.txt"]
+    # websiteFiles = ["example.txt"]
     crawlerManager = CrawlerManager(websiteFiles, numThreads=10)
     crawlerManager.start()
 
