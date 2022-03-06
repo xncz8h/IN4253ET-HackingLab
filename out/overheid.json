@@ -1,0 +1,2217 @@
+{
+    "business.gov.nl": [
+        {
+            "name": "_ga_845PX04177",
+            "domain": ".gov.nl",
+            "expires": 1709662705,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".gov.nl",
+            "expires": 1709662705,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".gov.nl",
+            "expires": 1646677105,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-3742073-10",
+            "domain": ".gov.nl",
+            "expires": 1646590765,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_hjSessionUser_630207",
+            "domain": ".gov.nl",
+            "expires": 1678126705,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_hjFirstSeen",
+            "domain": ".gov.nl",
+            "expires": 1646592505,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_hjIncludedInSessionSample",
+            "domain": "business.gov.nl",
+            "expires": 1646590825,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_hjSession_630207",
+            "domain": ".gov.nl",
+            "expires": 1646592505,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_hjAbsoluteSessionInProgress",
+            "domain": ".gov.nl",
+            "expires": 1646592505,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "duo.nl": [
+        {
+            "name": "JSESSIONID",
+            "domain": "duo.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.1.0569",
+            "domain": ".duo.nl",
+            "expires": 1680545908,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.1.0569",
+            "domain": ".duo.nl",
+            "expires": 1646592508,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "defensie.nl": [
+        {
+            "name": "_pk_id.39.d9e9",
+            "domain": "www.defensie.nl",
+            "expires": 1680545910,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.39.d9e9",
+            "domain": "www.defensie.nl",
+            "expires": 1646592510,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "rvo.nl": [
+        {
+            "name": "has_js",
+            "domain": "www.rvo.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "www.rvo.nl",
+            "expires": 1678126716,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "www.rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "www.rvo.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "www.rvo.nl",
+            "expires": 1678126716,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "mededeling_geladen",
+            "domain": "www.rvo.nl",
+            "expires": 1646677116,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "test",
+            "domain": ".rvo.nl",
+            "expires": 1646590726,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+            "domain": ".rvo.nl",
+            "expires": 1680545916,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+            "domain": ".rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+            "domain": ".rvo.nl",
+            "expires": 1680545916,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+            "domain": ".rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.1493.184f",
+            "domain": ".rvo.nl",
+            "expires": 1680545916,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.1493.184f",
+            "domain": ".rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.1073.184f",
+            "domain": ".rvo.nl",
+            "expires": 1680545916,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.1073.184f",
+            "domain": ".rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "sm_visitor_cross_domain",
+            "domain": ".rvo.nl",
+            "expires": 1741198716,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "sm_buid",
+            "domain": ".rvo.nl",
+            "expires": 1741198716,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "sm_session_cross_domain",
+            "domain": ".rvo.nl",
+            "expires": 1646592516,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "europa.eu": [
+        {
+            "name": "cck1",
+            "domain": ".european-union.europa.eu",
+            "expires": 1662142719,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.225.9f33",
+            "domain": "european-union.europa.eu",
+            "expires": 1680545919,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.225.9f33",
+            "domain": "european-union.europa.eu",
+            "expires": 1646592519,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "ind.nl": [
+        {
+            "name": "PROFILE",
+            "domain": "statistics.ind.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "ind.nl",
+            "expires": 1678126722,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "ind.nl",
+            "expires": 1646592522,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "ind.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "ind.nl",
+            "expires": 1678126722,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "5e4eaf41354f17.25243961__cbs",
+            "domain": ".ind.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".ind.nl",
+            "expires": 1732990722,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "investinholland.com": [
+        {
+            "name": "_GRECAPTCHA",
+            "domain": "www.google.com",
+            "expires": 1662142727.813418,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "wp-wpml_current_language",
+            "domain": "investinholland.com",
+            "expires": 1646677127,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gcl_au",
+            "domain": ".investinholland.com",
+            "expires": 1654366727,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".investinholland.com",
+            "expires": 1709662727,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".investinholland.com",
+            "expires": 1646677127,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-30678369-2",
+            "domain": ".investinholland.com",
+            "expires": 1646590787,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "test_cookie",
+            "domain": ".doubleclick.net",
+            "expires": 1646591627.384851,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "UserMatchHistory",
+            "domain": ".linkedin.com",
+            "expires": 1649182727.719923,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "AnalyticsSyncHistory",
+            "domain": ".linkedin.com",
+            "expires": 1649182727.720027,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "lang",
+            "domain": ".ads.linkedin.com",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "bcookie",
+            "domain": ".linkedin.com",
+            "expires": 1709704579.720104,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "lidc",
+            "domain": ".linkedin.com",
+            "expires": 1646677127.72014,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "lang",
+            "domain": ".linkedin.com",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "bscookie",
+            "domain": ".www.linkedin.com",
+            "expires": 1709704579.856634,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "li_gc",
+            "domain": ".linkedin.com",
+            "expires": 1708904287.85669,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "muc_ads",
+            "domain": ".t.co",
+            "expires": 1709662727.88668,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "personalization_id",
+            "domain": ".twitter.com",
+            "expires": 1709662727.893917,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "data.overheid.nl": [
+        {
+            "name": "SSESSa3eaeb1500709ea97d4e3bfab8ddc3f5",
+            "domain": ".data.overheid.nl",
+            "expires": 1648590776.224741,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "YSC",
+            "domain": ".youtube.com",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "VISITOR_INFO1_LIVE",
+            "domain": ".youtube.com",
+            "expires": 1662142776.470446,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "data.overheid.nl",
+            "expires": 1678126777,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "data.overheid.nl",
+            "expires": 1646592577,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "data.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "data.overheid.nl",
+            "expires": 1678126777,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "test",
+            "domain": ".overheid.nl",
+            "expires": 1646590787,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.d878bc05-70e8-4720-a8e5-e6bbe995b44e.340a",
+            "domain": ".overheid.nl",
+            "expires": 1680545977,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+            "domain": ".overheid.nl",
+            "expires": 1680545977,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "mijn.overheid.nl": [
+        {
+            "name": "_pk_id.6.a5fd",
+            "domain": "mijn.overheid.nl",
+            "expires": 1680545980,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.6.a5fd",
+            "domain": "mijn.overheid.nl",
+            "expires": 1646592579,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "ondernemersplein.kvk.nl": [
+        {
+            "name": "_gid",
+            "domain": ".kvk.nl",
+            "expires": 1646677182,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-3742073-8",
+            "domain": ".kvk.nl",
+            "expires": 1646590842,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_session_UA-3742073-8",
+            "domain": ".ondernemersplein.kvk.nl",
+            "expires": 1646592582,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga_BTDGT29DHD",
+            "domain": ".kvk.nl",
+            "expires": 1709662782,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".kvk.nl",
+            "expires": 1709662782,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "puc.overheid.nl": [
+        {
+            "name": "ASP.NET_SessionId",
+            "domain": "puc.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "sessie",
+            "domain": "puc.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "puc.overheid.nl",
+            "expires": 1678126784,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "puc.overheid.nl",
+            "expires": 1646592584,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "puc.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "puc.overheid.nl",
+            "expires": 1678126784,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.a05b5d0a-cdc0-4a19-8729-6dbe7a0afc95.9c17",
+            "domain": "puc.overheid.nl",
+            "expires": 1680545984,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.a05b5d0a-cdc0-4a19-8729-6dbe7a0afc95.9c17",
+            "domain": "puc.overheid.nl",
+            "expires": 1646592584,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "actieveSessieID",
+            "domain": "puc.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "acm.nl": [
+        {
+            "name": "nmstat",
+            "domain": ".acm.nl",
+            "expires": 1732990787,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSELBCORS",
+            "domain": "6009235.global.siteimproveanalytics.io",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "amsterdam.nl": [
+        {
+            "name": "__cf_bm",
+            "domain": ".fonts.net",
+            "expires": 1646592590.029624,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "belastingdienst.nl": [
+        {
+            "name": "BIGipServerpool_www-dxp.belastingdienst.nl",
+            "domain": "belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookieBLD33",
+            "domain": "belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "BIGipServerpool_www-dxp.belastingdienst.nl",
+            "domain": "www.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookieBLD33",
+            "domain": "www.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "BIGipServerpool_downld-dxp.belastingdienst.nl",
+            "domain": "download.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS01c28963",
+            "domain": ".belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookie-255",
+            "domain": "pwa001.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookie240",
+            "domain": "pwa001.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS019af240",
+            "domain": ".pwa001.belastingdienst.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ABTasty",
+            "domain": ".belastingdienst.nl",
+            "expires": 1680113992,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ABTastySession",
+            "domain": ".belastingdienst.nl",
+            "expires": 1646592592,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.3.6886",
+            "domain": "www.belastingdienst.nl",
+            "expires": 1680545993,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.3.6886",
+            "domain": "www.belastingdienst.nl",
+            "expires": 1646592592,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "cbs.nl": [
+        {
+            "name": "_c49b3",
+            "domain": "www.cbs.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".cbs.nl",
+            "expires": 1709662795,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".cbs.nl",
+            "expires": 1646677195,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".cbs.nl",
+            "expires": 1646590855,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "www.cbs.nl",
+            "expires": 1678126795,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "www.cbs.nl",
+            "expires": 1646592595,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "www.cbs.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "www.cbs.nl",
+            "expires": 1678126795,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.7cd61318-6d21-4775-b1b2-64ec78d416e1.bdac",
+            "domain": "www.cbs.nl",
+            "expires": 1680545995,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.7cd61318-6d21-4775-b1b2-64ec78d416e1.bdac",
+            "domain": "www.cbs.nl",
+            "expires": 1646592595,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "denhaag.nl": [
+        {
+            "name": "NSC_mc_xxx.efoibbh.om_TTM_443",
+            "domain": "www.denhaag.nl",
+            "expires": 1646592622.496613,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "JSESSIONID",
+            "domain": "www.denhaag.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "dnb.nl": [
+        {
+            "name": "nmstat",
+            "domain": ".dnb.nl",
+            "expires": 1655230824,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSELBCORS",
+            "domain": "6034822.global.siteimproveanalytics.io",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "eerstekamer.nl": [],
+    "fryslan.frl": [],
+    "gelderland.nl": [
+        {
+            "name": "__Host-next-auth.csrf-token",
+            "domain": "www.gelderland.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__Secure-next-auth.callback-url",
+            "domain": "www.gelderland.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "government.nl": [
+        {
+            "name": "_pk_id.8.9492",
+            "domain": "www.government.nl",
+            "expires": 1680546044,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.8.9492",
+            "domain": "www.government.nl",
+            "expires": 1646592644,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "houseofrepresentatives.nl": [
+        {
+            "name": "has_js",
+            "domain": "www.houseofrepresentatives.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.6.1d14",
+            "domain": "www.houseofrepresentatives.nl",
+            "expires": 1680546047,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.6.1d14",
+            "domain": "www.houseofrepresentatives.nl",
+            "expires": 1646592646,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "knaw.nl": [
+        {
+            "name": "I18N_LANGUAGE",
+            "domain": "knaw.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__utma",
+            "domain": ".knaw.nl",
+            "expires": 1709662850,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__utmc",
+            "domain": ".knaw.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__utmz",
+            "domain": ".knaw.nl",
+            "expires": 1662358850,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__utmt",
+            "domain": ".knaw.nl",
+            "expires": 1646591450,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__utmb",
+            "domain": ".knaw.nl",
+            "expires": 1646592650,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "kvk.nl": [
+        {
+            "name": "IDHUB_SESSION",
+            "domain": ".kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ADRUM_BTa",
+            "domain": "www.kvk.nl",
+            "expires": 1646590873.74299,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "SameSite",
+            "domain": "www.kvk.nl",
+            "expires": 1646590873.743182,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ADRUM_BT1",
+            "domain": "www.kvk.nl",
+            "expires": 1646590873.743223,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ADRUM_BTs",
+            "domain": "www.kvk.nl",
+            "expires": 1646590873.743248,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS01b7918c",
+            "domain": "www.kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS014df7f8",
+            "domain": ".kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ABTasty",
+            "domain": ".kvk.nl",
+            "expires": 1680114052,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ABTastySession",
+            "domain": ".kvk.nl",
+            "expires": 1646592652,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga_26YX2JRENC",
+            "domain": ".kvk.nl",
+            "expires": 1709662852,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".kvk.nl",
+            "expires": 1709662853,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".kvk.nl",
+            "expires": 1646677253,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_tdid",
+            "domain": ".kvk.nl",
+            "expires": 1647195653.072738,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "Pastease.passive.chance.GjtvTGDxoatL87S",
+            "domain": "www.kvk.nl",
+            "expires": 1649182853,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "Pastease.passive.activated.GjtvTGDxoatL87S",
+            "domain": "www.kvk.nl",
+            "expires": 1649182853,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "last_page.05PUbVYbJL2CA1nrule_0",
+            "domain": "www.kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "page_count.05PUbVYbJL2CA1nrule_0",
+            "domain": "www.kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSALBCORS",
+            "domain": "collect.mopinion.com",
+            "expires": 1647195653.279431,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "wwwchannelme_z_sid",
+            "domain": ".kvk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "limburg.nl": [
+        {
+            "name": "_ga",
+            "domain": ".limburg.nl",
+            "expires": 1709662855,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".limburg.nl",
+            "expires": 1646677255,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".limburg.nl",
+            "expires": 1646590915,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookies_consent",
+            "domain": "www.limburg.nl",
+            "expires": 1678126857,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".limburg.nl",
+            "expires": 1732990857,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "museumserver.nl": [],
+    "nbtc.nl": [
+        {
+            "name": "JSESSIONID",
+            "domain": "www.nbtc.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".nbtc.nl",
+            "expires": 1709662863,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".nbtc.nl",
+            "expires": 1646677263,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "bc_tstgrp",
+            "domain": ".nbtc.nl",
+            "expires": 1678126863,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-4740195-39",
+            "domain": ".nbtc.nl",
+            "expires": 1646590923,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "noord-holland.nl": [
+        {
+            "name": "JSESSIONID",
+            "domain": "www.noord-holland.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".noord-holland.nl",
+            "expires": 1709662876,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".noord-holland.nl",
+            "expires": 1646677276,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".noord-holland.nl",
+            "expires": 1646590936,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".noord-holland.nl",
+            "expires": 1732990876,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSELBCORS",
+            "domain": "6009048.global.siteimproveanalytics.io",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "nuffic.nl": [],
+    "nwo.nl": [],
+    "overheid.nl": [
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "www.overheid.nl",
+            "expires": 1646592685,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "www.overheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "www.overheid.nl",
+            "expires": 1678126885,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "www.overheid.nl",
+            "expires": 1678126885,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "test",
+            "domain": ".overheid.nl",
+            "expires": 1646590895,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+            "domain": ".overheid.nl",
+            "expires": 1680546085,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+            "domain": ".overheid.nl",
+            "expires": 1646592685,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+            "domain": ".overheid.nl",
+            "expires": 1680546085,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+            "domain": ".overheid.nl",
+            "expires": 1646592685,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "provinciegroningen.nl": [
+        {
+            "name": "_ga",
+            "domain": ".provinciegroningen.nl",
+            "expires": 1709662888,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".provinciegroningen.nl",
+            "expires": 1646677288,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".provinciegroningen.nl",
+            "expires": 1646590948,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "provincie-utrecht.nl": [
+        {
+            "name": "_ga",
+            "domain": ".provincie-utrecht.nl",
+            "expires": 1709662890,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".provincie-utrecht.nl",
+            "expires": 1646677290,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-7786951-11",
+            "domain": ".provincie-utrecht.nl",
+            "expires": 1646590950,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "rdw.nl": [
+        {
+            "name": "shell#lang",
+            "domain": "www.rdw.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ARRAffinity",
+            "domain": ".www.rdw.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ARRAffinitySameSite",
+            "domain": ".www.rdw.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".rdw.nl",
+            "expires": 1678126893,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".rdw.nl",
+            "expires": 1646677293,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "rivm.nl": [
+        {
+            "name": "_pk_id.1241.1de9",
+            "domain": "www.rivm.nl",
+            "expires": 1680546095,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.1241.1de9",
+            "domain": "www.rivm.nl",
+            "expires": 1646592695,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "rotterdam.nl": [
+        {
+            "name": "X-Mapping-peljbfap",
+            "domain": "www.rotterdam.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".rotterdam.nl",
+            "expires": 1732990910,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSELBCORS",
+            "domain": "6006165.global.siteimproveanalytics.io",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "royal-house.nl": [
+        {
+            "name": "_pk_id.88.1ae3",
+            "domain": "www.royal-house.nl",
+            "expires": 1680546114,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.88.1ae3",
+            "domain": "www.royal-house.nl",
+            "expires": 1646592714,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "ser.nl": [
+        {
+            "name": "ser#lang",
+            "domain": "www.ser.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ASP.NET_SessionId",
+            "domain": "www.ser.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__RequestVerificationToken",
+            "domain": "www.ser.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "svb.nl": [
+        {
+            "name": "dtCookie",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "HASH_dtCookie",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxVisitor",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtLatC",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtSa",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ABTastySession",
+            "domain": ".svb.nl",
+            "expires": 1646592721,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "Pastease.passive.chance.hgOF1ArxlA6C0sz",
+            "domain": "www.svb.nl",
+            "expires": 1649182922,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "Pastease.passive.activated.hgOF1ArxlA6C0sz",
+            "domain": "www.svb.nl",
+            "expires": 1649182922,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSALBCORS",
+            "domain": "collect.mopinion.com",
+            "expires": 1647195722.299167,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.8bda5495-3d5b-40c3-a4ac-3636b5895400.d8ba",
+            "domain": "www.svb.nl",
+            "expires": 1680546122,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.8bda5495-3d5b-40c3-a4ac-3636b5895400.d8ba",
+            "domain": "www.svb.nl",
+            "expires": 1646592722,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxvt",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtPC",
+            "domain": ".svb.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "utrecht.nl": [
+        {
+            "name": "TS01b54eb4",
+            "domain": ".utrecht.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS016a2cdf",
+            "domain": ".www.utrecht.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.1.3d0a",
+            "domain": "www.utrecht.nl",
+            "expires": 1651774925,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.1.3d0a",
+            "domain": "www.utrecht.nl",
+            "expires": 1646592724,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".utrecht.nl",
+            "expires": 1649182925,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSELBCORS",
+            "domain": "6006206.global.siteimproveanalytics.io",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "uwv.nl": [
+        {
+            "name": "BCSessionID",
+            "domain": "uwv.blueconic.net",
+            "expires": 1678126935.659626,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS019ee000",
+            "domain": ".www.uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS01e7daa1",
+            "domain": ".kmm-cag.uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "www.uwv.nl",
+            "expires": 1646592736,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "www.uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "optimizelyEndUserId",
+            "domain": ".uwv.nl",
+            "expires": 1662142934,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtCookie",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxVisitor",
+            "domain": ".uwv.nl",
+            "expires": 1709749334,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtLatC",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtSa",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "UWVSearchPage",
+            "domain": "www.uwv.nl",
+            "expires": 1678126934,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt3_sid",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "BCSessionID",
+            "domain": ".uwv.nl",
+            "expires": 1678126935,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt_nbg_Q3",
+            "domain": "uwv01.wt-eu02.net",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt3_eid",
+            "domain": ".uwv.nl",
+            "expires": 1662142935,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt_rla",
+            "domain": ".uwv.nl",
+            "expires": 1651774935,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "AWSALBCORS",
+            "domain": "uwv.blueconic.net",
+            "expires": 1647195735.659592,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxvt",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtPC",
+            "domain": ".uwv.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "www.uwv.nl",
+            "expires": 1678126936,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "www.uwv.nl",
+            "expires": 1678126936,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "visitdrenthe.com": [
+        {
+            "name": "token_id",
+            "domain": "www.visitdrenthe.com",
+            "expires": 1678126939.077879,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".visitdrenthe.com",
+            "expires": 1709662939,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".visitdrenthe.com",
+            "expires": 1646677339,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-42632713-4",
+            "domain": ".visitdrenthe.com",
+            "expires": 1646590999,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "visitflevoland.nl": [
+        {
+            "name": "CLID",
+            "domain": "www.clarity.ms",
+            "expires": 1678126942.217785,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "_ga_1GL6H2PRCF",
+            "domain": ".visitflevoland.nl",
+            "expires": 1709662942,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".visitflevoland.nl",
+            "expires": 1709662942,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".visitflevoland.nl",
+            "expires": 1646677342,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat_UA-27346038-6",
+            "domain": ".visitflevoland.nl",
+            "expires": 1646591002,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "SRM_B",
+            "domain": ".c.bing.com",
+            "expires": 1680286944.156697,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "SM",
+            "domain": ".c.clarity.ms",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "MUID",
+            "domain": ".clarity.ms",
+            "expires": 1680286944.262859,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "ANONCHK",
+            "domain": ".c.clarity.ms",
+            "expires": 1646591544.262893,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "_clck",
+            "domain": ".visitflevoland.nl",
+            "expires": 1678126943,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "werkenbijdeoverheid.nl": [
+        {
+            "name": "BACKEND",
+            "domain": "werkenbijdeoverheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "XSRF-TOKEN",
+            "domain": "www.werkenbijdeoverheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "BACKEND",
+            "domain": "www.werkenbijdeoverheid.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_id.266.d970",
+            "domain": "www.werkenbijdeoverheid.nl",
+            "expires": 1680546158,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_pk_ses.266.d970",
+            "domain": "www.werkenbijdeoverheid.nl",
+            "expires": 1646592758,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga_WBGGSJBWMC",
+            "domain": ".werkenbijdeoverheid.nl",
+            "expires": 1709662958,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".werkenbijdeoverheid.nl",
+            "expires": 1709662958,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".werkenbijdeoverheid.nl",
+            "expires": 1646677358,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_dc_gtm_UA-1103343-1",
+            "domain": ".werkenbijdeoverheid.nl",
+            "expires": 1646591018,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "werk.nl": [
+        {
+            "name": "OAMAuthnHintCookie",
+            "domain": ".www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS012a7bec",
+            "domain": ".www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "OAM_ID",
+            "domain": "login.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS01a85594",
+            "domain": "login.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "OAMAuthnCookie_www.werk.nl:443",
+            "domain": "www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS0122d808",
+            "domain": "www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_returning_visitor",
+            "domain": "www.werk.nl",
+            "expires": 1678126967,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_traffic_source_priority",
+            "domain": "www.werk.nl",
+            "expires": 1646592767,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_externalReferrer",
+            "domain": "www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "stg_last_interaction",
+            "domain": "www.werk.nl",
+            "expires": 1678126967,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_qst_s",
+            "domain": "www.werk.nl",
+            "expires": 1678126967,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_qsst_s",
+            "domain": "www.werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "x_qtag_werktwnlangularprod",
+            "domain": "www.werk.nl",
+            "expires": 1678126967,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtCookie",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxVisitor",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtLatC",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtSa",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "rxvt",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "dtPC",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt3_eid",
+            "domain": ".werk.nl",
+            "expires": 1662142967,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt3_sid",
+            "domain": ".werk.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "wt_rla",
+            "domain": ".werk.nl",
+            "expires": 1651774967,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "zeeland.nl": [],
+    "zn.nl": [
+        {
+            "name": "ASP.NET_SessionId",
+            "domain": "zn.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__atuvc",
+            "domain": "zn.nl",
+            "expires": 1680801773,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__atuvs",
+            "domain": "zn.nl",
+            "expires": 1646592773,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "YSC",
+            "domain": ".youtube.com",
+            "expires": -1,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "VISITOR_INFO1_LIVE",
+            "domain": ".youtube.com",
+            "expires": 1662142973.423401,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".zn.nl",
+            "expires": 1709662973,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".zn.nl",
+            "expires": 1646677373,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".zn.nl",
+            "expires": 1646591033,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "uvc",
+            "domain": ".addthis.com",
+            "expires": 1680801773,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "loc",
+            "domain": ".addthis.com",
+            "expires": 1680801773,
+            "third_party": true,
+            "trackers": []
+        }
+    ],
+    "zuid-holland.eu": [
+        {
+            "name": "cookies_consent",
+            "domain": "www.zuid-holland.eu",
+            "expires": 1678126977,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "octrooigemachtigde.nl": [
+        {
+            "name": "octrooi",
+            "domain": "www.octrooigemachtigde.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".octrooigemachtigde.nl",
+            "expires": 1709662980,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".octrooigemachtigde.nl",
+            "expires": 1646677380,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".octrooigemachtigde.nl",
+            "expires": 1646591040,
+            "third_party": false,
+            "trackers": []
+        }
+    ],
+    "overijssel.nl": [
+        {
+            "name": "ons_cookie",
+            "domain": "overijssel.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS0144ab28",
+            "domain": "overijssel.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "ons_cookie",
+            "domain": "www.overijssel.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "TS0144ab28",
+            "domain": "www.overijssel.nl",
+            "expires": -1,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "__cf_bm",
+            "domain": ".myfonts.net",
+            "expires": 1646592783.121786,
+            "third_party": true,
+            "trackers": []
+        },
+        {
+            "name": "_ga",
+            "domain": ".overijssel.nl",
+            "expires": 1709662984,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gid",
+            "domain": ".overijssel.nl",
+            "expires": 1646677384,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "_gat",
+            "domain": ".overijssel.nl",
+            "expires": 1646591044,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "cookies_consent",
+            "domain": "www.overijssel.nl",
+            "expires": 1678126984,
+            "third_party": false,
+            "trackers": []
+        },
+        {
+            "name": "nmstat",
+            "domain": ".overijssel.nl",
+            "expires": 1732990984,
+            "third_party": false,
+            "trackers": []
+        }
+    ]
+}
