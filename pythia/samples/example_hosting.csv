@@ -1,9 +1,0 @@
-#inspected_URL,landing_URL,self_hosted
-http://www.bitbucket.org,https://bitbucket.org/,False
-http://bitbucket.org,https://bitbucket.org/,False
-https://bitbucket.org,https://bitbucket.org/,False
-https://www.bitbucket.org,https://bitbucket.org/,False
-http://doi.org,http://www.doi.org/,False
-http://www.doi.org,http://www.doi.org/,False
-https://doi.org,https://www.doi.org/,False
-https://www.doi.org,https://www.doi.org/,False
