@@ -1,297 +1,507 @@
 {
-  "nytimes.com": [
+  "defensie.nl": [
     {
-      "name": "nyt-gdpr",
-      "domain": ".nytimes.com",
-      "expires": 1647533761.330802,
+      "name": "_pk_id.39.d9e9",
+      "domain": "www.defensie.nl",
+      "expires": 1681472163,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "nyt-a",
-      "domain": ".nytimes.com",
-      "expires": 1679048162.006867,
+      "name": "_pk_ses.39.d9e9",
+      "domain": "www.defensie.nl",
+      "expires": 1647518763,
       "third_party": false,
       "trackers_list": []
-    },
+    }
+  ],
+  "rvo.nl": [
     {
-      "name": "nyt-purr",
-      "domain": ".nytimes.com",
-      "expires": 1679048158.493495,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "nyt-geo",
-      "domain": ".nytimes.com",
-      "expires": 1647533758.493511,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "nyt-b3-traceid",
-      "domain": ".nytimes.com",
+      "name": "has_js",
+      "domain": "www.rvo.nl",
       "expires": -1,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "sessionActive",
-      "domain": ".et.nytimes.com",
-      "expires": 1647513962.006898,
+      "name": "stg_traffic_source_priority",
+      "domain": "www.rvo.nl",
+      "expires": 1647518770,
       "third_party": false,
-      "trackers_list": [
-        "adguarddns",
-        "easyprivacy"
-      ]
+      "trackers_list": []
     },
     {
-      "name": "sessionIndex",
-      "domain": ".et.nytimes.com",
-      "expires": 1679048158.880781,
+      "name": "stg_externalReferrer",
+      "domain": "www.rvo.nl",
+      "expires": -1,
       "third_party": false,
-      "trackers_list": [
-        "adguarddns",
-        "easyprivacy"
-      ]
+      "trackers_list": []
     },
     {
-      "name": "et-ppvid",
-      "domain": ".et.nytimes.com",
-      "expires": 1647598562.006916,
+      "name": "mededeling_geladen",
+      "domain": "www.rvo.nl",
+      "expires": 1647603369,
       "third_party": false,
-      "trackers_list": [
-        "adguarddns",
-        "easyprivacy"
-      ]
+      "trackers_list": []
     },
     {
-      "name": "NID",
-      "domain": ".google.com",
-      "expires": 1663323359.31186,
+      "name": "test",
+      "domain": ".rvo.nl",
+      "expires": 1647516979,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+      "domain": ".rvo.nl",
+      "expires": 1681472169,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+      "domain": ".rvo.nl",
+      "expires": 1647518769,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+      "domain": ".rvo.nl",
+      "expires": 1681472169,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+      "domain": ".rvo.nl",
+      "expires": 1647518769,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.1493.184f",
+      "domain": ".rvo.nl",
+      "expires": 1681472169,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.1493.184f",
+      "domain": ".rvo.nl",
+      "expires": 1647518769,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.1073.184f",
+      "domain": ".rvo.nl",
+      "expires": 1681472169,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.1073.184f",
+      "domain": ".rvo.nl",
+      "expires": 1647518769,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "sm_visitor_cross_domain",
+      "domain": ".rvo.nl",
+      "expires": 1742124969,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "sm_buid",
+      "domain": ".rvo.nl",
+      "expires": 1742124969,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "sm_session_cross_domain",
+      "domain": ".rvo.nl",
+      "expires": 1647518769,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_last_interaction",
+      "domain": "www.rvo.nl",
+      "expires": 1679052970,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_returning_visitor",
+      "domain": "www.rvo.nl",
+      "expires": 1679052970,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "europa.eu": [],
+  "ind.nl": [
+    {
+      "name": "PROFILE",
+      "domain": "statistics.ind.nl",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_returning_visitor",
+      "domain": "ind.nl",
+      "expires": 1679052979,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_traffic_source_priority",
+      "domain": "ind.nl",
+      "expires": 1647518779,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_externalReferrer",
+      "domain": "ind.nl",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nmstat",
+      "domain": ".ind.nl",
+      "expires": 1733916979,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_last_interaction",
+      "domain": "ind.nl",
+      "expires": 1679052979,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "AWSELBCORS",
+      "domain": "6158230.global.siteimproveanalytics.io",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ],
+  "investinholland.com": [
+    {
+      "name": "_GRECAPTCHA",
+      "domain": "www.google.com",
+      "expires": 1663068986.067681,
       "third_party": true,
       "trackers_list": []
     },
     {
-      "name": "__gads",
-      "domain": ".nytimes.com",
-      "expires": 1681208158,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "jkidd-s",
-      "domain": ".a.nytimes.com",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "jkidd-p",
-      "domain": ".a.nytimes.com",
-      "expires": 1679048160.604313,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "b2b_cig_opt",
-      "domain": ".nytimes.com",
-      "expires": 1647561600.60433,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "edu_cig_opt",
-      "domain": ".nytimes.com",
-      "expires": 1647561600.604343,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "nyt-jkidd",
-      "domain": ".nytimes.com",
-      "expires": 1679048160.604354,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "purr-cache",
-      "domain": ".nytimes.com",
-      "expires": 1681682160.604562,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "nyt-m",
-      "domain": ".nytimes.com",
-      "expires": 1805278560.605047,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "walley",
-      "domain": ".nytimes.com",
-      "expires": 1710584161,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "walley_gid",
-      "domain": ".nytimes.com",
-      "expires": 1647598561,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_UA-58630905-2",
-      "domain": ".nytimes.com",
-      "expires": 1647512221,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
       "name": "_gcl_au",
-      "domain": ".nytimes.com",
-      "expires": 1655288161,
+      "domain": ".investinholland.com",
+      "expires": 1655292985,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "datadome",
-      "domain": ".nytimes.com",
-      "expires": 1679048161.213926,
+      "name": "wp-wpml_current_language",
+      "domain": "investinholland.com",
+      "expires": 1647603385,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "IDE",
+      "name": "muc_ads",
+      "domain": ".t.co",
+      "expires": 1710588985.371809,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "personalization_id",
+      "domain": ".twitter.com",
+      "expires": 1710588985.374917,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "_ga",
+      "domain": ".investinholland.com",
+      "expires": 1710588985,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gid",
+      "domain": ".investinholland.com",
+      "expires": 1647603385,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gat_UA-30678369-2",
+      "domain": ".investinholland.com",
+      "expires": 1647517045,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "test_cookie",
       "domain": ".doubleclick.net",
-      "expires": 1681208161.296373,
+      "expires": 1647517885.579921,
       "third_party": true,
       "trackers_list": [
         "adguarddns"
       ]
     },
     {
-      "name": "_cb_ls",
-      "domain": "www.nytimes.com",
-      "expires": 1681640161,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_cb",
-      "domain": "www.nytimes.com",
-      "expires": 1681640161,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_chartbeat2",
-      "domain": "www.nytimes.com",
-      "expires": 1681640161,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_cb_svref",
-      "domain": "www.nytimes.com",
-      "expires": 1647513961,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "google.com": [
-    {
-      "name": "CONSENT",
-      "domain": ".google.com",
-      "expires": 1710584163.333114,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "OGPC",
-      "domain": ".google.com",
-      "expires": 1650104163,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "cnn.com": [
-    {
-      "name": "countryCode",
-      "domain": ".cnn.com",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "stateCode",
-      "domain": ".cnn.com",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "geoData",
-      "domain": ".cnn.com",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "FastAB",
-      "domain": ".cnn.com",
-      "expires": 1688169601.496687,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "usprivacy",
-      "domain": ".cnn.com",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "UID",
-      "domain": ".scorecardresearch.com",
-      "expires": 1709720166.842566,
+      "name": "UserMatchHistory",
+      "domain": ".linkedin.com",
+      "expires": 1650108985.964894,
       "third_party": true,
       "trackers_list": []
     },
     {
-      "name": "seenBreakingNews",
-      "domain": "edition.cnn.com",
+      "name": "AnalyticsSyncHistory",
+      "domain": ".linkedin.com",
+      "expires": 1650108985.964919,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lang",
+      "domain": ".ads.linkedin.com",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": [
+        "adguarddns",
+        "easylist"
+      ]
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "expires": 1710630838.964939,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "expires": 1647603386.964955,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lang",
+      "domain": ".linkedin.com",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "bscookie",
+      "domain": ".www.linkedin.com",
+      "expires": 1710630838.149151,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "expires": 1710522885.149213,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ],
+  "data.overheid.nl": [
+    {
+      "name": "SSESSa3eaeb1500709ea97d4e3bfab8ddc3f5",
+      "domain": ".data.overheid.nl",
       "expires": -1,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "outbrain_cid_fetch",
-      "domain": "edition.cnn.com",
-      "expires": 1647512467,
+      "name": "YSC",
+      "domain": ".youtube.com",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "domain": ".youtube.com",
+      "expires": 1663068990.587579,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "stg_traffic_source_priority",
+      "domain": "data.overheid.nl",
+      "expires": 1647518791,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "_pbjs_userid_consent_data",
-      "domain": "edition.cnn.com",
-      "expires": 1650104167,
+      "name": "stg_externalReferrer",
+      "domain": "data.overheid.nl",
+      "expires": -1,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "bounceClientVisit340v",
-      "domain": ".cnn.com",
-      "expires": 1647513967,
+      "name": "stg_last_interaction",
+      "domain": "data.overheid.nl",
+      "expires": 1679052991,
       "third_party": false,
       "trackers_list": []
     },
     {
-      "name": "OptanonConsent",
-      "domain": ".cnn.com",
-      "expires": 1679048167,
+      "name": "stg_returning_visitor",
+      "domain": "data.overheid.nl",
+      "expires": 1679052991,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "test",
+      "domain": ".overheid.nl",
+      "expires": 1647517001,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.d878bc05-70e8-4720-a8e5-e6bbe995b44e.340a",
+      "domain": ".overheid.nl",
+      "expires": 1681472191,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+      "domain": ".overheid.nl",
+      "expires": 1681472191,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "mijn.overheid.nl": [
+    {
+      "name": "_pk_id.6.a5fd",
+      "domain": "mijn.overheid.nl",
+      "expires": 1681472195,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.6.a5fd",
+      "domain": "mijn.overheid.nl",
+      "expires": 1647518795,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "ondernemersplein.kvk.nl": [],
+  "visitdrenthe.com": [
+    {
+      "name": "token_id",
+      "domain": "www.visitdrenthe.com",
+      "expires": 1679053004.605565,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_ga",
+      "domain": ".visitdrenthe.com",
+      "expires": 1710589005,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gid",
+      "domain": ".visitdrenthe.com",
+      "expires": 1647603405,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gat_UA-42632713-4",
+      "domain": ".visitdrenthe.com",
+      "expires": 1647517065,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "visitflevoland.nl": [],
+  "werkenbijdeoverheid.nl": [
+    {
+      "name": "BACKEND",
+      "domain": "werkenbijdeoverheid.nl",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "domain": "www.werkenbijdeoverheid.nl",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "BACKEND",
+      "domain": "www.werkenbijdeoverheid.nl",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_id.266.d970",
+      "domain": "www.werkenbijdeoverheid.nl",
+      "expires": 1681472214,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pk_ses.266.d970",
+      "domain": "www.werkenbijdeoverheid.nl",
+      "expires": 1647518814,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_ga_WBGGSJBWMC",
+      "domain": ".werkenbijdeoverheid.nl",
+      "expires": 1710589014,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_ga",
+      "domain": ".werkenbijdeoverheid.nl",
+      "expires": 1710589014,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gid",
+      "domain": ".werkenbijdeoverheid.nl",
+      "expires": 1647603414,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_dc_gtm_UA-1103343-1",
+      "domain": ".werkenbijdeoverheid.nl",
+      "expires": 1647517074,
       "third_party": false,
       "trackers_list": []
     }

@@ -5,7 +5,7 @@ from cookie import Cookie
 from CrawlerManager import CrawlerManager
 from post_processing import main_process
 
-WEBSITES = ["health"]
+WEBSITES = ["example"]
 
 def main():
     for website in WEBSITES:

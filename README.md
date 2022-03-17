@@ -16,3 +16,22 @@ $ pip3 install --upgrade ipwhois tldextract wordsegment selenium bs4 dnspython i
 
 Google Chrome aswell as the corresponding [Chrome Driver](https://chromedriver.chromium.org/downloads) should be installed on the OS aswell. Make sure to download the correct driver version. This should match the version of the install Google Chrome browser. The Chrome Driver should be located in the Pythia folder and chrome path should be the following: 
 C:\Program Files\Google\Chrome\Application\chrome.exe
+
+# TODO:
+et some links on the frontpage to get the cookies
+
+and also if the user clicks something, does the user get more cookies?
+
+compare front page vs inside
+
+get all the links -> take up to 20
+
+something with the https://
+
+decisions for tools, why
+
+what worked and what doesnt work
+
+for the list of trackers we used these sources
+
+rank the websites by # third parties
