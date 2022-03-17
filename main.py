@@ -1,30 +1,25 @@
 from ThirdPartytracker import checkForTrackers
+from collect_cookies import main_collect_cookies
 from cookie import Cookie
 
 from CrawlerManager import CrawlerManager
+from post_processing import main_process
+
+WEBSITES = ["health"]
 
 def main():
-    print("Started")
-    cookie_list = []
-    cookie_list.append(Cookie("test1", ".nytimes.com", ".nytimes.com", 12342))
-    cookie_list.append(Cookie("test2", ".nytimes.com", ".nytimes.com", 12344322))
-    cookie_list.append(Cookie("test3", ".nytimes.com", ".courierregistered.com", 12342))
+    for website in WEBSITES:
+        main_collect_cookies(f"websites/{website}.txt", f"out/{website}.json")
+        main_process(website)
 
-    checkForTrackers(cookie_list)
+# def startCrawling():
+#     print("Start crawling")
 
-    for cookie in cookie_list:
-        if(len(cookie.trackers)) > 0:
-            for tracker in cookie.trackers:
-                print(tracker)
-
-
-def startCrawling():
-    print("Start crawling")
-
-    websiteFiles = ["overheid.txt", "universities.txt"]
-    # websiteFiles = ["example.txt"]
-    crawlerManager = CrawlerManager(websiteFiles, numThreads=10)
-    crawlerManager.start()
+#     websiteFiles = ["overheid.txt", "universities.txt"]
+#     # websiteFiles = ["example.txt"]
+#     crawlerManager = CrawlerManager(websiteFiles, numThreads=10)
+#     crawlerManager.start()
 
 if __name__ == "__main__":
-    startCrawling()
+    # startCrawling()
+    main()

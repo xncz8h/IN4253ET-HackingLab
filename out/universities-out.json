@@ -1,0 +1,97 @@
+{
+  "tukampen.nl": [
+    {
+      "name": "vuid",
+      "domain": ".vimeo.com",
+      "expires": 1710586635,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ],
+  "tue.nl/en": [
+    {
+      "name": "UserMatchHistory",
+      "domain": ".linkedin.com",
+      "expires": 1650106641.702491,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "domain": ".linkedin.com",
+      "expires": 1650106641.702538,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lang",
+      "domain": ".ads.linkedin.com",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": [
+        "adguarddns",
+        "easylist"
+      ]
+    },
+    {
+      "name": "bcookie",
+      "domain": ".linkedin.com",
+      "expires": 1710628493.702581,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lidc",
+      "domain": ".linkedin.com",
+      "expires": 1647601041.702614,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "lang",
+      "domain": ".linkedin.com",
+      "expires": -1,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "bscookie",
+      "domain": ".www.linkedin.com",
+      "expires": 1710628493.900875,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "li_gc",
+      "domain": ".linkedin.com",
+      "expires": 1710096044.900972,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ],
+  "utwente.nl": [
+    {
+      "name": "__cf_bm",
+      "domain": ".fonts.net",
+      "expires": 1647516446.165371,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ],
+  "wur.nl": [
+    {
+      "name": "BCSessionID",
+      "domain": "wageningenur.blueconic.net",
+      "expires": 1679050650.796908,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "AWSALBCORS",
+      "domain": "wageningenur.blueconic.net",
+      "expires": 1648119451.162449,
+      "third_party": true,
+      "trackers_list": []
+    }
+  ]
+}

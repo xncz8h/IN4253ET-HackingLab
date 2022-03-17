@@ -94,7 +94,7 @@ def crawl(websites):
     return all_cookies
 
 
-def main(input_file, output_file):
+def main_collect_cookies(input_file, output_file):
     # Multi-thread this cell.
     websites = np.loadtxt(input_file, delimiter='\n', dtype='str')
     all_cookies = crawl(websites)
@@ -107,9 +107,9 @@ if __name__ == '__main__':
     # Set-up parsing command line arguments
     if len(sys.argv) < 3:
         print('No sufficient number of arguments given. Using default config.')
-        main('websites/overheid.txt', 'out/overheid.json')
+        main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
         # main('websites/example.txt', 'out/example.json')
 
     # First argument is input file, second is output file.
     else:
-        main(sys.argv[1], sys.argv[2])
+        main_collect_cookies(sys.argv[1], sys.argv[2])
