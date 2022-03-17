@@ -1,0 +1,299 @@
+{
+  "nytimes.com": [
+    {
+      "name": "nyt-gdpr",
+      "domain": ".nytimes.com",
+      "expires": 1647533761.330802,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-a",
+      "domain": ".nytimes.com",
+      "expires": 1679048162.006867,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-purr",
+      "domain": ".nytimes.com",
+      "expires": 1679048158.493495,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-geo",
+      "domain": ".nytimes.com",
+      "expires": 1647533758.493511,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-b3-traceid",
+      "domain": ".nytimes.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "sessionActive",
+      "domain": ".et.nytimes.com",
+      "expires": 1647513962.006898,
+      "third_party": false,
+      "trackers_list": [
+        "adguarddns",
+        "easyprivacy"
+      ]
+    },
+    {
+      "name": "sessionIndex",
+      "domain": ".et.nytimes.com",
+      "expires": 1679048158.880781,
+      "third_party": false,
+      "trackers_list": [
+        "adguarddns",
+        "easyprivacy"
+      ]
+    },
+    {
+      "name": "et-ppvid",
+      "domain": ".et.nytimes.com",
+      "expires": 1647598562.006916,
+      "third_party": false,
+      "trackers_list": [
+        "adguarddns",
+        "easyprivacy"
+      ]
+    },
+    {
+      "name": "NID",
+      "domain": ".google.com",
+      "expires": 1663323359.31186,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "__gads",
+      "domain": ".nytimes.com",
+      "expires": 1681208158,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "jkidd-s",
+      "domain": ".a.nytimes.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "jkidd-p",
+      "domain": ".a.nytimes.com",
+      "expires": 1679048160.604313,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "b2b_cig_opt",
+      "domain": ".nytimes.com",
+      "expires": 1647561600.60433,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "edu_cig_opt",
+      "domain": ".nytimes.com",
+      "expires": 1647561600.604343,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-jkidd",
+      "domain": ".nytimes.com",
+      "expires": 1679048160.604354,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "purr-cache",
+      "domain": ".nytimes.com",
+      "expires": 1681682160.604562,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "nyt-m",
+      "domain": ".nytimes.com",
+      "expires": 1805278560.605047,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "walley",
+      "domain": ".nytimes.com",
+      "expires": 1710584161,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "walley_gid",
+      "domain": ".nytimes.com",
+      "expires": 1647598561,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gat_UA-58630905-2",
+      "domain": ".nytimes.com",
+      "expires": 1647512221,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_gcl_au",
+      "domain": ".nytimes.com",
+      "expires": 1655288161,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "datadome",
+      "domain": ".nytimes.com",
+      "expires": 1679048161.213926,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "IDE",
+      "domain": ".doubleclick.net",
+      "expires": 1681208161.296373,
+      "third_party": true,
+      "trackers_list": [
+        "adguarddns"
+      ]
+    },
+    {
+      "name": "_cb_ls",
+      "domain": "www.nytimes.com",
+      "expires": 1681640161,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_cb",
+      "domain": "www.nytimes.com",
+      "expires": 1681640161,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_chartbeat2",
+      "domain": "www.nytimes.com",
+      "expires": 1681640161,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_cb_svref",
+      "domain": "www.nytimes.com",
+      "expires": 1647513961,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "google.com": [
+    {
+      "name": "CONSENT",
+      "domain": ".google.com",
+      "expires": 1710584163.333114,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "OGPC",
+      "domain": ".google.com",
+      "expires": 1650104163,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ],
+  "cnn.com": [
+    {
+      "name": "countryCode",
+      "domain": ".cnn.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "stateCode",
+      "domain": ".cnn.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "geoData",
+      "domain": ".cnn.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "FastAB",
+      "domain": ".cnn.com",
+      "expires": 1688169601.496687,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "usprivacy",
+      "domain": ".cnn.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "UID",
+      "domain": ".scorecardresearch.com",
+      "expires": 1709720166.842566,
+      "third_party": true,
+      "trackers_list": []
+    },
+    {
+      "name": "seenBreakingNews",
+      "domain": "edition.cnn.com",
+      "expires": -1,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "outbrain_cid_fetch",
+      "domain": "edition.cnn.com",
+      "expires": 1647512467,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "_pbjs_userid_consent_data",
+      "domain": "edition.cnn.com",
+      "expires": 1650104167,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "bounceClientVisit340v",
+      "domain": ".cnn.com",
+      "expires": 1647513967,
+      "third_party": false,
+      "trackers_list": []
+    },
+    {
+      "name": "OptanonConsent",
+      "domain": ".cnn.com",
+      "expires": 1679048167,
+      "third_party": false,
+      "trackers_list": []
+    }
+  ]
+}

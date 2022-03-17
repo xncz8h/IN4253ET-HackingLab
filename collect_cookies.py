@@ -26,6 +26,33 @@ chrome_options.add_argument("mute-audio")
 chrome_options.add_argument("disable-notifications")
 chrome_options.add_argument("allow-running-insecure-content")
 
+ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdomains-sorted.txt', dtype=str),
+                'easylist': np.loadtxt('3rd-party-trackers/easylist-justdomains-sorted.txt', dtype=str),
+                'easyprivacy': np.loadtxt('3rd-party-trackers/easyprivacy-justdomains-sorted.txt', dtype=str),
+                'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
+
+
+def is_tracker(domain_name: str, trackers_list):
+    # Strip the domain name if some prefixes.
+    if domain_name.startswith('.'):
+        domain_name = domain_name.replace('.', '', 1)
+    if domain_name.startswith('www.'):
+        domain_name = domain_name.replace('www.', '', 1)
+
+    # print(domain_name)
+    # Binary search.
+    index = np.searchsorted(trackers_list, domain_name)
+    return trackers_list[index] == domain_name and index != len(trackers_list)
+
+
+def check_trackers(domain_name):
+    found_in = []
+    for k, v in ALL_TRACKERS.items():
+        if is_tracker(domain_name, v):
+            found_in.append(k)
+
+    return found_in
+
 
 def get_parse_cookies(driver, url, website_name, fields):
     driver.get(url)
@@ -35,7 +62,7 @@ def get_parse_cookies(driver, url, website_name, fields):
     for c in cookies:
         cookie_dict = {k: c[k] for k in fields}
         cookie_dict['third_party'] = website_name not in cookie_dict['domain']
-        cookie_dict['trackers'] = []
+        cookie_dict['trackers_list'] = check_trackers(cookie_dict['domain'])
         wanted_data.append(cookie_dict)
 
     print(url)
@@ -81,6 +108,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print('No sufficient number of arguments given. Using default config.')
         main('websites/overheid.txt', 'out/overheid.json')
+        # main('websites/example.txt', 'out/example.json')
 
     # First argument is input file, second is output file.
     else:
