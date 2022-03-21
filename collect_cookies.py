@@ -1,6 +1,10 @@
 import numpy as np
 import json
 import sys
+import requests
+import random
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
@@ -32,6 +36,15 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
                 'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
 
 
+def hop(base_url):
+    r = requests.get(base_url)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    a_tags = soup.find_all('a', href=True)
+    # Create absolute URLs and remove the ones which are refs on the same page.
+    refs = [urljoin(base_url, x['href']) for x in a_tags if not x['href'].startswith('#')]
+    return random.sample(refs, min(len(refs), 20))
+
+
 def is_tracker(domain_name: str, trackers_list):
     # Strip the domain name if some prefixes.
     if domain_name.startswith('.'):
@@ -39,7 +52,6 @@ def is_tracker(domain_name: str, trackers_list):
     if domain_name.startswith('www.'):
         domain_name = domain_name.replace('www.', '', 1)
 
-    # print(domain_name)
     # Binary search.
     index = np.searchsorted(trackers_list, domain_name)
     return trackers_list[index] == domain_name and index != len(trackers_list)
