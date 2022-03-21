@@ -36,6 +36,7 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
                 'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
 
 
+# TODO: Implement this into the crawler.
 def hop(base_url):
     r = requests.get(base_url)
     soup = BeautifulSoup(r.content, 'html.parser')
@@ -85,23 +86,17 @@ def crawl(websites):
     all_cookies = dict()
     fields = ['name', 'domain', 'expires']
 
-    # TODO: check for https://www. and https:// both
     for w in websites:
         # Create new driver because it will otherwise return all the cookies.
         driver = webdriver.Chrome(options=chrome_options)
         website_name = w.rsplit('.', 1)[0].split('.', 1)[-1]
+        target_url = f'https://.{w}'
+        # Try it with https:// only to keep it fair.
         try:
-            target_url = f'https://{w}'
             all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
 
-        # Try again but with www.
         except WebDriverException:
-            try:
-                target_url = f'https://www.{w}'
-                all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
-
-            except WebDriverException:
-                print('Page Down')
+            print(f'Could not reach {target_url}')
 
     return all_cookies
 
@@ -116,6 +111,9 @@ def main_collect_cookies(input_file, output_file):
 
 
 if __name__ == '__main__':
+    # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.
+    # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
+
     # Set-up parsing command line arguments
     if len(sys.argv) < 3:
         print('No sufficient number of arguments given. Using default config.')
