@@ -78,14 +78,15 @@ class CrawlerManager:
             self.deployCrawlers() # Can be optimized by utilizing callbacks and assigning ids to crawlers...
             time.sleep(0.5)
 
+    # Checks which threads have died so new ones can be started
     def deployCrawlers(self):
         for x in range(self.numThreads):
-            if len(self.urls) == 0:
+            if len(self.urls) == 0:  # Checks if there are still websites left to visit
                 self.leftOverThreads()
                 print("Finished everything")
                 break
 
-            if not self.threads[x].is_alive():
+            if not self.threads[x].is_alive():  # Starts a new thread
                 finishedCrawler = self.crawlers[x]
                 self.extractCookies(finishedCrawler)
 
@@ -130,6 +131,7 @@ class Crawler:
         self.driver = driver
         self.websiteUrl = websiteUrl
 
+    # Crawls the initial url
     def startCrawl(self):
         url = "https://" + self.websiteUrl
         print("crawling: " + url)
