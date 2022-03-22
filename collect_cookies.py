@@ -38,14 +38,20 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
                 'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
 
 
+def get_website_name(url: str) -> str:
+    return url.rsplit('.', 1)[0].split('.', 1)[-1]
+
+
 # TODO: Implement this into the crawler.
 def hop(base_url: str) -> List[str]:
     r = requests.get(base_url)
     soup = BeautifulSoup(r.content, 'html.parser')
     a_tags = soup.find_all('a', href=True)
     # Create absolute URLs and remove the ones which are refs on the same page.
-    refs = [urljoin(base_url, x['href']) for x in a_tags if not x['href'].startswith('#')]
-    return random.sample(refs, min(len(refs), 20))
+    w_name = get_website_name(base_url)
+    refs = {full_url for x in a_tags if w_name == get_website_name(full_url := urljoin(base_url, x['href']))
+            and not x['href'].startswith('#')}
+    return random.sample([*refs], min(len(refs), 100))
 
 
 # This function checks whether the given domain name is present in one of the trackers lists.
@@ -62,7 +68,7 @@ def is_tracker(domain_name: str, trackers_list: np.array) -> bool:
 
 
 # For each tracker list, check if the domain name is present and save the list name if that is the case.
-def check_trackers(domain_name: str):
+def check_trackers(domain_name: str) -> List[str]:
     found_in = []
     for k, v in ALL_TRACKERS.items():
         if is_tracker(domain_name, v):
@@ -71,7 +77,8 @@ def check_trackers(domain_name: str):
     return found_in
 
 
-def get_parse_cookies(driver, url, website_name, fields) -> List[Dict]:
+def get_parse_cookies(driver: webdriver.Chrome, url: str, website_name: str, fields: List[str]) -> List[Dict]:
+    # Create new driver because it will otherwise return all the cookies.
     driver.get(url)
     # Empty dict for the input arguments.
     cookies = driver.execute_cdp_cmd('Network.getAllCookies', dict())['cookies']
@@ -82,11 +89,11 @@ def get_parse_cookies(driver, url, website_name, fields) -> List[Dict]:
         cookie_dict['trackers_list'] = check_trackers(cookie_dict['domain'])
         wanted_data.append(cookie_dict)
 
-    print(url)
+    # print(url)
     return wanted_data
 
 
-def crawl(websites):
+def crawl(websites: np.array) -> Dict:
     all_cookies = dict()
     fields = ['name', 'domain', 'expires']
 
@@ -94,7 +101,7 @@ def crawl(websites):
         # Create new driver because it will otherwise return all the cookies.
         driver = webdriver.Chrome(options=chrome_options)
         # Get just the website name.
-        website_name = w.rsplit('.', 1)[0].split('.', 1)[-1]
+        website_name = get_website_name(w)
         target_url = f'https://{w}'
         # Try it with https:// only to keep it fair.
         try:
@@ -107,7 +114,7 @@ def crawl(websites):
 
 
 # Loading input file, start crawling and write to output file.
-def main_collect_cookies(input_file, output_file):
+def main_collect_cookies(input_file: str, output_file: str):
     # Multi-thread this cell.
     websites = np.loadtxt(input_file, delimiter='\n', dtype='str')
     all_cookies = crawl(websites)
@@ -116,6 +123,8 @@ def main_collect_cookies(input_file, output_file):
     with open(output_file, 'w') as f:
         json.dump(all_cookies, f, indent=2)
 
+
+'''
 def collectCookies():
     inFiles = ["overheid"]
     fields = ['name', 'domain', 'expires']
@@ -140,7 +149,7 @@ def processCookies(cookies, fields, outputFile):
         print("Processing cookies for: " + website)
 
         websiteName = website.rsplit('.', 1)[0].split('.', 1)[-1]
-        url = f'https://.{website}'
+        url = f'https://{website}'
         websiteCookies = cookies[website]
 
         if len(websiteCookies) == 0:
@@ -163,18 +172,18 @@ def processWebsiteCookies(websiteName, cookies, fields):
         wantedData.append(cookie_dict)
 
     return wantedData
+'''
 
 if __name__ == '__main__':
     # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.
     # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
-
+    #
     # Set-up parsing command line arguments
-    #if len(sys.argv) < 3:
-    #    print('No sufficient number of arguments given. Using default config.')
-    #    main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
-    #    # main('websites/example.txt', 'out/example.json')
-
+    if len(sys.argv) < 3:
+        print('No sufficient number of arguments given. Using default config.')
+        main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
+    #
     # First argument is input file, second is output file.
-    #else:
-    #    main_collect_cookies(sys.argv[1], sys.argv[2])
-    collectCookies()
+    else:
+        main_collect_cookies(sys.argv[1], sys.argv[2])
+    # collectCookies()

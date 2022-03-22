@@ -2,7 +2,6 @@ business.gov.nl
 duo.nl
 defensie.nl
 rvo.nl
-europa.eu
 ind.nl
 investinholland.com
 data.overheid.nl
