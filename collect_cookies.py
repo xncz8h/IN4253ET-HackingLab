@@ -8,12 +8,12 @@ from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
+from typing import List, Dict
 
 from CrawlerManager import CrawlerManager
 from post_processing import main_process
 
 chrome_options = Options()
-# The Google cookie seems to disappear when running headless.
 chrome_options.add_argument("--headless")
 gl_SPOOFED_USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) "
                          "AppleWebKit/537.36 "
@@ -28,10 +28,10 @@ chrome_options.add_argument("disable-gpu")
 chrome_options.add_argument("disable-xss-auditor")
 # chrome_options.add_argument("disable-background-networking")
 chrome_options.add_argument("mute-audio")
-# notifications
 chrome_options.add_argument("disable-notifications")
 chrome_options.add_argument("allow-running-insecure-content")
 
+# Hardcoded, ugly, but the files won't change.
 ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdomains-sorted.txt', dtype=str),
                 'easylist': np.loadtxt('3rd-party-trackers/easylist-justdomains-sorted.txt', dtype=str),
                 'easyprivacy': np.loadtxt('3rd-party-trackers/easyprivacy-justdomains-sorted.txt', dtype=str),
@@ -39,7 +39,7 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
 
 
 # TODO: Implement this into the crawler.
-def hop(base_url):
+def hop(base_url: str) -> List[str]:
     r = requests.get(base_url)
     soup = BeautifulSoup(r.content, 'html.parser')
     a_tags = soup.find_all('a', href=True)
@@ -48,7 +48,8 @@ def hop(base_url):
     return random.sample(refs, min(len(refs), 20))
 
 
-def is_tracker(domain_name: str, trackers_list):
+# This function checks whether the given domain name is present in one of the trackers lists.
+def is_tracker(domain_name: str, trackers_list: np.array) -> bool:
     # Strip the domain name if some prefixes.
     if domain_name.startswith('.'):
         domain_name = domain_name.replace('.', '', 1)
@@ -60,7 +61,8 @@ def is_tracker(domain_name: str, trackers_list):
     return trackers_list[index] == domain_name and index != len(trackers_list)
 
 
-def check_trackers(domain_name):
+# For each tracker list, check if the domain name is present and save the list name if that is the case.
+def check_trackers(domain_name: str):
     found_in = []
     for k, v in ALL_TRACKERS.items():
         if is_tracker(domain_name, v):
@@ -69,7 +71,7 @@ def check_trackers(domain_name):
     return found_in
 
 
-def get_parse_cookies(driver, url, website_name, fields):
+def get_parse_cookies(driver, url, website_name, fields) -> List[Dict]:
     driver.get(url)
     # Empty dict for the input arguments.
     cookies = driver.execute_cdp_cmd('Network.getAllCookies', dict())['cookies']
@@ -91,8 +93,9 @@ def crawl(websites):
     for w in websites:
         # Create new driver because it will otherwise return all the cookies.
         driver = webdriver.Chrome(options=chrome_options)
+        # Get just the website name.
         website_name = w.rsplit('.', 1)[0].split('.', 1)[-1]
-        target_url = f'https://.{w}'
+        target_url = f'https://{w}'
         # Try it with https:// only to keep it fair.
         try:
             all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
@@ -103,11 +106,13 @@ def crawl(websites):
     return all_cookies
 
 
+# Loading input file, start crawling and write to output file.
 def main_collect_cookies(input_file, output_file):
     # Multi-thread this cell.
     websites = np.loadtxt(input_file, delimiter='\n', dtype='str')
     all_cookies = crawl(websites)
 
+    # Output.
     with open(output_file, 'w') as f:
         json.dump(all_cookies, f, indent=2)
 
