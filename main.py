@@ -5,7 +5,6 @@ from cookie import Cookie
 from CrawlerManager import CrawlerManager
 from post_processing import main_process
 
-from CookieProcessing import processCookies
 
 WEBSITES = ["example"]
 

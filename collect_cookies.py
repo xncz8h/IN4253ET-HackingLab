@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 
 from CrawlerManager import CrawlerManager
+from post_processing import main_process
 
 chrome_options = Options()
 # The Google cookie seems to disappear when running headless.
@@ -111,22 +112,52 @@ def main_collect_cookies(input_file, output_file):
         json.dump(all_cookies, f, indent=2)
 
 def collectCookies():
-    inFiles = ["health"]
+    inFiles = ["overheid"]
+    fields = ['name', 'domain', 'expires']
     for file in inFiles:
         fileName = file + ".txt"
         print("Using: " + fileName)
         files = [fileName]
 
-        crawlerManager = CrawlerManager(files, numThreads=10)
-        crawlerManager.start()
+        crawlerManager = CrawlerManager(files, numThreads=20)  # Takes care of multithreading
+        crawlerManager.start()  # Start crawling
 
         allCookies = crawlerManager.allCookies
-        processCookies(allCookies)
 
-def processCookies(cookies):
+        outputFile = file  # Output file
+        processCookies(allCookies, fields, outputFile)  # Processing all the cookies
+
+def processCookies(cookies, fields, outputFile):
+    processedCookies = dict()
+
+    # Pretty much copied this from what we had before
     for website in cookies:
         print("Processing cookies for: " + website)
 
+        websiteName = website.rsplit('.', 1)[0].split('.', 1)[-1]
+        url = f'https://.{website}'
+        websiteCookies = cookies[website]
+
+        if len(websiteCookies) == 0:
+            continue
+
+        processedCookies[website] = processWebsiteCookies(websiteName, websiteCookies, fields)
+        print(processedCookies[website])
+
+    with open("out/" + outputFile + ".json", 'w') as f:
+        json.dump(processedCookies, f, indent=2)
+
+    main_process(outputFile)
+
+def processWebsiteCookies(websiteName, cookies, fields):
+    wantedData = []
+    for c in cookies:
+        cookie_dict = {k: c[k] for k in fields}
+        cookie_dict['third_party'] = websiteName not in cookie_dict['domain']
+        cookie_dict['trackers_list'] = check_trackers(cookie_dict['domain'])
+        wantedData.append(cookie_dict)
+
+    return wantedData
 
 if __name__ == '__main__':
     # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.

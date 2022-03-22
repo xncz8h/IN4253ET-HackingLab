@@ -1,3 +1,4 @@
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
@@ -75,7 +76,7 @@ class CrawlerManager:
 
         while len(self.urls) > 0:
             self.deployCrawlers() # Can be optimized by utilizing callbacks and assigning ids to crawlers...
-            time.sleep(1)
+            time.sleep(0.5)
 
     def deployCrawlers(self):
         for x in range(self.numThreads):
@@ -88,10 +89,12 @@ class CrawlerManager:
                 finishedCrawler = self.crawlers[x]
                 self.extractCookies(finishedCrawler)
 
+                self.drivers[x].close()
+                self.drivers[x] = webdriver.Chrome(options=self.chromeOptions)
+
                 self.crawlers[x] = Crawler(self.drivers[x], self.urls.pop())
                 self.threads[x] = threading.Thread(target=self.crawlers[x].startCrawl)
                 self.threads[x].start()
-            time.sleep(0.25)
 
     # Cleans up all threads that are still running when all websites have been visited
     def leftOverThreads(self):
@@ -120,7 +123,7 @@ class CrawlerManager:
 
 class Crawler:
 
-    prefixes = ["https://www.", "https://"]
+    prefixes = ["https://"]
     urlStack = []   # For the future when websites need to be crawled to a depth of n
 
     def __init__(self, driver, websiteUrl):
@@ -128,24 +131,12 @@ class Crawler:
         self.websiteUrl = websiteUrl
 
     def startCrawl(self):
-        crawlSuccess = False
-        for prefix in self.prefixes:  # Test out different prefixes
-            currentUrl = prefix + self.websiteUrl
-            print("crawling: " + currentUrl)
-            try:
-                self.driver.get(currentUrl)
-                time.sleep(5)
-            except:
-                continue
-            crawlSuccess = True
-            break
-
-        if crawlSuccess:
+        url = "https://" + self.websiteUrl
+        print("crawling: " + url)
+        try:
+            self.driver.get(url)
+            time.sleep(5)  # Staying longer on a page results in more cookies
             self.cookies = self.driver.execute_cdp_cmd('Network.getAllCookies', dict())["cookies"]
-        else:
-            print("ERROR: error while trying to crawl " + self.websiteUrl)
-
-        self.prepareDriverForNext()
-
-    def prepareDriverForNext(self):
-        self.driver.execute_cdp_cmd("Network.clearBrowserCookies", {})
+        except WebDriverException:
+            print("Unreachable url: " + self.websiteUrl)
+            self.cookies = dict()
