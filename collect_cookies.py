@@ -1,6 +1,10 @@
 import numpy as np
 import json
 import sys
+import requests
+import random
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
@@ -33,6 +37,16 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
                 'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
 
 
+# TODO: Implement this into the crawler.
+def hop(base_url):
+    r = requests.get(base_url)
+    soup = BeautifulSoup(r.content, 'html.parser')
+    a_tags = soup.find_all('a', href=True)
+    # Create absolute URLs and remove the ones which are refs on the same page.
+    refs = [urljoin(base_url, x['href']) for x in a_tags if not x['href'].startswith('#')]
+    return random.sample(refs, min(len(refs), 20))
+
+
 def is_tracker(domain_name: str, trackers_list):
     # Strip the domain name if some prefixes.
     if domain_name.startswith('.'):
@@ -40,7 +54,6 @@ def is_tracker(domain_name: str, trackers_list):
     if domain_name.startswith('www.'):
         domain_name = domain_name.replace('www.', '', 1)
 
-    # print(domain_name)
     # Binary search.
     index = np.searchsorted(trackers_list, domain_name)
     return trackers_list[index] == domain_name and index != len(trackers_list)
@@ -74,23 +87,17 @@ def crawl(websites):
     all_cookies = dict()
     fields = ['name', 'domain', 'expires']
 
-    # TODO: check for https://www. and https:// both
     for w in websites:
         # Create new driver because it will otherwise return all the cookies.
         driver = webdriver.Chrome(options=chrome_options)
         website_name = w.rsplit('.', 1)[0].split('.', 1)[-1]
+        target_url = f'https://.{w}'
+        # Try it with https:// only to keep it fair.
         try:
-            target_url = f'https://{w}'
             all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
 
-        # Try again but with www.
         except WebDriverException:
-            try:
-                target_url = f'https://www.{w}'
-                all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
-
-            except WebDriverException:
-                print('Page Down')
+            print(f'Could not reach {target_url}')
 
     return all_cookies
 
@@ -122,6 +129,9 @@ def processCookies(cookies):
 
 
 if __name__ == '__main__':
+    # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.
+    # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
+
     # Set-up parsing command line arguments
     #if len(sys.argv) < 3:
     #    print('No sufficient number of arguments given. Using default config.')
