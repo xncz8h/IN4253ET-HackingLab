@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 
+from CrawlerManager import CrawlerManager
 
 chrome_options = Options()
 # The Google cookie seems to disappear when running headless.
@@ -102,14 +103,32 @@ def main_collect_cookies(input_file, output_file):
     with open(output_file, 'w') as f:
         json.dump(all_cookies, f, indent=2)
 
+def collectCookies():
+    inFiles = ["health"]
+    for file in inFiles:
+        fileName = file + ".txt"
+        print("Using: " + fileName)
+        files = [fileName]
+
+        crawlerManager = CrawlerManager(files, numThreads=10)
+        crawlerManager.start()
+
+        allCookies = crawlerManager.allCookies
+        processCookies(allCookies)
+
+def processCookies(cookies):
+    for website in cookies:
+        print("Processing cookies for: " + website)
+
 
 if __name__ == '__main__':
     # Set-up parsing command line arguments
-    if len(sys.argv) < 3:
-        print('No sufficient number of arguments given. Using default config.')
-        main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
-        # main('websites/example.txt', 'out/example.json')
+    #if len(sys.argv) < 3:
+    #    print('No sufficient number of arguments given. Using default config.')
+    #    main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
+    #    # main('websites/example.txt', 'out/example.json')
 
     # First argument is input file, second is output file.
-    else:
-        main_collect_cookies(sys.argv[1], sys.argv[2])
+    #else:
+    #    main_collect_cookies(sys.argv[1], sys.argv[2])
+    collectCookies()
