@@ -51,7 +51,7 @@ def hop(base_url: str) -> List[str]:
     w_name = get_website_name(base_url)
     refs = {full_url for x in a_tags if w_name == get_website_name(full_url := urljoin(base_url, x['href']))
             and not x['href'].startswith('#')}
-    return random.sample([*refs], min(len(refs), 100))
+    return random.sample([*refs], min(len(refs), 20))
 
 
 # This function checks whether the given domain name is present in one of the trackers lists.
@@ -77,9 +77,16 @@ def check_trackers(domain_name: str) -> List[str]:
     return found_in
 
 
-def get_parse_cookies(driver: webdriver.Chrome, url: str, website_name: str, fields: List[str]) -> List[Dict]:
+def get_parse_cookies(urls: List[str], website_name: str, fields: List[str]) -> List[Dict]:
     # Create new driver because it will otherwise return all the cookies.
-    driver.get(url)
+    driver = webdriver.Chrome(options=chrome_options)
+    # Create new driver because it will otherwise return all the cookies.
+    for url in urls:
+        try:
+            driver.get(url)
+        except WebDriverException:
+            print(f'Could not reach {url}')
+
     # Empty dict for the input arguments.
     cookies = driver.execute_cdp_cmd('Network.getAllCookies', dict())['cookies']
     wanted_data = []
@@ -98,17 +105,22 @@ def crawl(websites: np.array) -> Dict:
     fields = ['name', 'domain', 'expires']
 
     for w in websites:
-        # Create new driver because it will otherwise return all the cookies.
-        driver = webdriver.Chrome(options=chrome_options)
+        print(f'Getting {w}...')
         # Get just the website name.
         website_name = get_website_name(w)
         target_url = f'https://{w}'
+        all_cookies[w] = dict.fromkeys({'frontpage', 'hopped'})
         # Try it with https:// only to keep it fair.
-        try:
-            all_cookies[w] = get_parse_cookies(driver, target_url, website_name, fields)
+        frontpage_cookies = get_parse_cookies([target_url], website_name, fields)
+        hopped_cookies = get_parse_cookies(hop(target_url), website_name, fields)
 
-        except WebDriverException:
-            print(f'Could not reach {target_url}')
+        # TODO: Refactor the json format to be website -> hopped -> cookie['name'] -> cookie info
+        # TODO: Instead of website -> hopped -> [all cookie info]
+        frontpage_cookie_names = [d['name'] for d in frontpage_cookies]
+        hopped_cookies = [c for c in hopped_cookies if c['name'] not in frontpage_cookie_names]
+
+        all_cookies[w]['frontpage'] = frontpage_cookies
+        all_cookies[w]['hopped'] = hopped_cookies
 
     return all_cookies
 
@@ -181,7 +193,7 @@ if __name__ == '__main__':
     # Set-up parsing command line arguments
     if len(sys.argv) < 3:
         print('No sufficient number of arguments given. Using default config.')
-        main_collect_cookies('websites/overheid.txt', 'out/overheid.json')
+        main_collect_cookies('websites/example.txt', 'out/example.json')
     #
     # First argument is input file, second is output file.
     else:
