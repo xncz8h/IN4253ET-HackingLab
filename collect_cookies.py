@@ -10,8 +10,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 from typing import List, Dict
 
-from CrawlerManager import CrawlerManager
-from post_processing import main_process
+# from CrawlerManager import CrawlerManager
+# from post_processing import main_process
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -80,7 +80,6 @@ def check_trackers(domain_name: str) -> List[str]:
 def get_parse_cookies(urls: List[str], website_name: str, fields: List[str]) -> List[Dict]:
     # Create new driver because it will otherwise return all the cookies.
     driver = webdriver.Chrome(options=chrome_options)
-    # Create new driver because it will otherwise return all the cookies.
     for url in urls:
         try:
             driver.get(url)
@@ -96,7 +95,6 @@ def get_parse_cookies(urls: List[str], website_name: str, fields: List[str]) -> 
         cookie_dict['trackers_list'] = check_trackers(cookie_dict['domain'])
         wanted_data.append(cookie_dict)
 
-    # print(url)
     return wanted_data
 
 
@@ -191,11 +189,15 @@ if __name__ == '__main__':
     # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
     #
     # Set-up parsing command line arguments
+    import time
+    start = time.time()
     if len(sys.argv) < 3:
         print('No sufficient number of arguments given. Using default config.')
-        main_collect_cookies('websites/example.txt', 'out/example.json')
+        main_collect_cookies('websites/example.txt', 'out/with_found_on.json')
     #
     # First argument is input file, second is output file.
     else:
         main_collect_cookies(sys.argv[1], sys.argv[2])
     # collectCookies()
+    end = time.time() - start
+    print(f'Took{end:.3} seconds')

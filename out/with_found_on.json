@@ -1,0 +1,157 @@
+{
+  "defensie.nl": {
+    "hopped": [],
+    "frontpage": [
+      {
+        "name": "_pk_id.39.d9e9",
+        "domain": "www.defensie.nl",
+        "expires": 1682106073,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://defensie.nl"
+      },
+      {
+        "name": "_pk_ses.39.d9e9",
+        "domain": "www.defensie.nl",
+        "expires": 1648152673,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://defensie.nl"
+      }
+    ]
+  },
+  "ind.nl": {
+    "hopped": [
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/kort-verblijf"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Uitwisseling"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961_bc_5f44fc7c8e74171b2f3345a4_state",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Uitwisseling"
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Nieuws"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Nieuws"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961_bc_5f44fc7c8e74171b2f3345a4_state",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Nieuws"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/over-ind/werken-bij-de-IND"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961_bc_5f44fc7c8e74171b2f3345a4_state",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/over-ind/werken-bij-de-IND"
+      },
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl/Nederlanderschap"
+      }
+    ],
+    "frontpage": [
+      {
+        "name": "PROFILE",
+        "domain": "statistics.ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "ind.nl",
+        "expires": 1679686935,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "ind.nl",
+        "expires": 1648152735,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "ind.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "ind.nl",
+        "expires": 1679686935,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "nmstat",
+        "domain": ".ind.nl",
+        "expires": 1734550935,
+        "third_party": false,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6158230.global.siteimproveanalytics.io",
+        "expires": -1,
+        "third_party": true,
+        "trackers_list": [],
+        "found_on": "https://ind.nl"
+      }
+    ]
+  }
+}
