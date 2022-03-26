@@ -10,8 +10,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 from typing import List, Dict
 
-# from CrawlerManager import CrawlerManager
-# from post_processing import main_process
+from CrawlerManager import CrawlerManager
+
+from post_processing import main_process
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -133,21 +134,19 @@ def main_collect_cookies(input_file: str, output_file: str):
     with open(output_file, 'w') as f:
         json.dump(all_cookies, f, indent=2)
 
-
-'''
-def collectCookies():
-    inFiles = ["overheid"]
+# Calling this method takes care of everything
+# Post processing needs to be fixed for the new file structure
+def collectCookies(inFiles, numThreads, hopping):
     fields = ['name', 'domain', 'expires']
     for file in inFiles:
         fileName = file + ".txt"
         print("Using: " + fileName)
         files = [fileName]
 
-        crawlerManager = CrawlerManager(files, numThreads=20)  # Takes care of multithreading
+        crawlerManager = CrawlerManager(files, numThreads=numThreads, hopping=hopping)  # Takes care of multithreading
         crawlerManager.start()  # Start crawling
 
         allCookies = crawlerManager.allCookies
-
         outputFile = file  # Output file
         processCookies(allCookies, fields, outputFile)  # Processing all the cookies
 
@@ -160,17 +159,23 @@ def processCookies(cookies, fields, outputFile):
 
         websiteName = website.rsplit('.', 1)[0].split('.', 1)[-1]
         url = f'https://{website}'
-        websiteCookies = cookies[website]
+        websiteCookiesFrontpage = cookies[website]['frontpage']
+        websiteCookiesHopping = cookies[website]['hopped']
 
-        if len(websiteCookies) == 0:
+        if len(websiteCookiesFrontpage) == 0:
             continue
 
-        processedCookies[website] = processWebsiteCookies(websiteName, websiteCookies, fields)
-        print(processedCookies[website])
+        # Processes all the cookies
+        processedCookies[website] = dict.fromkeys({'frontpage', 'hopped'})
+        processedCookies[website]['frontpage'] = processWebsiteCookies(websiteName, websiteCookiesFrontpage, fields)
+
+        if websiteCookiesHopping is not None:
+            processedCookies[website]['hopped'] = processWebsiteCookies(websiteName, websiteCookiesHopping, fields)
 
     with open("out/" + outputFile + ".json", 'w') as f:
         json.dump(processedCookies, f, indent=2)
 
+    # Post processing
     main_process(outputFile)
 
 def processWebsiteCookies(websiteName, cookies, fields):
@@ -182,22 +187,23 @@ def processWebsiteCookies(websiteName, cookies, fields):
         wantedData.append(cookie_dict)
 
     return wantedData
-'''
+
 
 if __name__ == '__main__':
     # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.
     # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
     #
     # Set-up parsing command line arguments
-    import time
-    start = time.time()
-    if len(sys.argv) < 3:
-        print('No sufficient number of arguments given. Using default config.')
-        main_collect_cookies('websites/example.txt', 'out/with_found_on.json')
+    #import time
+    #start = time.time()
+    #if len(sys.argv) < 3:
+    #    print('No sufficient number of arguments given. Using default config.')
+    #    main_collect_cookies('websites/example.txt', 'out/with_found_on.json')
     #
     # First argument is input file, second is output file.
-    else:
-        main_collect_cookies(sys.argv[1], sys.argv[2])
-    # collectCookies()
-    end = time.time() - start
-    print(f'Took{end:.3} seconds')
+    #else:
+    #    main_collect_cookies(sys.argv[1], sys.argv[2])
+
+    collectCookies(["overheid"], 10, True)
+    #end = time.time() - start
+    #print(f'Took{end:.3} seconds')
