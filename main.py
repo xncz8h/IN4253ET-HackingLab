@@ -1,13 +1,11 @@
 import numpy as np
 import time
 import json
-from ThirdPartytracker import checkForTrackers
-from collect_cookies import main_collect_cookies
 from cookie import Cookie
 
 from CrawlerManager import CrawlerManager
 from typing import List, Dict
-from post_processing import main_process
+from post_processing import post_processing
 
 import argparse
 
@@ -16,8 +14,8 @@ def load_websites(path: str) -> List[str]:
     return list(np.loadtxt(path, delimiter='\n', dtype='str'))
 
 
-def write_cookies(path: str, cookies: Dict):
-    out_path = 'out/' + path.split('/')[-1].split('.')[0] + '.json'
+def write_cookies(path: str, cookies: Dict, ext: str):
+    out_path = 'out/' + path.split('/')[-1].split('.')[0] + ext
     with open(out_path, 'w') as f:
         json.dump(cookies, f, indent=2)
 
@@ -31,9 +29,10 @@ def startCrawling(num_of_threads, num_of_hops, path):
     crawler_manager.start()
 
     all_cookies = crawler_manager.allCookies
-    write_cookies(path, all_cookies)
+    write_cookies(path, all_cookies, ".json")
 
-    # processCookies(allCookies, ['name', 'domain', 'expires'])
+    c = post_processing(all_cookies)
+    write_cookies(path, c, ".out")
 
 
 if __name__ == "__main__":
