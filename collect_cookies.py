@@ -1,6 +1,5 @@
 import numpy as np
 import json
-import sys
 import requests
 import random
 from bs4 import BeautifulSoup
@@ -10,9 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import WebDriverException
 from typing import List, Dict
 
-from CrawlerManager import CrawlerManager
+# from CrawlerManager import CrawlerManager
 
-from post_processing import main_process
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
@@ -44,7 +42,7 @@ def get_website_name(url: str) -> str:
 
 
 # TODO: Implement this into the crawler.
-def hop(base_url: str) -> List[str]:
+def hop(base_url: str, n_hops: int) -> List[str]:
     r = requests.get(base_url)
     soup = BeautifulSoup(r.content, 'html.parser')
     a_tags = soup.find_all('a', href=True)
@@ -52,7 +50,7 @@ def hop(base_url: str) -> List[str]:
     w_name = get_website_name(base_url)
     refs = {full_url for x in a_tags if w_name == get_website_name(full_url := urljoin(base_url, x['href']))
             and not x['href'].startswith('#')}
-    return random.sample([*refs], min(len(refs), 20))
+    return random.sample([*refs], min(len(refs), n_hops))
 
 
 # This function checks whether the given domain name is present in one of the trackers lists.
@@ -134,6 +132,8 @@ def main_collect_cookies(input_file: str, output_file: str):
     with open(output_file, 'w') as f:
         json.dump(all_cookies, f, indent=2)
 
+
+'''
 # Calling this method takes care of everything
 # Post processing needs to be fixed for the new file structure
 def collectCookies(inFiles, numThreads, hopping):
@@ -176,7 +176,7 @@ def processCookies(cookies, fields, outputFile):
         json.dump(processedCookies, f, indent=2)
 
     # Post processing
-    main_process(outputFile)
+    # main_process(outputFile)
 
 def processWebsiteCookies(websiteName, cookies, fields):
     wantedData = []
@@ -187,9 +187,9 @@ def processWebsiteCookies(websiteName, cookies, fields):
         wantedData.append(cookie_dict)
 
     return wantedData
+'''
 
-
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # TODO: Create argparser to decide whether to use the extra hop or not. And add the number of refs to take.
     # TODO: This way we can compare the frontpage vs frontpage + hoprefs (George's idea).
     #
@@ -204,6 +204,6 @@ if __name__ == '__main__':
     #else:
     #    main_collect_cookies(sys.argv[1], sys.argv[2])
 
-    collectCookies(["overheid"], 10, True)
+    # collectCookies(["example"], 10, True)
     #end = time.time() - start
     #print(f'Took{end:.3} seconds')
