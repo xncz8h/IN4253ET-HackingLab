@@ -9,6 +9,8 @@ from post_processing import post_processing
 
 import argparse
 
+from statistics import fetch_statistics
+
 
 def load_websites(path: str) -> List[str]:
     return list(np.loadtxt(path, delimiter='\n', dtype='str'))
@@ -33,6 +35,8 @@ def startCrawling(num_of_threads, num_of_hops, path):
 
     c = post_processing(all_cookies)
     write_cookies(path, c, ".out")
+
+    fetch_statistics(c)
 
 
 if __name__ == "__main__":
