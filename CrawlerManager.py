@@ -114,12 +114,15 @@ class CrawlerManager:
                     else:
                         self.extract_cookies(finished_crawler)
 
+            count = 0
             # Checks if all threads have been removed
-            for t in self.threads:
-                if t:
-                    time.sleep(0.25)
-                    continue
-            break
+            for x in range(self.numThreads):
+                if self.threads[x] is None:
+                    count = count + 1
+
+            # If all threads are dead, we can stop checking
+            if count == self.numThreads:
+                break
 
     def extract_cookies(self, crawler):
         self.allCookies[crawler.websiteUrl] = dict.fromkeys({'frontpage', 'hopped'})
