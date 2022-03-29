@@ -109,7 +109,7 @@ def crawl(websites: np.array) -> Dict:
         all_cookies[w] = dict.fromkeys({'frontpage', 'hopped'})
         # Try it with https:// only to keep it fair.
         frontpage_cookies = get_parse_cookies([target_url], website_name, fields)
-        hopped_cookies = get_parse_cookies(hop(target_url), website_name, fields)
+        hopped_cookies = get_parse_cookies(hop(target_url, 20), website_name, fields)
 
         # TODO: Refactor the json format to be website -> hopped -> cookie['name'] -> cookie info
         # TODO: Instead of website -> hopped -> [all cookie info]
