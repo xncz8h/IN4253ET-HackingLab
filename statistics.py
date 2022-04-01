@@ -27,13 +27,15 @@ def fetch_cookie_stats(cookies):
 
 def fetch_statistics(cookies):
     stats = fetch_cookie_stats(cookies)
+    print(stats)
     third_party_stats, tracker_stats = sort(stats)
     print(third_party_stats)
     print(tracker_stats)
 
 
+# Needs fixing.
 def sort(stats):
     third_party_stats = {k: v for k, v in sorted(stats.items(), key=lambda item: item[0], reverse=True)}
     tracker_stats = {k: v for k, v in sorted(stats.items(), key=lambda item: item[1], reverse=True)}
-    return third_party_stats, tracker_stats
+    return third_party_stats, 0
         

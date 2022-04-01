@@ -1,6 +1,8 @@
 import time
+import requests
 from selenium.common.exceptions import WebDriverException
-from collect_cookies import hop
+from helper import hop, get_website_name
+
 
 class Crawler:
     def __init__(self, driver, websiteUrl, hops):
@@ -37,4 +39,3 @@ class Crawler:
         unprocessed_hop_cookies = self.driver.execute_cdp_cmd('Network.getAllCookies', dict())["cookies"]  # All the names of the frontpage cookies
         frontpage_cookie_names = [c['name'] for c in self.frontpage_cookies]
         self.hopCookies = [c for c in unprocessed_hop_cookies if c['name'] not in frontpage_cookie_names]  # Cookies we found through hopping
-

@@ -1,7 +1,6 @@
 import numpy as np
 import time
 import json
-from cookie import Cookie
 
 from CrawlerManager import CrawlerManager
 from typing import List, Dict
@@ -22,8 +21,7 @@ def write_cookies(path: str, cookies: Dict, ext: str):
         json.dump(cookies, f, indent=2)
 
 
-def startCrawling(num_of_threads, num_of_hops, path):
-
+def start_crawling(num_of_threads, num_of_hops, path):
     websites = load_websites(path)
     print(websites)
 
@@ -34,7 +32,7 @@ def startCrawling(num_of_threads, num_of_hops, path):
     write_cookies(path, all_cookies, ".json")
 
     c = post_processing(all_cookies)
-    write_cookies(path, c, ".out")
+    write_cookies(path, c, "-out.json")
 
     fetch_statistics(c)
 
@@ -47,6 +45,6 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--num_hops", type=int, default=0, help="number of single depth hops on a website")
     args = parser.parse_args()
 
-    startCrawling(args.threads, args.num_hops, args.input_path)
+    start_crawling(args.threads, args.num_hops, args.input_path)
     end = time.time() - start
     print(f'Ran in {end:.3} seconds')

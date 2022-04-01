@@ -1,9 +1,0 @@
-{
-  "abc.com": {
-    "frontpage": "cookie1",
-    "hopped": [
-      "cookie2",
-      "cookie3"
-    ]
-  }
-}

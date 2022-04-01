@@ -19,7 +19,7 @@ def parse_cookie(cookie, website):
     c["trackers_list"] = trackers
 
     return c
-    
+
 
 def post_processing(cookies):
     out = dict()
