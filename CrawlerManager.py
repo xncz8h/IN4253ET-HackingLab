@@ -120,9 +120,12 @@ class CrawlerManager:
                 if self.threads[x] is None:
                     count = count + 1
 
+            print(count)
             # If all threads are dead, we can stop checking
             if count == self.numThreads:
                 break
+
+            time.sleep(1)
 
     def extract_cookies(self, crawler):
         self.allCookies[crawler.websiteUrl] = dict.fromkeys({'frontpage', 'hopped'})

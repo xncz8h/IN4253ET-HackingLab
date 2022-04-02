@@ -1,603 +1,1607 @@
 {
-  "kwf.nl": [
-    {
-      "name": "_vwo_uuid_v2",
-      "domain": ".kwf.nl",
-      "expires": 1679563432,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_vis_opt_s",
-      "domain": ".kwf.nl",
-      "expires": 1656581032,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_vis_opt_test_cookie",
-      "domain": ".kwf.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_vwo_uuid",
-      "domain": ".kwf.nl",
-      "expires": 1963301032,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_vwo_sn",
-      "domain": ".kwf.nl",
-      "expires": 1647942832,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "adobeId",
-      "domain": "www.kwf.nl",
-      "expires": 1648027432,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_vwo_ds",
-      "domain": ".kwf.nl",
-      "expires": 1653125032,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "demdex",
-      "domain": ".demdex.net",
-      "expires": 1663493033.354275,
-      "third_party": true,
-      "trackers_list": [
-        "adguarddns",
-        "easyprivacy"
-      ]
-    },
-    {
-      "name": "AMCVS_15E9A2BC56CADCE67F000101%40AdobeOrg",
-      "domain": ".kwf.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "s_nr",
-      "domain": ".kwf.nl",
-      "expires": 1650533033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "s_lastvisit",
-      "domain": ".kwf.nl",
-      "expires": 1742549033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "gpv_pn",
-      "domain": ".kwf.nl",
-      "expires": 1647942833,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "gpv_url",
-      "domain": ".kwf.nl",
-      "expires": 1647942833,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "s_dl",
-      "domain": ".kwf.nl",
-      "expires": 1647942833,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "s_cmgvo",
-      "domain": ".kwf.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "utag_main",
-      "domain": ".kwf.nl",
-      "expires": 1679477033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "s_cc",
-      "domain": ".kwf.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "dpm",
-      "domain": ".dpm.demdex.net",
-      "expires": 1663493033.354235,
-      "third_party": true,
-      "trackers_list": []
-    },
-    {
-      "name": "AMCV_15E9A2BC56CADCE67F000101%40AdobeOrg",
-      "domain": ".kwf.nl",
-      "expires": 1711099433,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "hartstichting.nl": [
-    {
-      "name": "ARRAffinity",
-      "domain": ".hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ARRAffinitySameSite",
-      "domain": ".hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ASP.NET_SessionId",
-      "domain": "www.hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "CMSPreferredCulture",
-      "domain": "www.hartstichting.nl",
-      "expires": 1679477033.28797,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "internalIPCookie",
-      "domain": "www.hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ARRAffinity",
-      "domain": ".www.hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ARRAffinitySameSite",
-      "domain": ".www.hartstichting.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".hartstichting.nl",
-      "expires": 1648027433,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga_P490EVXFBK",
-      "domain": ".hartstichting.nl",
-      "expires": 1711013033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".hartstichting.nl",
-      "expires": 1711013033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".www.hartstichting.nl",
-      "expires": 1711013033,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".www.hartstichting.nl",
-      "expires": 1648027433,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjSessionUser_58512",
-      "domain": ".hartstichting.nl",
-      "expires": 1679477034,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjFirstSeen",
-      "domain": ".hartstichting.nl",
-      "expires": 1647942834,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjIncludedInSessionSample",
-      "domain": "www.hartstichting.nl",
-      "expires": 1647941154,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjSession_58512",
-      "domain": ".hartstichting.nl",
-      "expires": 1647942834,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjIncludedInPageviewSample",
-      "domain": "www.hartstichting.nl",
-      "expires": 1647941154,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_hjAbsoluteSessionInProgress",
-      "domain": ".hartstichting.nl",
-      "expires": 1647942834,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "hersenstichting.nl": [
-    {
-      "name": "__cf_bm",
-      "domain": ".myfonts.net",
-      "expires": 1647942834.15323,
-      "third_party": true,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".hersenstichting.nl",
-      "expires": 1711013036,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".hersenstichting.nl",
-      "expires": 1648027436,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_UA-4204262-1",
-      "domain": ".hersenstichting.nl",
-      "expires": 1647941096,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "radboudumc.nl": [
-    {
-      "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
-      "domain": "radboudumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "TS016800b8",
-      "domain": "radboudumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
-      "domain": "www.radboudumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ASP.NET_SessionId",
-      "domain": "www.radboudumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "TS016800b8",
-      "domain": "www.radboudumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "__cf_bm",
-      "domain": ".fonts.net",
-      "expires": 1647942834.028485,
-      "third_party": true,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".radboudumc.nl",
-      "expires": 1711013034,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".radboudumc.nl",
-      "expires": 1648027434,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_gtag_UA_10299829_1",
-      "domain": ".radboudumc.nl",
-      "expires": 1647941094,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "didPersonalMenuAnimation",
-      "domain": "www.radboudumc.nl",
-      "expires": 1650619434,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "ggz.nl": [
-    {
-      "name": "_GRECAPTCHA",
-      "domain": "www.google.com",
-      "expires": 1663493037.696529,
-      "third_party": true,
-      "trackers_list": []
-    }
-  ],
-  "mumc.nl": [
-    {
-      "name": "_ga",
-      "domain": ".mumc.nl",
-      "expires": 1711013034,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".mumc.nl",
-      "expires": 1648027434,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_gtag_UA_24689525_1",
-      "domain": ".mumc.nl",
-      "expires": 1647941094,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "vumc.nl": [
-    {
-      "name": "_ga",
-      "domain": ".vumc.nl",
-      "expires": 1711013034,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".vumc.nl",
-      "expires": 1648027434,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_gtag_UA_31409514_2",
-      "domain": ".vumc.nl",
-      "expires": 1647941094,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "umcutrecht.nl": [
-    {
-      "name": "NSC_WT_BAVSFDPSQ_VNDVUSFDIU_TTM",
-      "domain": "www.umcutrecht.nl",
-      "expires": 1647941156.074798,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "NSC_WT_BAVSFDPSQ_IUUQ",
-      "domain": "www.umcutrecht.nl",
-      "expires": 1647941153.074823,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "NSC_WT_BAVSFDPSQ_TTM",
-      "domain": "www.umcutrecht.nl",
-      "expires": 1647941152.074846,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "NSC_ESNS",
-      "domain": "www.umcutrecht.nl",
-      "expires": 1647941050.074687,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".umcutrecht.nl",
-      "expires": 1648027435,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_UA-47137332-1",
-      "domain": ".umcutrecht.nl",
-      "expires": 1647941095,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga_M5LHFHMY2W",
-      "domain": ".umcutrecht.nl",
-      "expires": 1711013035,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".umcutrecht.nl",
-      "expires": 1711013035,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "erasmusmc.nl": [
-    {
-      "name": "ARRAffinity",
-      "domain": ".www.erasmusmc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "ARRAffinitySameSite",
-      "domain": ".www.erasmusmc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "erasmusmc#lang",
-      "domain": "www.erasmusmc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "shell#lang",
-      "domain": "www.erasmusmc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "__Host-SessionId",
-      "domain": "www.erasmusmc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_pk_id.21.5e16",
-      "domain": "www.erasmusmc.nl",
-      "expires": 1681896236,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_pk_ses.21.5e16",
-      "domain": "www.erasmusmc.nl",
-      "expires": 1647942836,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "lumc.nl": [
-    {
-      "name": "JSESSIONID",
-      "domain": "www.lumc.nl",
-      "expires": -1,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_ga",
-      "domain": ".lumc.nl",
-      "expires": 1711013036,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".lumc.nl",
-      "expires": 1648027436,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat",
-      "domain": ".lumc.nl",
-      "expires": 1647941096,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "ggd.nl": [
-    {
-      "name": "_ga",
-      "domain": ".ggd.nl",
-      "expires": 1711013043,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gid",
-      "domain": ".ggd.nl",
-      "expires": 1648027443,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_gat_gtag_UA_11117292_3",
-      "domain": ".ggd.nl",
-      "expires": 1647941103,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ],
-  "coronadashboard.rijksoverheid.nl": [
-    {
-      "name": "_pk_ses.7939.011f",
-      "domain": "coronadashboard.rijksoverheid.nl",
-      "expires": 1647942846,
-      "third_party": false,
-      "trackers_list": []
-    },
-    {
-      "name": "_pk_id.7939.011f",
-      "domain": "coronadashboard.rijksoverheid.nl",
-      "expires": 1681896246,
-      "third_party": false,
-      "trackers_list": []
-    }
-  ]
+  "erasmusmc.nl": {
+    "frontpage": [
+      {
+        "domain": ".www.erasmusmc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ARRAffinity",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 75,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "bf1aabeda1f3c07671551b220b88950cc465198662dea97fdf641ea437f26807"
+      },
+      {
+        "domain": ".www.erasmusmc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ARRAffinitySameSite",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 83,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "bf1aabeda1f3c07671551b220b88950cc465198662dea97fdf641ea437f26807"
+      },
+      {
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "erasmusmc#lang",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 19,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "nl-NL"
+      },
+      {
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "shell#lang",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 12,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "en"
+      },
+      {
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "__Host-SessionId",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 40,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "w35j2kh3r5ouvjcr25gnsjpk"
+      },
+      {
+        "domain": "www.erasmusmc.nl",
+        "expires": 1682866074,
+        "httpOnly": false,
+        "name": "_pk_id.21.5e16",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "49642cba42216cb5.1648910874."
+      },
+      {
+        "domain": "www.erasmusmc.nl",
+        "expires": 1648912673,
+        "httpOnly": false,
+        "name": "_pk_ses.21.5e16",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 16,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": []
+  },
+  "radboudumc.nl": {
+    "frontpage": [
+      {
+        "domain": "radboudumc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 64,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "3315838595.47873.0000"
+      },
+      {
+        "domain": "radboudumc.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "TS016800b8",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 148,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "011f3a517181446402d6160146d09e1577cc137006bee6a34ca20bfdc1b6b5fcea804bdfc425f89ab91359b04e8e8f4d8a2dd357ebee79d778bd8768a3e885753e91994b79"
+      },
+      {
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 64,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "3315838595.47873.0000"
+      },
+      {
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ASP.NET_SessionId",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 41,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "oz0btgsmvi2fq2d43i1rc4lk"
+      },
+      {
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "TS016800b8",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 180,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "011f3a5171a2bfa9998f658b92a6ef9bdf55f08f5c0fcf9e21f3211e15e8da843845b6408e008aef1f14aed76dc619be7eba19517bb1495eacbb61f29a03018cdf8ccccf167c577a0773fbef20ce369cef7c799d37"
+      },
+      {
+        "domain": ".fonts.net",
+        "expires": 1648912673.764667,
+        "httpOnly": true,
+        "name": "__cf_bm",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 152,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "4YPdTTk44CueU5AERCPRXtoPa1UtwC3ZXa_ZNGklqbM-1648910873-0-AY0aCqMWOyWyoOU+8zIcr7ZVD8uIJuLBlH9wUF6bE2m9TLQRj59bvbHuAJumyve/fE5fm33FByN70HXGFWjMOec="
+      },
+      {
+        "domain": "www.radboudumc.nl",
+        "expires": 1651589274,
+        "httpOnly": false,
+        "name": "didPersonalMenuAnimation",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 28,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "true"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": ".radboudumc.nl",
+        "expires": 1711982880,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 28,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.67080982.1648910880"
+      },
+      {
+        "domain": ".radboudumc.nl",
+        "expires": 1648997280,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1806989058.1648910880"
+      },
+      {
+        "domain": ".radboudumc.nl",
+        "expires": 1648910940,
+        "httpOnly": false,
+        "name": "_gat_gtag_UA_10299829_1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ]
+  },
+  "vumc.nl": {
+    "frontpage": [
+      {
+        "domain": ".vumc.nl",
+        "expires": 1711982873,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.663334552.1648910873"
+      },
+      {
+        "domain": ".vumc.nl",
+        "expires": 1648997273,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1927323065.1648910873"
+      },
+      {
+        "domain": ".vumc.nl",
+        "expires": 1648910933,
+        "httpOnly": false,
+        "name": "_gat_gtag_UA_31409514_2",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": "vumc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "JSESSIONID",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "5EAA477277E77E8F2E15BDD4E2EBACA5"
+      }
+    ]
+  },
+  "ggd.nl": {
+    "frontpage": [
+      {
+        "domain": ".ggd.nl",
+        "expires": 1711982883,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1805355799.1648910883"
+      },
+      {
+        "domain": ".ggd.nl",
+        "expires": 1648997283,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.102486384.1648910883"
+      },
+      {
+        "domain": ".ggd.nl",
+        "expires": 1648910943,
+        "httpOnly": false,
+        "name": "_gat_gtag_UA_11117292_3",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": []
+  },
+  "hersenstichting.nl": {
+    "frontpage": [
+      {
+        "domain": ".myfonts.net",
+        "expires": 1648912672.89763,
+        "httpOnly": true,
+        "name": "__cf_bm",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 152,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "LuLHWTwIyQqTUVR8rjOAOe20_4V1bwc5i1THL9m3p9A-1648910872-0-AbJsTPeEBsmmlEm3EXabG2EFj7nbxQE9M1yZ/bQU2DSme4I3wEo9Cn3HUjR+2NkU5aDxgFMVFN3JTYoZVrVsHBc="
+      },
+      {
+        "domain": ".hersenstichting.nl",
+        "expires": 1711982874,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1602971168.1648910874"
+      },
+      {
+        "domain": ".hersenstichting.nl",
+        "expires": 1648997274,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.935523382.1648910874"
+      },
+      {
+        "domain": ".hersenstichting.nl",
+        "expires": 1648910934,
+        "httpOnly": false,
+        "name": "_gat_UA-4204262-1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": []
+  },
+  "mumc.nl": {
+    "frontpage": [
+      {
+        "domain": ".mumc.nl",
+        "expires": 1711982874,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.443996221.1648910874"
+      },
+      {
+        "domain": ".mumc.nl",
+        "expires": 1648997274,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1082189161.1648910874"
+      },
+      {
+        "domain": ".mumc.nl",
+        "expires": 1648910934,
+        "httpOnly": false,
+        "name": "_gat_gtag_UA_24689525_1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": []
+  },
+  "umcutrecht.nl": {
+    "frontpage": [
+      {
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910994.75609,
+        "httpOnly": true,
+        "name": "NSC_WT_BAVSFDPSQ_VNDVUSFDIU_TTM",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 75,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "ffffffff0e4d5a1c45525d5f4f58455e445a4a42378b"
+      },
+      {
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910991.756107,
+        "httpOnly": true,
+        "name": "NSC_WT_BAVSFDPSQ_IUUQ",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 65,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "ffffffff8c7111a745525d5f4f58455e445a4a42378b"
+      },
+      {
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910990.75612,
+        "httpOnly": true,
+        "name": "NSC_WT_BAVSFDPSQ_TTM",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 64,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "ffffffff8c71f04045525d5f4f58455e445a4a423660"
+      },
+      {
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910888.756052,
+        "httpOnly": false,
+        "name": "NSC_ESNS",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 87,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "2333d23d-6219-1248-9678-46d5b32212b4_2244300460_4232715761_00000000000590163932"
+      },
+      {
+        "domain": ".umcutrecht.nl",
+        "expires": 1648997274,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1653911906.1648910875"
+      },
+      {
+        "domain": ".umcutrecht.nl",
+        "expires": 1648910934,
+        "httpOnly": false,
+        "name": "_gat_UA-47137332-1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 19,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".umcutrecht.nl",
+        "expires": 1711982874,
+        "httpOnly": false,
+        "name": "_ga_M5LHFHMY2W",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1648910874.1.0.1648910874.0"
+      },
+      {
+        "domain": ".umcutrecht.nl",
+        "expires": 1711982874,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1923240641.1648910875"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": ".youtube.com",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "YSC",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 14,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "6a3zyOGBppw"
+      },
+      {
+        "domain": ".youtube.com",
+        "expires": 1664462902.594342,
+        "httpOnly": true,
+        "name": "VISITOR_INFO1_LIVE",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "o-EV9j4zPCo"
+      }
+    ]
+  },
+  "kwf.nl": {
+    "frontpage": [
+      {
+        "domain": ".kwf.nl",
+        "expires": 1680533271,
+        "httpOnly": false,
+        "name": "_vwo_uuid_v2",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 78,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "D0FCC002BCA3D6BE0EBB1E34FA2EDAE91|591fad20410eeaa2f716640e68886bd2"
+      },
+      {
+        "domain": "www.kwf.nl",
+        "expires": 1648997271,
+        "httpOnly": false,
+        "name": "adobeId",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 91,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "adobe_mc%3DMCORGID%253D15E9A2BC56CADCE67F000101%252540AdobeOrg%257CTS%253D1648910872"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1657550871,
+        "httpOnly": false,
+        "name": "_vis_opt_s",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 14,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1%7C"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "_vis_opt_test_cookie",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 21,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1964270871,
+        "httpOnly": false,
+        "name": "_vwo_uuid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "D0FCC002BCA3D6BE0EBB1E34FA2EDAE91"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1648912671,
+        "httpOnly": false,
+        "name": "_vwo_sn",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 52,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "0%3A1%3Ar3.visualwebsiteoptimizer.com%3A1%3A1"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1654094871,
+        "httpOnly": false,
+        "name": "_vwo_ds",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 75,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "3%3Aa_1%2Ct_1%3A0%241648910870%3A0.81475225%3A%3A1_1%3A3_1%2C2_1%3A0"
+      },
+      {
+        "domain": ".demdex.net",
+        "expires": 1664462872.347705,
+        "httpOnly": false,
+        "name": "demdex",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 44,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "25951126082131923733772542058468712807"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "AMCVS_15E9A2BC56CADCE67F000101%40AdobeOrg",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".dpm.demdex.net",
+        "expires": 1664462872.347673,
+        "httpOnly": false,
+        "name": "dpm",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 41,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "25951126082131923733772542058468712807"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1712069272,
+        "httpOnly": false,
+        "name": "AMCV_15E9A2BC56CADCE67F000101%40AdobeOrg",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 290,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "-2121179033%7CMCIDTS%7C19085%7CMCMID%7C26340022328781652953806853651739771645%7CMCAAMLH-1649515671%7C6%7CMCAAMB-1649515671%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1648918071s%7CNONE%7CMCSYNCSOP%7C411-19092%7CvVersion%7C5.3.0"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1651502872,
+        "httpOnly": false,
+        "name": "s_nr",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 21,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1648910872555-New"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1743518872,
+        "httpOnly": false,
+        "name": "s_lastvisit",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1648910872555"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "httpOnly": false,
+        "name": "gpv_pn",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 16,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "kwf%3Ahome"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "httpOnly": false,
+        "name": "gpv_url",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 34,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "https%3A%2F%2Fwww.kwf.nl%2F"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "httpOnly": false,
+        "name": "s_dl",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 5,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "s_cmgvo",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 61,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "undefinedTyped%2FBookmarkedTyped%2FBookmarkedundefined"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": 1680446872,
+        "httpOnly": false,
+        "name": "utag_main",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 144,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "v_id:017feabf2d4800208b14d7cc9d5600068001306000590$_sn:1$_ss:1$_pn:1%3Bexp-session$_st:1648912672561$ses_id:1648910871880%3Bexp-session"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "s_cc",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 8,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "true"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": ".kwf.nl",
+        "expires": 1806677330,
+        "httpOnly": false,
+        "name": "s_icmphist",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 98,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "%5B%5B%27il-37%27%2C%271648910879676%27%5D%2C%5B%27il-226%27%2C%271648910930611%27%5D%5D"
+      },
+      {
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "s_icmp_per",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 16,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "il-226"
+      }
+    ]
+  },
+  "hartstichting.nl": {
+    "frontpage": [
+      {
+        "domain": ".hartstichting.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ARRAffinity",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 75,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "249d53bdc28cc342edb4965228850aa72a8304630357254128300b6abf863e83"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ARRAffinitySameSite",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 83,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "249d53bdc28cc342edb4965228850aa72a8304630357254128300b6abf863e83"
+      },
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ASP.NET_SessionId",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 41,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "15wqf0vahheysa20gj1t2bey"
+      },
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": 1680446871.271805,
+        "httpOnly": true,
+        "name": "CMSPreferredCulture",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "nl-nl"
+      },
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "internalIPCookie",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "no"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1648997273,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.168387418.1648910872"
+      },
+      {
+        "domain": ".www.hartstichting.nl",
+        "expires": 1711982873,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.3.807047176.1648910872"
+      },
+      {
+        "domain": ".www.hartstichting.nl",
+        "expires": 1648997273,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.3.168387418.1648910872"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1711982873,
+        "httpOnly": false,
+        "name": "_ga_P490EVXFBK",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1648910872.1.0.1648910872.0"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1711982873,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.1.807047176.1648910872"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1680446873,
+        "httpOnly": false,
+        "name": "_hjSessionUser_58512",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 136,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "eyJpZCI6IjIyYTRiNDkyLTQ3MjgtNWUzZi1hM2Y1LTNhM2E2NjMwN2I1ZSIsImNyZWF0ZWQiOjE2NDg5MTA4NzM1NTEsImV4aXN0aW5nIjpmYWxzZX0="
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "httpOnly": false,
+        "name": "_hjFirstSeen",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 13,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": 1648910993,
+        "httpOnly": false,
+        "name": "_hjIncludedInSessionSample",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 27,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "httpOnly": false,
+        "name": "_hjSession_58512",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 132,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "eyJpZCI6IjU2NDNjYzE2LWE1NDQtNGVhNi05MGExLTM1YWQ0ZGJhNjI4NSIsImNyZWF0ZWQiOjE2NDg5MTA4NzM1NzksImluU2FtcGxlIjp0cnVlfQ=="
+      },
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": 1648910993,
+        "httpOnly": false,
+        "name": "_hjIncludedInPageviewSample",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 28,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "httpOnly": false,
+        "name": "_hjAbsoluteSessionInProgress",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": "www.hartstichting.nl",
+        "expires": 1680446911.907291,
+        "httpOnly": true,
+        "name": "CMSCookieLevel",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "-100"
+      },
+      {
+        "domain": ".hartstichting.nl",
+        "expires": 1656686987,
+        "httpOnly": false,
+        "name": "_fbp",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 32,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "fb.1.1648910912400.968404127"
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": 1651502912.530665,
+        "httpOnly": false,
+        "name": "UserMatchHistory",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 94,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "AQI4IIuisgONOwAAAX_qv8uFLVnyV8Q84Mo4Zvc78k7AYPBAZ-RpjFpu1yjWWk-Qyn8EjNykzEQvPQ"
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": 1651502912.530699,
+        "httpOnly": false,
+        "name": "AnalyticsSyncHistory",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 106,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "AQLyNzXN8nbSIQAAAX_qv8uFNhdL_nM408kHYaY9yr1K8riodpeA_VGMZVRSi_XcgIce29VQVhmjppqRvBZq1g"
+      },
+      {
+        "domain": ".ads.linkedin.com",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "lang",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "v=2&lang=en-us"
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": 1712024764.530717,
+        "httpOnly": false,
+        "name": "bcookie",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 49,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "\"v=2&5bf35794-c333-467a-80a5-8f8e7befd78c\""
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": 1648997312.530729,
+        "httpOnly": false,
+        "name": "lidc",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 112,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "\"b=VGST06:s=V:r=V:a=V:p=V:g=2345:u=1:x=1:i=1648910912:t=1648997312:v=2:sig=AQGIe2jR7e5-7Br5CHrvMrYF87AvTaEw\""
+      },
+      {
+        "domain": ".twitter.com",
+        "expires": 1711982912.552922,
+        "httpOnly": false,
+        "name": "personalization_id",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "\"v1_LbQeFcG+ygUaT0mR/3eMnA==\""
+      },
+      {
+        "domain": ".t.co",
+        "expires": 1711982912.582336,
+        "httpOnly": false,
+        "name": "muc_ads",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 43,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "17d7a627-a003-40ad-9b64-60865ee4a0ea"
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "lang",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "v=2&lang=en-us"
+      },
+      {
+        "domain": ".www.linkedin.com",
+        "expires": 1712024764.661505,
+        "httpOnly": true,
+        "name": "bscookie",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 96,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "\"v=1&20220402144832e4d84397-b321-4501-8709-4c2d40af80b3AQGanrefvIJ6A5TzwrZigDs8jKAQAYpc\""
+      },
+      {
+        "domain": ".linkedin.com",
+        "expires": 1711575185.661522,
+        "httpOnly": false,
+        "name": "li_gc",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 77,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "MTswOzE2NDg5MTA5MTI7MjswMjF7WNEC/8JJf1E80W67X1rea+SUmcDZifjWduwPOUmRNA=="
+      },
+      {
+        "domain": ".doubleclick.net",
+        "expires": 1682606918.539294,
+        "httpOnly": true,
+        "name": "IDE",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 67,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "AHWqTUl6OrYOQt5mcwihLYbA_Xv25sQcgGHTvYUsgaKY4adikUwPbcv722hd4II6"
+      },
+      {
+        "domain": ".vimeo.com",
+        "expires": 1711982976,
+        "httpOnly": false,
+        "name": "vuid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 27,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "pl1776203317.1621821627"
+      }
+    ]
+  },
+  "lumc.nl": {
+    "frontpage": [
+      {
+        "domain": "www.lumc.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "JSESSIONID",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "A4CB09A714767DC6DC32D30B185AEAB2"
+      },
+      {
+        "domain": ".lumc.nl",
+        "expires": 1711982874,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 27,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.8627482.1648910875"
+      },
+      {
+        "domain": ".lumc.nl",
+        "expires": 1648997274,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1909345646.1648910875"
+      },
+      {
+        "domain": ".lumc.nl",
+        "expires": 1648910935,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 5,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1"
+      }
+    ],
+    "hopped": []
+  },
+  "coronadashboard.rijksoverheid.nl": {
+    "frontpage": [
+      {
+        "domain": "coronadashboard.rijksoverheid.nl",
+        "expires": 1648912691,
+        "httpOnly": false,
+        "name": "_pk_ses.7939.011f",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "*"
+      },
+      {
+        "domain": "coronadashboard.rijksoverheid.nl",
+        "expires": 1682866091,
+        "httpOnly": false,
+        "name": "_pk_id.7939.011f",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 68,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "02c374fd9d405d04.1648910889.1.1648910892.1648910889."
+      }
+    ],
+    "hopped": []
+  },
+  "ggz.nl": {
+    "frontpage": [
+      {
+        "domain": "www.google.com",
+        "expires": 1664462876.06533,
+        "httpOnly": true,
+        "name": "_GRECAPTCHA",
+        "path": "/recaptcha",
+        "priority": "High",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 100,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "09AOMX25m88NKSAh4BL9a0-9lzMV1I6IJir82yIoFXqGq3xNgm8YgyZG1n-Y7AGSxJMgN4SQZQhwWBpduULqZxPdI"
+      }
+    ],
+    "hopped": [
+      {
+        "domain": "ggz.be",
+        "expires": 1964270892.64801,
+        "httpOnly": true,
+        "name": "dwqa_anonymous",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 57,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "MKP6Ag0FN0mwOyK4D1P5CfwKYeHtnaROBkmgtSav95C"
+      }
+    ]
+  }
 }

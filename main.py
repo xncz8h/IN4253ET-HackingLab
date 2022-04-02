@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("input_path", help="input file path")
     parser.add_argument("-t", "--threads", type=int, default=10, help="number of threads to use")
-    parser.add_argument("-n", "--num_hops", type=int, default=0, help="number of single depth hops on a website")
+    parser.add_argument("-n", "--num_hops", type=int, default=20, help="number of single depth hops on a website")
     args = parser.parse_args()
 
     start_crawling(args.threads, args.num_hops, args.input_path)

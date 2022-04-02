@@ -1,0 +1,3553 @@
+{
+  "werk.nl": {
+    "frontpage": [],
+    "hopped": []
+  },
+  "uwv.nl": {
+    "frontpage": [],
+    "hopped": []
+  },
+  "zuid-holland.eu": {
+    "frontpage": [
+      {
+        "name": "cookies_consent",
+        "domain": "www.zuid-holland.eu",
+        "expires": 1680470026,
+        "time_to_live": 31535999.65929985,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "werkenbijdeoverheid.nl": {
+    "frontpage": [
+      {
+        "name": "BACKEND",
+        "domain": "werkenbijdeoverheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934027.5310447,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "XSRF-TOKEN",
+        "domain": "www.werkenbijdeoverheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934027.5310447,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "BACKEND",
+        "domain": "www.werkenbijdeoverheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934027.5310447,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.266.d970",
+        "domain": "www.werkenbijdeoverheid.nl",
+        "expires": 1682889225,
+        "time_to_live": 33955198.46895528,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.266.d970",
+        "domain": "www.werkenbijdeoverheid.nl",
+        "expires": 1648935825,
+        "time_to_live": 1798.4689552783966,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_WBGGSJBWMC",
+        "domain": ".werkenbijdeoverheid.nl",
+        "expires": 1712006026,
+        "time_to_live": 63071999.46895528,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".werkenbijdeoverheid.nl",
+        "expires": 1712006026,
+        "time_to_live": 63071999.46895528,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".werkenbijdeoverheid.nl",
+        "expires": 1649020426,
+        "time_to_live": 86399.4689552784,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_dc_gtm_UA-1103343-1",
+        "domain": ".werkenbijdeoverheid.nl",
+        "expires": 1648934086,
+        "time_to_live": 59.468955278396606,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "JSESSIONID",
+        "domain": "www.werkenbijdeoverheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934038.7806518,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "royal-house.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.88.1ae3",
+        "domain": "www.royal-house.nl",
+        "expires": 1682889237,
+        "time_to_live": 33955199.76745367,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.88.1ae3",
+        "domain": "www.royal-house.nl",
+        "expires": 1648935837,
+        "time_to_live": 1799.7674536705017,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "utrecht.nl": {
+    "frontpage": [
+      {
+        "name": "TS01b54eb4",
+        "domain": ".utrecht.nl",
+        "expires": -1,
+        "time_to_live": -1648934028.12064,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS016a2cdf",
+        "domain": ".www.utrecht.nl",
+        "expires": -1,
+        "time_to_live": -1648934028.12064,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1.3d0a",
+        "domain": "www.utrecht.nl",
+        "expires": 1654118027,
+        "time_to_live": 5183999.879359961,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1.3d0a",
+        "domain": "www.utrecht.nl",
+        "expires": 1648935826,
+        "time_to_live": 1798.879359960556,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".utrecht.nl",
+        "expires": 1651526027,
+        "time_to_live": 2591999.8793599606,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6006206.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934028.12064,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "JSESSIONID",
+        "domain": "pki.utrecht.nl",
+        "expires": -1,
+        "time_to_live": -1648934035.7241068,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS012a089f",
+        "domain": "pki.utrecht.nl",
+        "expires": -1,
+        "time_to_live": -1648934035.7241068,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS0151ef83",
+        "domain": ".pki.utrecht.nl",
+        "expires": -1,
+        "time_to_live": -1648934035.7241068,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1.3b15",
+        "domain": ".utrecht.nl",
+        "expires": 1682889235,
+        "time_to_live": 33955200.27589321,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1.3b15",
+        "domain": ".utrecht.nl",
+        "expires": 1648935834,
+        "time_to_live": 1799.2758932113647,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "aiCookieControl",
+        "domain": "www.utrecht.nl",
+        "expires": 1806700462.985222,
+        "time_to_live": 157766399.74256134,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "rotterdam.nl": {
+    "frontpage": [
+      {
+        "name": "X-Mapping-peljbfap",
+        "domain": "www.rotterdam.nl",
+        "expires": -1,
+        "time_to_live": -1648934042.7338786,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".rotterdam.nl",
+        "expires": 1735334041,
+        "time_to_live": 86399999.26612139,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6006165.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934042.7338786,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "zeeland.nl": {
+    "frontpage": [
+      {
+        "name": "nmstat",
+        "domain": ".zeeland.nl",
+        "expires": 1735334026,
+        "time_to_live": 86399998.71135306,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011276.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934028.288647,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "Able-Player",
+        "domain": "www.zeeland.nl",
+        "expires": 1656710033,
+        "time_to_live": 7775999.520640612,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "ser.nl": {
+    "frontpage": [
+      {
+        "name": "ser#lang",
+        "domain": "www.ser.nl",
+        "expires": -1,
+        "time_to_live": -1648934036.0103424,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "www.ser.nl",
+        "expires": -1,
+        "time_to_live": -1648934036.0103424,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__RequestVerificationToken",
+        "domain": "www.ser.nl",
+        "expires": -1,
+        "time_to_live": -1648934036.0103424,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "visitflevoland.nl": {
+    "frontpage": [
+      {
+        "name": "_ga_1GL6H2PRCF",
+        "domain": ".visitflevoland.nl",
+        "expires": 1712006027,
+        "time_to_live": 63071998.734767675,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "CLID",
+        "domain": "www.clarity.ms",
+        "expires": 1680470027.38989,
+        "time_to_live": 31535999.12465763,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns",
+          "easyprivacy"
+        ]
+      },
+      {
+        "name": "_ga",
+        "domain": ".visitflevoland.nl",
+        "expires": 1712006027,
+        "time_to_live": 63071998.734767675,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".visitflevoland.nl",
+        "expires": 1649020427,
+        "time_to_live": 86398.7347676754,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-27346038-6",
+        "domain": ".visitflevoland.nl",
+        "expires": 1648934087,
+        "time_to_live": 58.73476767539978,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_clck",
+        "domain": ".visitflevoland.nl",
+        "expires": 1680470028,
+        "time_to_live": 31535999.734767675,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_clsk",
+        "domain": ".visitflevoland.nl",
+        "expires": 1649020428,
+        "time_to_live": 86399.7347676754,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "SRM_B",
+        "domain": ".c.bing.com",
+        "expires": 1682630029.586285,
+        "time_to_live": 33696001.32105279,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "SM",
+        "domain": ".c.clarity.ms",
+        "expires": -1,
+        "time_to_live": -1648934029.2652323,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "MUID",
+        "domain": ".clarity.ms",
+        "expires": 1682630029.623879,
+        "time_to_live": 33696001.35864663,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns",
+          "easyprivacy"
+        ]
+      },
+      {
+        "name": "ANONCHK",
+        "domain": ".c.clarity.ms",
+        "expires": 1648934629.62413,
+        "time_to_live": 601.3588976860046,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "visitdrenthe.com": {
+    "frontpage": [
+      {
+        "name": "token_id",
+        "domain": "www.visitdrenthe.com",
+        "expires": 1680470027.02101,
+        "time_to_live": 31535999.271326542,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".visitdrenthe.com",
+        "expires": 1712006027,
+        "time_to_live": 63071999.25031662,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".visitdrenthe.com",
+        "expires": 1649020427,
+        "time_to_live": 86399.25031661987,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-42632713-4",
+        "domain": ".visitdrenthe.com",
+        "expires": 1648934087,
+        "time_to_live": 59.25031661987305,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "svb.nl": {
+    "frontpage": [
+      {
+        "name": "rxVisitor",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "dtLatC",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "dtSa",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTastySession",
+        "domain": ".svb.nl",
+        "expires": 1648935826,
+        "time_to_live": 1797.6230657100677,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.chance.hgOF1ArxlA6C0sz",
+        "domain": "www.svb.nl",
+        "expires": 1651526028,
+        "time_to_live": 2591999.62306571,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.activated.hgOF1ArxlA6C0sz",
+        "domain": "www.svb.nl",
+        "expires": 1651526028,
+        "time_to_live": 2591999.62306571,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.8bda5495-3d5b-40c3-a4ac-3636b5895400.d8ba",
+        "domain": "www.svb.nl",
+        "expires": 1682889228,
+        "time_to_live": 33955199.62306571,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.8bda5495-3d5b-40c3-a4ac-3636b5895400.d8ba",
+        "domain": "www.svb.nl",
+        "expires": 1648935828,
+        "time_to_live": 1799.6230657100677,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "collect.mopinion.com",
+        "expires": 1649538828.196826,
+        "time_to_live": 604799.8198916912,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "rxvt",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "dtPC",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "fonts.mopinion.com",
+        "expires": 1649538828.708607,
+        "time_to_live": 604800.3316726685,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "dtCookie",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "HASH_dtCookie",
+        "domain": ".svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.3769343,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "_pk_id.8bda5495-3d5b-40c3-a4ac-3636b5895400.0d15",
+        "domain": "svb.nl",
+        "expires": 1682889234,
+        "time_to_live": 33955198.81711984,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.8bda5495-3d5b-40c3-a4ac-3636b5895400.0d15",
+        "domain": "svb.nl",
+        "expires": 1648935834,
+        "time_to_live": 1798.8171198368073,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_rspkrLoadCore",
+        "domain": "svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934036.1828802,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "JSESSIONID",
+        "domain": "svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934044.219887,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "HASH_JSESSIONID",
+        "domain": "svb.nl",
+        "expires": -1,
+        "time_to_live": -1648934044.219887,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "zn.nl": {
+    "frontpage": [
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "zn.nl",
+        "expires": -1,
+        "time_to_live": -1648934029.619286,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__atuvc",
+        "domain": "zn.nl",
+        "expires": 1683062027,
+        "time_to_live": 34127998.38071394,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__atuvs",
+        "domain": "zn.nl",
+        "expires": 1648935827,
+        "time_to_live": 1798.3807139396667,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "uvc",
+        "domain": ".addthis.com",
+        "expires": 1683062027,
+        "time_to_live": 34127998.38071394,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934029.619286,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486027.524976,
+        "time_to_live": 15551998.905689955,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".zn.nl",
+        "expires": 1712006027,
+        "time_to_live": 63071998.38071394,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".zn.nl",
+        "expires": 1649020427,
+        "time_to_live": 86398.38071393967,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".zn.nl",
+        "expires": 1648934087,
+        "time_to_live": 58.38071393966675,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "loc",
+        "domain": ".addthis.com",
+        "expires": 1683062027,
+        "time_to_live": 34127998.38071394,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "overijssel.nl": {
+    "frontpage": [
+      {
+        "name": "ons_cookie",
+        "domain": "overijssel.nl",
+        "expires": -1,
+        "time_to_live": -1648934169.66299,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS0144ab28",
+        "domain": "overijssel.nl",
+        "expires": -1,
+        "time_to_live": -1648934169.66299,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ons_cookie",
+        "domain": "www.overijssel.nl",
+        "expires": -1,
+        "time_to_live": -1648934169.66299,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS0144ab28",
+        "domain": "www.overijssel.nl",
+        "expires": -1,
+        "time_to_live": -1648934169.66299,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".myfonts.net",
+        "expires": 1648935967.911985,
+        "time_to_live": 1799.2489948272705,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".overijssel.nl",
+        "expires": 1712006168,
+        "time_to_live": 63071999.33700991,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".overijssel.nl",
+        "expires": 1649020568,
+        "time_to_live": 86399.33700990677,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".overijssel.nl",
+        "expires": 1648934228,
+        "time_to_live": 59.3370099067688,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookies_consent",
+        "domain": "www.overijssel.nl",
+        "expires": 1680470168,
+        "time_to_live": 31535999.337009907,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".overijssel.nl",
+        "expires": 1735334168,
+        "time_to_live": 86399999.3370099,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011273.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934169.66299,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "nuffic.nl": {
+    "frontpage": [],
+    "hopped": []
+  },
+  "nbtc.nl": {
+    "frontpage": [
+      {
+        "name": "BCSessionID",
+        "domain": "bc.holland.com",
+        "expires": 1680470186.4783,
+        "time_to_live": 31536000.335926056,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "JSESSIONID",
+        "domain": "www.nbtc.nl",
+        "expires": -1,
+        "time_to_live": -1648934187.142374,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".nbtc.nl",
+        "expires": 1712006186,
+        "time_to_live": 63071999.85762596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".nbtc.nl",
+        "expires": 1649020586,
+        "time_to_live": 86399.8576259613,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "bc_tstgrp",
+        "domain": ".nbtc.nl",
+        "expires": 1680470186,
+        "time_to_live": 31535999.85762596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-4740195-39",
+        "domain": ".nbtc.nl",
+        "expires": 1648934246,
+        "time_to_live": 59.85762596130371,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "BCReferrerOverrule",
+        "domain": "bc.holland.com",
+        "expires": 1680470186.783562,
+        "time_to_live": 31536000.641187906,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "BCSessionID",
+        "domain": ".nbtc.nl",
+        "expires": 1680470186,
+        "time_to_live": 31535999.85762596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "bcHollandConsentedObjectives",
+        "domain": "www.nbtc.nl",
+        "expires": 1680470186,
+        "time_to_live": 31535999.85762596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "bc.holland.com",
+        "expires": 1649538986.783546,
+        "time_to_live": 604800.6411719322,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "vuid",
+        "domain": ".vimeo.com",
+        "expires": 1712006186,
+        "time_to_live": 63071999.85762596,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "player",
+        "domain": ".vimeo.com",
+        "expires": 1680470186,
+        "time_to_live": 31535999.85762596,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "limburg.nl": {
+    "frontpage": [
+      {
+        "name": "nmstat",
+        "domain": ".limburg.nl",
+        "expires": 1735334195,
+        "time_to_live": 86399999.34656811,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookies_consent",
+        "domain": "www.limburg.nl",
+        "expires": 1680470195,
+        "time_to_live": 31535999.346568108,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011278.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934196.653432,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "museumserver.nl": {
+    "frontpage": [],
+    "hopped": [
+      {
+        "name": "phorum_tmp_cookie",
+        "domain": "www.museumserver.nl",
+        "expires": -1,
+        "time_to_live": -1648934199.176988,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "rdw.nl": {
+    "frontpage": [
+      {
+        "name": "shell#lang",
+        "domain": "www.rdw.nl",
+        "expires": -1,
+        "time_to_live": -1648934147.116233,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ARRAffinity",
+        "domain": ".www.rdw.nl",
+        "expires": -1,
+        "time_to_live": -1648934147.116233,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ARRAffinitySameSite",
+        "domain": ".www.rdw.nl",
+        "expires": -1,
+        "time_to_live": -1648934147.116233,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".rdw.nl",
+        "expires": 1680470146,
+        "time_to_live": 31535999.88376689,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".rdw.nl",
+        "expires": 1649020546,
+        "time_to_live": 86399.88376688957,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "www.rdw.nl",
+        "expires": -1,
+        "time_to_live": -1648934163.404946,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "overheid.nl": {
+    "frontpage": [
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "www.overheid.nl",
+        "expires": 1648935971,
+        "time_to_live": 1799.5392081737518,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "www.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934172.4607918,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "www.overheid.nl",
+        "expires": 1680470171,
+        "time_to_live": 31535999.539208174,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "www.overheid.nl",
+        "expires": 1680470171,
+        "time_to_live": 31535999.539208174,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "test",
+        "domain": ".overheid.nl",
+        "expires": 1648934181,
+        "time_to_live": 9.539208173751831,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889371,
+        "time_to_live": 33955199.539208174,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648935971,
+        "time_to_live": 1799.5392081737518,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889371,
+        "time_to_live": 33955199.539208174,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648935971,
+        "time_to_live": 1799.5392081737518,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "JSESSIONID",
+        "domain": ".nr-data.net",
+        "expires": -1,
+        "time_to_live": -1648934172.4607918,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns"
+        ]
+      }
+    ],
+    "hopped": [
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934184.176963,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486182.314995,
+        "time_to_live": 15551999.13803196,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "provincie-utrecht.nl": {
+    "frontpage": [
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011275.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934157.0814245,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "provinciegroningen.nl": {
+    "frontpage": [
+      {
+        "name": "_ga",
+        "domain": ".provinciegroningen.nl",
+        "expires": 1712006160,
+        "time_to_live": 63071999.4146049,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".provinciegroningen.nl",
+        "expires": 1649020560,
+        "time_to_live": 86399.41460490227,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".provinciegroningen.nl",
+        "expires": 1648934220,
+        "time_to_live": 59.414604902267456,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "rivm.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.1241.1de9",
+        "domain": "www.rivm.nl",
+        "expires": 1682889317,
+        "time_to_live": 33955199.06159949,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1241.1de9",
+        "domain": "www.rivm.nl",
+        "expires": 1648935917,
+        "time_to_live": 1799.0615994930267,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ZNPCQ003-31323600",
+        "domain": ".rivm.nl",
+        "expires": -1,
+        "time_to_live": -1648934118.9384005,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "octrooigemachtigde.nl": {
+    "frontpage": [
+      {
+        "name": "octrooi",
+        "domain": "www.octrooigemachtigde.nl",
+        "expires": -1,
+        "time_to_live": -1648934168.6217587,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".octrooigemachtigde.nl",
+        "expires": 1712006167,
+        "time_to_live": 63071999.3782413,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".octrooigemachtigde.nl",
+        "expires": 1649020567,
+        "time_to_live": 86399.37824130058,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".octrooigemachtigde.nl",
+        "expires": 1648934227,
+        "time_to_live": 59.378241300582886,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "reftypes",
+        "domain": "www.octrooigemachtigde.nl",
+        "expires": -1,
+        "time_to_live": -1648934180.3376813,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "noord-holland.nl": {
+    "frontpage": [
+      {
+        "name": "JSESSIONID",
+        "domain": "www.noord-holland.nl",
+        "expires": -1,
+        "time_to_live": -1648934184.2427874,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".noord-holland.nl",
+        "expires": 1712006182,
+        "time_to_live": 63071998.75721264,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".noord-holland.nl",
+        "expires": 1649020582,
+        "time_to_live": 86398.75721263885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".noord-holland.nl",
+        "expires": 1648934242,
+        "time_to_live": 58.75721263885498,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".noord-holland.nl",
+        "expires": 1735334182,
+        "time_to_live": 86399998.75721264,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6009048.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934184.2427874,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "denhaag.nl": {
+    "frontpage": [
+      {
+        "name": "NSC_mc_xxx.efoibbh.om_TTM_443",
+        "domain": "www.denhaag.nl",
+        "expires": 1648936107.275811,
+        "time_to_live": 1799.692031621933,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "JSESSIONID",
+        "domain": "www.denhaag.nl",
+        "expires": -1,
+        "time_to_live": -1648934308.5837793,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_P4TFZYF3Y9",
+        "domain": ".denhaag.nl",
+        "expires": 1712006307,
+        "time_to_live": 63071999.416220665,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".denhaag.nl",
+        "expires": 1712006307,
+        "time_to_live": 63071999.416220665,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".denhaag.nl",
+        "expires": 1649020707,
+        "time_to_live": 86399.41622066498,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-8389561-1",
+        "domain": ".denhaag.nl",
+        "expires": 1648934367,
+        "time_to_live": 59.41622066497803,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "www.denhaag.nl",
+        "expires": 1680470307,
+        "time_to_live": 31535999.416220665,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "www.denhaag.nl",
+        "expires": 1648936107,
+        "time_to_live": 1799.416220664978,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "www.denhaag.nl",
+        "expires": -1,
+        "time_to_live": -1648934308.5837793,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "www.denhaag.nl",
+        "expires": 1680470307,
+        "time_to_live": 31535999.416220665,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "test",
+        "domain": ".denhaag.nl",
+        "expires": 1648934317,
+        "time_to_live": 9.416220664978027,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.47c318e2-85ea-486f-8e63-ff75cc8a52db.1142",
+        "domain": ".denhaag.nl",
+        "expires": 1712006308,
+        "time_to_live": 63072000.416220665,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.47c318e2-85ea-486f-8e63-ff75cc8a52db.1142",
+        "domain": ".denhaag.nl",
+        "expires": 1648936108,
+        "time_to_live": 1800.416220664978,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "nwo.nl": {
+    "frontpage": [
+      {
+        "name": "_ga",
+        "domain": ".nwo.nl",
+        "expires": 1712006176,
+        "time_to_live": 63071999.61753893,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".nwo.nl",
+        "expires": 1649020576,
+        "time_to_live": 86399.61753892899,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_dc_gtm_UA-30950465-1",
+        "domain": ".nwo.nl",
+        "expires": 1648934236,
+        "time_to_live": 59.617538928985596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".nwo.nl",
+        "expires": 1735334176,
+        "time_to_live": 86399999.61753893,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011260.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934177.382461,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "kvk.nl": {
+    "frontpage": [
+      {
+        "name": "IDHUB_SESSION",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ADRUM_BTa",
+        "domain": "www.kvk.nl",
+        "expires": 1648934236.952512,
+        "time_to_live": 31.693223476409912,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "SameSite",
+        "domain": "www.kvk.nl",
+        "expires": 1648934236.952582,
+        "time_to_live": 31.69329333305359,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ADRUM_BT1",
+        "domain": "www.kvk.nl",
+        "expires": 1648934236.952602,
+        "time_to_live": 31.693313360214233,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS01b7918c",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS014df7f8",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTasty",
+        "domain": ".kvk.nl",
+        "expires": 1682457404,
+        "time_to_live": 33523198.74071145,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTastySession",
+        "domain": ".kvk.nl",
+        "expires": 1648936004,
+        "time_to_live": 1798.7407114505768,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_26YX2JRENC",
+        "domain": ".kvk.nl",
+        "expires": 1712006204,
+        "time_to_live": 63071998.74071145,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".kvk.nl",
+        "expires": 1649020604,
+        "time_to_live": 86398.74071145058,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".kvk.nl",
+        "expires": 1664486206.113309,
+        "time_to_live": 15552000.854020357,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.chance.GjtvTGDxoatL87S",
+        "domain": "www.kvk.nl",
+        "expires": 1651526204,
+        "time_to_live": 2591998.7407114506,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.activated.GjtvTGDxoatL87S",
+        "domain": "www.kvk.nl",
+        "expires": 1651526204,
+        "time_to_live": 2591998.7407114506,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "last_page.05PUbVYbJL2CA1nrule_0",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "page_count.05PUbVYbJL2CA1nrule_0",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_tdid",
+        "domain": ".kvk.nl",
+        "expires": 1664486206.113348,
+        "time_to_live": 15552000.854059458,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "wwwchannelme_z_sid",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934206.2592885,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "collect.mopinion.com",
+        "expires": 1649539005.190411,
+        "time_to_live": 604799.9311225414,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "mop_ga",
+        "domain": ".kvk.nl",
+        "expires": 1680470205,
+        "time_to_live": 31535999.74071145,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "mop_ga_gid",
+        "domain": ".kvk.nl",
+        "expires": 1649020605,
+        "time_to_live": 86399.74071145058,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_tdbu",
+        "domain": ".kvk.nl",
+        "expires": 1664486206.113337,
+        "time_to_live": 15552000.85404849,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "Pastease.pro_active.chance.05PUbVYbJL2CA1n",
+        "domain": "www.kvk.nl",
+        "expires": 1656710217,
+        "time_to_live": 7775999.340732336,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.pro_active.activated.05PUbVYbJL2CA1n",
+        "domain": "www.kvk.nl",
+        "expires": 1656710217,
+        "time_to_live": 7775999.340732336,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.pro_active.timestamp.05PUbVYbJL2CA1n",
+        "domain": "www.kvk.nl",
+        "expires": 1656710222,
+        "time_to_live": 7776004.340732336,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934308.9419265,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486307.027297,
+        "time_to_live": 15551999.08537054,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "knaw.nl": {
+    "frontpage": [
+      {
+        "name": "I18N_LANGUAGE",
+        "domain": "knaw.nl",
+        "expires": -1,
+        "time_to_live": -1648934220.2002864,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utma",
+        "domain": ".knaw.nl",
+        "expires": 1712006219,
+        "time_to_live": 63071999.79971361,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmc",
+        "domain": ".knaw.nl",
+        "expires": -1,
+        "time_to_live": -1648934220.2002864,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmz",
+        "domain": ".knaw.nl",
+        "expires": 1664702219,
+        "time_to_live": 15767999.799713612,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmt",
+        "domain": ".knaw.nl",
+        "expires": 1648934819,
+        "time_to_live": 599.7997136116028,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmb",
+        "domain": ".knaw.nl",
+        "expires": 1648936019,
+        "time_to_live": 1799.7997136116028,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934265.5628097,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486264.100094,
+        "time_to_live": 15551999.537284374,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "amsterdam.nl": {
+    "frontpage": [
+      {
+        "name": "__cf_bm",
+        "domain": ".fonts.net",
+        "expires": 1648936135.193841,
+        "time_to_live": 1799.9386775493622,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "cookies_consent",
+        "domain": ".amsterdam.nl",
+        "expires": 1680470335,
+        "time_to_live": 31535999.74483657,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".amsterdam.nl",
+        "expires": 1735334335,
+        "time_to_live": 86399999.74483657,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6004851.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934336.2551634,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "houseofrepresentatives.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.6.1d14",
+        "domain": "www.houseofrepresentatives.nl",
+        "expires": 1682889462,
+        "time_to_live": 33955200.11045551,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.6.1d14",
+        "domain": "www.houseofrepresentatives.nl",
+        "expires": 1648936061,
+        "time_to_live": 1799.1104555130005,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "government.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.8.9492",
+        "domain": "www.government.nl",
+        "expires": 1682889467,
+        "time_to_live": 33955199.79278779,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.8.9492",
+        "domain": "www.government.nl",
+        "expires": 1648936067,
+        "time_to_live": 1799.7927877902985,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cntUId",
+        "domain": "onderzoek.platformrijksoverheid.nl",
+        "expires": 2051218801.733325,
+        "time_to_live": 402284534.5261128,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "cntSId",
+        "domain": "onderzoek.platformrijksoverheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934268.2072122,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "gelderland.nl": {
+    "frontpage": [
+      {
+        "name": "__Host-next-auth.csrf-token",
+        "domain": "www.gelderland.nl",
+        "expires": -1,
+        "time_to_live": -1648934273.1448395,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__Secure-next-auth.callback-url",
+        "domain": "www.gelderland.nl",
+        "expires": -1,
+        "time_to_live": -1648934273.1448395,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".gelderland.nl",
+        "expires": 1735334272,
+        "time_to_live": 86399999.85516047,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011274.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934273.1448395,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "vuid",
+        "domain": ".vimeo.com",
+        "expires": 1712006352,
+        "time_to_live": 63071999.85991907,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934375.8855662,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486374.433049,
+        "time_to_live": 15551999.547482729,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "fryslan.frl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.632.61dc",
+        "domain": ".www.fryslan.frl",
+        "expires": 1682889476,
+        "time_to_live": 33955199.798630476,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.632.61dc",
+        "domain": ".www.fryslan.frl",
+        "expires": 1648936076,
+        "time_to_live": 1799.798630475998,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".fryslan.frl",
+        "expires": 1735334276,
+        "time_to_live": 86399999.79863048,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6011271.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934277.2013695,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "eerstekamer.nl": {
+    "frontpage": [],
+    "hopped": [
+      {
+        "name": "_gorilla_csrf",
+        "domain": "onderwijs.eerstekamer.nl",
+        "expires": -1,
+        "time_to_live": -1648934349.7877398,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "SERVERID",
+        "domain": "onderwijs.eerstekamer.nl",
+        "expires": -1,
+        "time_to_live": -1648934349.7877398,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "onderwijs-eerste-kamer-reading-level",
+        "domain": "onderwijs.eerstekamer.nl",
+        "expires": 1680470348,
+        "time_to_live": 31535999.212260246,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ximcms-sessions",
+        "domain": "onderwijs.eerstekamer.nl",
+        "expires": 1648963147.87406,
+        "time_to_live": 28799.08632016182,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.22.1832",
+        "domain": ".derdekamer.nl",
+        "expires": 1682889581,
+        "time_to_live": 33955199.86505151,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.22.1832",
+        "domain": ".derdekamer.nl",
+        "expires": 1648936181,
+        "time_to_live": 1799.8650515079498,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "dnb.nl": {
+    "frontpage": [
+      {
+        "name": "cookiesession1",
+        "domain": "www.dnb.nl",
+        "expires": 1680470288.262506,
+        "time_to_live": 31535999.31313491,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".dnb.nl",
+        "expires": 1657574288,
+        "time_to_live": 8639999.0506289,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6034822.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934289.949371,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934356.2373965,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486354.567611,
+        "time_to_live": 15551999.3302145,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "belastingdienst.nl": {
+    "frontpage": [
+      {
+        "name": "BIGipServerpool_www-dxp.belastingdienst.nl",
+        "domain": "belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookieBLD33",
+        "domain": "belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "BIGipServerpool_www-dxp.belastingdienst.nl",
+        "domain": "www.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookieBLD33",
+        "domain": "www.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "BIGipServerpool_downld-dxp.belastingdienst.nl",
+        "domain": "download.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS01c28963",
+        "domain": ".belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTasty",
+        "domain": ".belastingdienst.nl",
+        "expires": 1682457520,
+        "time_to_live": 33523199.12778783,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookie-255",
+        "domain": "pwa001.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookie240",
+        "domain": "pwa001.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS019af240",
+        "domain": ".pwa001.belastingdienst.nl",
+        "expires": -1,
+        "time_to_live": -1648934321.8722122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTastySession",
+        "domain": ".belastingdienst.nl",
+        "expires": 1648936120,
+        "time_to_live": 1799.1277878284454,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.3.6886",
+        "domain": "www.belastingdienst.nl",
+        "expires": 1682889521,
+        "time_to_live": 33955200.12778783,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.3.6886",
+        "domain": "www.belastingdienst.nl",
+        "expires": 1648936120,
+        "time_to_live": 1799.1277878284454,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "cbs.nl": {
+    "frontpage": [
+      {
+        "name": "_c49b3",
+        "domain": "www.cbs.nl",
+        "expires": -1,
+        "time_to_live": -1648934317.8103075,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".cbs.nl",
+        "expires": 1712006316,
+        "time_to_live": 63071999.1896925,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".cbs.nl",
+        "expires": 1649020716,
+        "time_to_live": 86399.18969249725,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".cbs.nl",
+        "expires": 1648934376,
+        "time_to_live": 59.18969249725342,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "www.cbs.nl",
+        "expires": 1680470316,
+        "time_to_live": 31535999.189692497,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "www.cbs.nl",
+        "expires": 1648936116,
+        "time_to_live": 1799.1896924972534,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "www.cbs.nl",
+        "expires": -1,
+        "time_to_live": -1648934317.8103075,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "www.cbs.nl",
+        "expires": 1680470316,
+        "time_to_live": 31535999.189692497,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.7cd61318-6d21-4775-b1b2-64ec78d416e1.bdac",
+        "domain": "www.cbs.nl",
+        "expires": 1682889516,
+        "time_to_live": 33955199.1896925,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.7cd61318-6d21-4775-b1b2-64ec78d416e1.bdac",
+        "domain": "www.cbs.nl",
+        "expires": 1648936116,
+        "time_to_live": 1799.1896924972534,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "website#lang",
+        "domain": "www.cbs.nl",
+        "expires": -1,
+        "time_to_live": -1648934326.36293,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "guid",
+        "domain": "www.cbs.nl",
+        "expires": 1680470417,
+        "time_to_live": 31535999.38723731,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "visit_number",
+        "domain": "www.cbs.nl",
+        "expires": 1680470417,
+        "time_to_live": 31535999.38723731,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_rapt_2",
+        "domain": ".cbs.nl",
+        "expires": 1648934477,
+        "time_to_live": 59.387237310409546,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "acm.nl": {
+    "frontpage": [
+      {
+        "name": "nmstat",
+        "domain": ".acm.nl",
+        "expires": 1735334343,
+        "time_to_live": 86399999.28551388,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6009235.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934344.7144861,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "SSESS1912135fe4b0a35cb45b94d38181ca51",
+        "domain": ".www.acm.nl",
+        "expires": 1650934410.744297,
+        "time_to_live": 1999999.7397913933,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "puc.overheid.nl": {
+    "frontpage": [
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "puc.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934348.6260097,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "sessie",
+        "domain": "puc.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934348.6260097,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "puc.overheid.nl",
+        "expires": 1680470347,
+        "time_to_live": 31535999.373990297,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936147,
+        "time_to_live": 1799.3739902973175,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "puc.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934348.6260097,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "puc.overheid.nl",
+        "expires": 1680470347,
+        "time_to_live": 31535999.373990297,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.a05b5d0a-cdc0-4a19-8729-6dbe7a0afc95.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1682889547,
+        "time_to_live": 33955199.3739903,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.a05b5d0a-cdc0-4a19-8729-6dbe7a0afc95.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936147,
+        "time_to_live": 1799.3739902973175,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "actieveSessieID",
+        "domain": "puc.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934348.6260097,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "sessie1648934347620ame7v",
+        "domain": "puc.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934354.2307377,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.11c1a327-bd1b-4d87-8938-febbf33044cd.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1682889626,
+        "time_to_live": 33955199.547377825,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.11c1a327-bd1b-4d87-8938-febbf33044cd.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936226,
+        "time_to_live": 1799.5473778247833,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1826dd72-72e0-43b4-83ed-cba77cf2b546.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1682889635,
+        "time_to_live": 33955199.7072525,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1826dd72-72e0-43b4-83ed-cba77cf2b546.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936235,
+        "time_to_live": 1799.7072525024414,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.5eb7b594-581a-42e4-b0c5-6f7af5b863ac.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1682889646,
+        "time_to_live": 33955199.89655495,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.5eb7b594-581a-42e4-b0c5-6f7af5b863ac.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936246,
+        "time_to_live": 1799.8965549468994,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1c0680a6-cce7-4b15-b9c6-0aff754d66d9.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1682889663,
+        "time_to_live": 33955199.62251425,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1c0680a6-cce7-4b15-b9c6-0aff754d66d9.9c17",
+        "domain": "puc.overheid.nl",
+        "expires": 1648936263,
+        "time_to_live": 1799.6225142478943,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "duo.nl": {
+    "frontpage": [
+      {
+        "name": "JSESSIONID",
+        "domain": "duo.nl",
+        "expires": -1,
+        "time_to_live": -1648934445.3025568,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1.0569",
+        "domain": ".duo.nl",
+        "expires": 1682889644,
+        "time_to_live": 33955199.69744325,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1.0569",
+        "domain": ".duo.nl",
+        "expires": 1648936244,
+        "time_to_live": 1799.6974432468414,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "duo-z-count",
+        "domain": "duo.nl",
+        "expires": -1,
+        "time_to_live": -1648934452.70197,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "aantalpaginas",
+        "domain": "duo.nl",
+        "expires": -1,
+        "time_to_live": -1648934477.48292,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "mijn.overheid.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.6.a5fd",
+        "domain": "mijn.overheid.nl",
+        "expires": 1682889582,
+        "time_to_live": 33955199.41056514,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.6.a5fd",
+        "domain": "mijn.overheid.nl",
+        "expires": 1648936182,
+        "time_to_live": 1799.4105651378632,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "mijnoverheid",
+        "domain": "mijn.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934437.0522463,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_persist",
+        "domain": ".digid.nl",
+        "expires": -1,
+        "time_to_live": -1648934474.8445022,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "session-Maintainence",
+        "domain": "digid.nl",
+        "expires": -1,
+        "time_to_live": -1648934474.8445022,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_session_id",
+        "domain": ".digid.nl",
+        "expires": 1648936873.332921,
+        "time_to_live": 2399.48841881752,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.17.661e",
+        "domain": "digid.nl",
+        "expires": 1682889674,
+        "time_to_live": 33955200.15549779,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.17.661e",
+        "domain": "digid.nl",
+        "expires": 1648936273,
+        "time_to_live": 1799.155497789383,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "www.overheid.nl",
+        "expires": 1680470484,
+        "time_to_live": 31535999.05794978,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "www.overheid.nl",
+        "expires": 1648936284,
+        "time_to_live": 1799.0579497814178,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "www.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934485.9420502,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "www.overheid.nl",
+        "expires": 1680470484,
+        "time_to_live": 31535999.05794978,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "test",
+        "domain": ".overheid.nl",
+        "expires": 1648934494,
+        "time_to_live": 9.057949781417847,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889684,
+        "time_to_live": 33955199.05794978,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648936284,
+        "time_to_live": 1799.0579497814178,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889684,
+        "time_to_live": 33955199.05794978,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648936284,
+        "time_to_live": 1799.0579497814178,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "JSESSIONID",
+        "domain": ".nr-data.net",
+        "expires": -1,
+        "time_to_live": -1648934485.9420502,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns"
+        ]
+      }
+    ]
+  },
+  "ind.nl": {
+    "frontpage": [
+      {
+        "name": "PROFILE",
+        "domain": "statistics.ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "nmstat",
+        "domain": ".ind.nl",
+        "expires": 1735334401,
+        "time_to_live": 86399999.5703659,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "ind.nl",
+        "expires": 1680470401,
+        "time_to_live": 31535999.570365906,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "ind.nl",
+        "expires": 1648936201,
+        "time_to_live": 1799.5703659057617,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "ind.nl",
+        "expires": 1680470401,
+        "time_to_live": 31535999.570365906,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSELBCORS",
+        "domain": "6158230.global.siteimproveanalytics.io",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.80ad7219-ce3b-45e3-afad-ea5cfa0ab3e0.d48d",
+        "domain": "ind.nl",
+        "expires": 1682889601,
+        "time_to_live": 33955199.570365906,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.763bce05-4178-41c0-9f85-f0f2e6933527.7421",
+        "domain": ".ind.nl",
+        "expires": 1682889601,
+        "time_to_live": 33955199.570365906,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.763bce05-4178-41c0-9f85-f0f2e6933527.7421",
+        "domain": ".ind.nl",
+        "expires": 1648936201,
+        "time_to_live": 1799.5703659057617,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.80ad7219-ce3b-45e3-afad-ea5cfa0ab3e0.7421",
+        "domain": ".ind.nl",
+        "expires": 1682889601,
+        "time_to_live": 33955199.570365906,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.80ad7219-ce3b-45e3-afad-ea5cfa0ab3e0.7421",
+        "domain": ".ind.nl",
+        "expires": 1648936201,
+        "time_to_live": 1799.5703659057617,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "last_page.uc4rsilpjpgcd1hrit8hi37tvk0y408rrule_0",
+        "domain": "ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "page_count.uc4rsilpjpgcd1hrit8hi37tvk0y408rrule_0",
+        "domain": "ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "5e4eaf41354f17.25243961__cbs",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "5e4eaf41354f17.25243961_bc_5f44fc7c8e74171b2f3345a4_state",
+        "domain": ".ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934402.429634,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "ind.nl",
+        "expires": -1,
+        "time_to_live": -1648934408.7518942,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.exit.chance.uc4rsilpjpgcd1hrit8hi37tvk0y408r",
+        "domain": "ind.nl",
+        "expires": 1664486407,
+        "time_to_live": 15551999.248105764,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.exit.activated.uc4rsilpjpgcd1hrit8hi37tvk0y408r",
+        "domain": "ind.nl",
+        "expires": 1664486407,
+        "time_to_live": 15551999.248105764,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "collect.mopinion.com",
+        "expires": 1649539208.031096,
+        "time_to_live": 604800.279201746,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "fonts.mopinion.com",
+        "expires": 1649539208.345409,
+        "time_to_live": 604800.5935146809,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "ind.mopinion.com",
+        "expires": 1649539208.378026,
+        "time_to_live": 604800.626131773,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.chance.xy4cm6e868q45k2btuqxclkiijm2rfbl",
+        "domain": "ind.nl",
+        "expires": 1651526413,
+        "time_to_live": 2591999.618773222,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.activated.xy4cm6e868q45k2btuqxclkiijm2rfbl",
+        "domain": "ind.nl",
+        "expires": 1651526413,
+        "time_to_live": 2591999.618773222,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "data.overheid.nl": {
+    "frontpage": [
+      {
+        "name": "SSESSa3eaeb1500709ea97d4e3bfab8ddc3f5",
+        "domain": ".data.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934394.8846965,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934394.8846965,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486392.665385,
+        "time_to_live": 15551998.780688524,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "data.overheid.nl",
+        "expires": 1680470393,
+        "time_to_live": 31535999.115303516,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "data.overheid.nl",
+        "expires": 1648936193,
+        "time_to_live": 1799.115303516388,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "data.overheid.nl",
+        "expires": -1,
+        "time_to_live": -1648934394.8846965,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "data.overheid.nl",
+        "expires": 1680470393,
+        "time_to_live": 31535999.115303516,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "test",
+        "domain": ".overheid.nl",
+        "expires": 1648934403,
+        "time_to_live": 9.11530351638794,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.d878bc05-70e8-4720-a8e5-e6bbe995b44e.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889593,
+        "time_to_live": 33955199.11530352,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889593,
+        "time_to_live": 33955199.11530352,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "_pk_id.d76b4013-d950-44ad-a167-412944911d58.340a",
+        "domain": ".overheid.nl",
+        "expires": 1682889676,
+        "time_to_live": 33955199.74048257,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.d76b4013-d950-44ad-a167-412944911d58.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648936276,
+        "time_to_live": 1799.7404825687408,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+        "domain": ".overheid.nl",
+        "expires": 1648936276,
+        "time_to_live": 1799.7404825687408,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "defensie.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_id.39.d9e9",
+        "domain": "www.defensie.nl",
+        "expires": 1682889639,
+        "time_to_live": 33955199.88126898,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.39.d9e9",
+        "domain": "www.defensie.nl",
+        "expires": 1648936239,
+        "time_to_live": 1799.881268978119,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "rvo.nl": {
+    "frontpage": [
+      {
+        "name": "has_js",
+        "domain": "www.rvo.nl",
+        "expires": -1,
+        "time_to_live": -1648934410.0320208,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_traffic_source_priority",
+        "domain": "www.rvo.nl",
+        "expires": 1648936209,
+        "time_to_live": 1799.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_externalReferrer",
+        "domain": "www.rvo.nl",
+        "expires": -1,
+        "time_to_live": -1648934410.0320208,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "mededeling_geladen",
+        "domain": "www.rvo.nl",
+        "expires": 1649020808,
+        "time_to_live": 86398.96797919273,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "test",
+        "domain": ".rvo.nl",
+        "expires": 1648934418,
+        "time_to_live": 8.967979192733765,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+        "domain": ".rvo.nl",
+        "expires": 1682889608,
+        "time_to_live": 33955198.96797919,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.6019ef78-5c19-417c-adc3-a3dd550e0c0c.184f",
+        "domain": ".rvo.nl",
+        "expires": 1648936208,
+        "time_to_live": 1798.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+        "domain": ".rvo.nl",
+        "expires": 1682889608,
+        "time_to_live": 33955198.96797919,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.88ebcccb-893a-4466-a1c1-5474d966c8c1.184f",
+        "domain": ".rvo.nl",
+        "expires": 1648936208,
+        "time_to_live": 1798.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1493.184f",
+        "domain": ".rvo.nl",
+        "expires": 1682889608,
+        "time_to_live": 33955198.96797919,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1493.184f",
+        "domain": ".rvo.nl",
+        "expires": 1648936208,
+        "time_to_live": 1798.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.1073.184f",
+        "domain": ".rvo.nl",
+        "expires": 1682889608,
+        "time_to_live": 33955198.96797919,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.1073.184f",
+        "domain": ".rvo.nl",
+        "expires": 1648936208,
+        "time_to_live": 1798.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "sm_visitor_cross_domain",
+        "domain": ".rvo.nl",
+        "expires": 1743542408,
+        "time_to_live": 94607998.9679792,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "sm_buid",
+        "domain": ".rvo.nl",
+        "expires": 1743542408,
+        "time_to_live": 94607998.9679792,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "sm_session_cross_domain",
+        "domain": ".rvo.nl",
+        "expires": 1648936208,
+        "time_to_live": 1798.9679791927338,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_last_interaction",
+        "domain": "www.rvo.nl",
+        "expires": 1680470409,
+        "time_to_live": 31535999.967979193,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "stg_returning_visitor",
+        "domain": "www.rvo.nl",
+        "expires": 1680470409,
+        "time_to_live": 31535999.967979193,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "ondernemersplein.kvk.nl": {
+    "frontpage": [
+      {
+        "name": "_gid",
+        "domain": ".kvk.nl",
+        "expires": 1649020777,
+        "time_to_live": 86399.71655082703,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-3742073-8",
+        "domain": ".kvk.nl",
+        "expires": 1648934437,
+        "time_to_live": 59.71655082702637,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_session_UA-3742073-8",
+        "domain": ".ondernemersplein.kvk.nl",
+        "expires": 1648936177,
+        "time_to_live": 1799.7165508270264,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_BTDGT29DHD",
+        "domain": ".kvk.nl",
+        "expires": 1712006377,
+        "time_to_live": 63071999.71655083,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".kvk.nl",
+        "expires": 1712006377,
+        "time_to_live": 63071999.71655083,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "IDHUB_SESSION",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "ADRUM_BTa",
+        "domain": "www.kvk.nl",
+        "expires": 1648934420.685865,
+        "time_to_live": 36.94111680984497,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "SameSite",
+        "domain": "www.kvk.nl",
+        "expires": 1648934420.685887,
+        "time_to_live": 36.94113898277283,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "ADRUM_BT1",
+        "domain": "www.kvk.nl",
+        "expires": 1648934420.685894,
+        "time_to_live": 36.94114589691162,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "TS01b7918c",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "TS014df7f8",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTasty",
+        "domain": ".kvk.nl",
+        "expires": 1682457583,
+        "time_to_live": 33523199.255251884,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "ABTastySession",
+        "domain": ".kvk.nl",
+        "expires": 1648936183,
+        "time_to_live": 1799.2552518844604,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_26YX2JRENC",
+        "domain": ".kvk.nl",
+        "expires": 1712006383,
+        "time_to_live": 63071999.255251884,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_tdid",
+        "domain": ".kvk.nl",
+        "expires": 1664486384.60658,
+        "time_to_live": 15552000.861831903,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.chance.GjtvTGDxoatL87S",
+        "domain": "www.kvk.nl",
+        "expires": 1651526383,
+        "time_to_live": 2591999.2552518845,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "Pastease.passive.activated.GjtvTGDxoatL87S",
+        "domain": "www.kvk.nl",
+        "expires": 1651526383,
+        "time_to_live": 2591999.2552518845,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "last_page.05PUbVYbJL2CA1nrule_0",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "page_count.05PUbVYbJL2CA1nrule_0",
+        "domain": "www.kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "wwwchannelme_z_sid",
+        "domain": ".kvk.nl",
+        "expires": -1,
+        "time_to_live": -1648934384.744748,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "collect.mopinion.com",
+        "expires": 1649539183.694706,
+        "time_to_live": 604799.9499578476,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "mop_ga",
+        "domain": ".kvk.nl",
+        "expires": 1680470383,
+        "time_to_live": 31535999.255251884,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "mop_ga_gid",
+        "domain": ".kvk.nl",
+        "expires": 1649020783,
+        "time_to_live": 86399.25525188446,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_tdbu",
+        "domain": ".kvk.nl",
+        "expires": 1664486384.606571,
+        "time_to_live": 15552000.861822844,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-3742073-13",
+        "domain": ".kvk.nl",
+        "expires": 1648934587,
+        "time_to_live": 58.978155851364136,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_session_UA-3742073-13",
+        "domain": ".ondernemersplein.kvk.nl",
+        "expires": 1648936327,
+        "time_to_live": 1798.9781558513641,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "investinholland.com": {
+    "frontpage": [
+      {
+        "name": "_GRECAPTCHA",
+        "domain": "www.google.com",
+        "expires": 1664486398.889576,
+        "time_to_live": 15551999.081242085,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".investinholland.com",
+        "expires": 1656710398,
+        "time_to_live": 7775998.191666126,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "wp-wpml_current_language",
+        "domain": "investinholland.com",
+        "expires": -1,
+        "time_to_live": -1648934400.8083339,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".investinholland.com",
+        "expires": 1712006398,
+        "time_to_live": 63071998.191666126,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".investinholland.com",
+        "expires": 1649020798,
+        "time_to_live": 86398.19166612625,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-30678369-2",
+        "domain": ".investinholland.com",
+        "expires": 1648934458,
+        "time_to_live": 58.19166612625122,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "expires": 1648935298.50615,
+        "time_to_live": 898.6978161334991,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns"
+        ]
+      },
+      {
+        "name": "UserMatchHistory",
+        "domain": ".linkedin.com",
+        "expires": 1651526398.662372,
+        "time_to_live": 2591998.8540382385,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "domain": ".linkedin.com",
+        "expires": 1651526398.662405,
+        "time_to_live": 2591998.8540711403,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lang",
+        "domain": ".ads.linkedin.com",
+        "expires": -1,
+        "time_to_live": -1648934400.8083339,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns",
+          "easylist"
+        ]
+      },
+      {
+        "name": "bcookie",
+        "domain": ".linkedin.com",
+        "expires": 1712048251.662435,
+        "time_to_live": 63113851.85410118,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lidc",
+        "domain": ".linkedin.com",
+        "expires": 1649020799.662458,
+        "time_to_live": 86399.85412406921,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "personalization_id",
+        "domain": ".twitter.com",
+        "expires": 1712006398.710252,
+        "time_to_live": 63071998.90191817,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "muc_ads",
+        "domain": ".t.co",
+        "expires": 1712006398.711236,
+        "time_to_live": 63071998.90290213,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lang",
+        "domain": ".linkedin.com",
+        "expires": -1,
+        "time_to_live": -1648934400.8083339,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "bscookie",
+        "domain": ".www.linkedin.com",
+        "expires": 1712048250.932578,
+        "time_to_live": 63113851.12424421,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "li_gc",
+        "domain": ".linkedin.com",
+        "expires": 1711569341.932602,
+        "time_to_live": 62634942.124268055,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "IDE",
+        "domain": ".doubleclick.net",
+        "expires": 1682630408.853348,
+        "time_to_live": 33695999.34535074,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns"
+        ]
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1648934514.5370448,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664486512.619497,
+        "time_to_live": 15551999.082452297,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "business.gov.nl": {
+    "frontpage": [
+      {
+        "name": "_gid",
+        "domain": ".gov.nl",
+        "expires": 1649020865,
+        "time_to_live": 86399.22032785416,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-3742073-10",
+        "domain": ".gov.nl",
+        "expires": 1648934525,
+        "time_to_live": 59.220327854156494,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSessionUser_630207",
+        "domain": ".gov.nl",
+        "expires": 1680470465,
+        "time_to_live": 31535999.220327854,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjFirstSeen",
+        "domain": ".gov.nl",
+        "expires": 1648936265,
+        "time_to_live": 1799.2203278541565,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjIncludedInSessionSample",
+        "domain": "business.gov.nl",
+        "expires": 1648934585,
+        "time_to_live": 119.2203278541565,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSession_630207",
+        "domain": ".gov.nl",
+        "expires": 1648936265,
+        "time_to_live": 1799.2203278541565,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjIncludedInPageviewSample",
+        "domain": "business.gov.nl",
+        "expires": 1648934585,
+        "time_to_live": 119.2203278541565,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "domain": ".gov.nl",
+        "expires": 1648936265,
+        "time_to_live": 1799.2203278541565,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_845PX04177",
+        "domain": ".gov.nl",
+        "expires": 1712006465,
+        "time_to_live": 63071999.220327854,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".gov.nl",
+        "expires": 1712006465,
+        "time_to_live": 63071999.220327854,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  }
+}

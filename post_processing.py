@@ -8,7 +8,7 @@ ALL_TRACKERS = {'adguarddns': np.loadtxt('3rd-party-trackers/adguarddns-justdoma
                 'easyprivacy': np.loadtxt('3rd-party-trackers/easyprivacy-justdomains-sorted.txt', dtype=str),
                 'nocoin': np.loadtxt('3rd-party-trackers/nocoin-justdomains-sorted.txt', dtype=str)}
 
-FIELDS = ["name", "domain", "expires"]
+FIELDS = ["name", "domain", "expires", "time_to_live"]
 
 
 def parse_cookie(cookie, website):

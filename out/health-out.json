@@ -1,48 +1,776 @@
 {
-  "kwf.nl": [
-    {
-      "name": "demdex",
-      "domain": ".demdex.net",
-      "expires": 1663493033.354275,
-      "third_party": true,
-      "trackers_list": [
-        "adguarddns",
-        "easyprivacy"
-      ]
-    },
-    {
-      "name": "dpm",
-      "domain": ".dpm.demdex.net",
-      "expires": 1663493033.354235,
-      "third_party": true,
-      "trackers_list": []
-    }
-  ],
-  "hersenstichting.nl": [
-    {
-      "name": "__cf_bm",
-      "domain": ".myfonts.net",
-      "expires": 1647942834.15323,
-      "third_party": true,
-      "trackers_list": []
-    }
-  ],
-  "radboudumc.nl": [
-    {
-      "name": "__cf_bm",
-      "domain": ".fonts.net",
-      "expires": 1647942834.028485,
-      "third_party": true,
-      "trackers_list": []
-    }
-  ],
-  "ggz.nl": [
-    {
-      "name": "_GRECAPTCHA",
-      "domain": "www.google.com",
-      "expires": 1663493037.696529,
-      "third_party": true,
-      "trackers_list": []
-    }
-  ]
+  "erasmusmc.nl": {
+    "frontpage": [
+      {
+        "name": "ARRAffinity",
+        "domain": ".www.erasmusmc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ARRAffinitySameSite",
+        "domain": ".www.erasmusmc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "erasmusmc#lang",
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "shell#lang",
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__Host-SessionId",
+        "domain": "www.erasmusmc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.21.5e16",
+        "domain": "www.erasmusmc.nl",
+        "expires": 1682866074,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.21.5e16",
+        "domain": "www.erasmusmc.nl",
+        "expires": 1648912673,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "radboudumc.nl": {
+    "frontpage": [
+      {
+        "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
+        "domain": "radboudumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS016800b8",
+        "domain": "radboudumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "BIGipServer~DMZ-PRD~www-radboudumc-443_pool",
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "TS016800b8",
+        "domain": "www.radboudumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".fonts.net",
+        "expires": 1648912673.764667,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "didPersonalMenuAnimation",
+        "domain": "www.radboudumc.nl",
+        "expires": 1651589274,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "_ga",
+        "domain": ".radboudumc.nl",
+        "expires": 1711982880,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".radboudumc.nl",
+        "expires": 1648997280,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_gtag_UA_10299829_1",
+        "domain": ".radboudumc.nl",
+        "expires": 1648910940,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "vumc.nl": {
+    "frontpage": [
+      {
+        "name": "_ga",
+        "domain": ".vumc.nl",
+        "expires": 1711982873,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".vumc.nl",
+        "expires": 1648997273,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_gtag_UA_31409514_2",
+        "domain": ".vumc.nl",
+        "expires": 1648910933,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "JSESSIONID",
+        "domain": "vumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "ggd.nl": {
+    "frontpage": [
+      {
+        "name": "_ga",
+        "domain": ".ggd.nl",
+        "expires": 1711982883,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".ggd.nl",
+        "expires": 1648997283,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_gtag_UA_11117292_3",
+        "domain": ".ggd.nl",
+        "expires": 1648910943,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "hersenstichting.nl": {
+    "frontpage": [
+      {
+        "name": "__cf_bm",
+        "domain": ".myfonts.net",
+        "expires": 1648912672.89763,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".hersenstichting.nl",
+        "expires": 1711982874,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".hersenstichting.nl",
+        "expires": 1648997274,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-4204262-1",
+        "domain": ".hersenstichting.nl",
+        "expires": 1648910934,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "mumc.nl": {
+    "frontpage": [
+      {
+        "name": "_ga",
+        "domain": ".mumc.nl",
+        "expires": 1711982874,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".mumc.nl",
+        "expires": 1648997274,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_gtag_UA_24689525_1",
+        "domain": ".mumc.nl",
+        "expires": 1648910934,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "umcutrecht.nl": {
+    "frontpage": [
+      {
+        "name": "NSC_WT_BAVSFDPSQ_VNDVUSFDIU_TTM",
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910994.75609,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "NSC_WT_BAVSFDPSQ_IUUQ",
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910991.756107,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "NSC_WT_BAVSFDPSQ_TTM",
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910990.75612,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "NSC_ESNS",
+        "domain": "www.umcutrecht.nl",
+        "expires": 1648910888.756052,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".umcutrecht.nl",
+        "expires": 1648997274,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_UA-47137332-1",
+        "domain": ".umcutrecht.nl",
+        "expires": 1648910934,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_M5LHFHMY2W",
+        "domain": ".umcutrecht.nl",
+        "expires": 1711982874,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".umcutrecht.nl",
+        "expires": 1711982874,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664462902.594342,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "kwf.nl": {
+    "frontpage": [
+      {
+        "name": "_vwo_uuid_v2",
+        "domain": ".kwf.nl",
+        "expires": 1680533271,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "adobeId",
+        "domain": "www.kwf.nl",
+        "expires": 1648997271,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_vis_opt_s",
+        "domain": ".kwf.nl",
+        "expires": 1657550871,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_vis_opt_test_cookie",
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_vwo_uuid",
+        "domain": ".kwf.nl",
+        "expires": 1964270871,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_vwo_sn",
+        "domain": ".kwf.nl",
+        "expires": 1648912671,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_vwo_ds",
+        "domain": ".kwf.nl",
+        "expires": 1654094871,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "demdex",
+        "domain": ".demdex.net",
+        "expires": 1664462872.347705,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns",
+          "easyprivacy"
+        ]
+      },
+      {
+        "name": "AMCVS_15E9A2BC56CADCE67F000101%40AdobeOrg",
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "dpm",
+        "domain": ".dpm.demdex.net",
+        "expires": 1664462872.347673,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AMCV_15E9A2BC56CADCE67F000101%40AdobeOrg",
+        "domain": ".kwf.nl",
+        "expires": 1712069272,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_nr",
+        "domain": ".kwf.nl",
+        "expires": 1651502872,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_lastvisit",
+        "domain": ".kwf.nl",
+        "expires": 1743518872,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "gpv_pn",
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "gpv_url",
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_dl",
+        "domain": ".kwf.nl",
+        "expires": 1648912672,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_cmgvo",
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "utag_main",
+        "domain": ".kwf.nl",
+        "expires": 1680446872,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_cc",
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "s_icmphist",
+        "domain": ".kwf.nl",
+        "expires": 1806677330,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "s_icmp_per",
+        "domain": ".kwf.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ]
+  },
+  "hartstichting.nl": {
+    "frontpage": [
+      {
+        "name": "ARRAffinity",
+        "domain": ".hartstichting.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ARRAffinitySameSite",
+        "domain": ".hartstichting.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ASP.NET_SessionId",
+        "domain": "www.hartstichting.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "CMSPreferredCulture",
+        "domain": "www.hartstichting.nl",
+        "expires": 1680446871.271805,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "internalIPCookie",
+        "domain": "www.hartstichting.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".hartstichting.nl",
+        "expires": 1648997273,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".www.hartstichting.nl",
+        "expires": 1711982873,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".www.hartstichting.nl",
+        "expires": 1648997273,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_P490EVXFBK",
+        "domain": ".hartstichting.nl",
+        "expires": 1711982873,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".hartstichting.nl",
+        "expires": 1711982873,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSessionUser_58512",
+        "domain": ".hartstichting.nl",
+        "expires": 1680446873,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjFirstSeen",
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjIncludedInSessionSample",
+        "domain": "www.hartstichting.nl",
+        "expires": 1648910993,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSession_58512",
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjIncludedInPageviewSample",
+        "domain": "www.hartstichting.nl",
+        "expires": 1648910993,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "domain": ".hartstichting.nl",
+        "expires": 1648912673,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "CMSCookieLevel",
+        "domain": "www.hartstichting.nl",
+        "expires": 1680446911.907291,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_fbp",
+        "domain": ".hartstichting.nl",
+        "expires": 1656686987,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "UserMatchHistory",
+        "domain": ".linkedin.com",
+        "expires": 1651502912.530665,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "domain": ".linkedin.com",
+        "expires": 1651502912.530699,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lang",
+        "domain": ".ads.linkedin.com",
+        "expires": -1,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns",
+          "easylist"
+        ]
+      },
+      {
+        "name": "bcookie",
+        "domain": ".linkedin.com",
+        "expires": 1712024764.530717,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lidc",
+        "domain": ".linkedin.com",
+        "expires": 1648997312.530729,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "personalization_id",
+        "domain": ".twitter.com",
+        "expires": 1711982912.552922,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "muc_ads",
+        "domain": ".t.co",
+        "expires": 1711982912.582336,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "lang",
+        "domain": ".linkedin.com",
+        "expires": -1,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "bscookie",
+        "domain": ".www.linkedin.com",
+        "expires": 1712024764.661505,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "li_gc",
+        "domain": ".linkedin.com",
+        "expires": 1711575185.661522,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "IDE",
+        "domain": ".doubleclick.net",
+        "expires": 1682606918.539294,
+        "third_party": true,
+        "trackers_list": [
+          "adguarddns"
+        ]
+      },
+      {
+        "name": "vuid",
+        "domain": ".vimeo.com",
+        "expires": 1711982976,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
+  "lumc.nl": {
+    "frontpage": [
+      {
+        "name": "JSESSIONID",
+        "domain": "www.lumc.nl",
+        "expires": -1,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".lumc.nl",
+        "expires": 1711982874,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".lumc.nl",
+        "expires": 1648997274,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat",
+        "domain": ".lumc.nl",
+        "expires": 1648910935,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "coronadashboard.rijksoverheid.nl": {
+    "frontpage": [
+      {
+        "name": "_pk_ses.7939.011f",
+        "domain": "coronadashboard.rijksoverheid.nl",
+        "expires": 1648912691,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.7939.011f",
+        "domain": "coronadashboard.rijksoverheid.nl",
+        "expires": 1682866091,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "ggz.nl": {
+    "frontpage": [
+      {
+        "name": "_GRECAPTCHA",
+        "domain": "www.google.com",
+        "expires": 1664462876.06533,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "dwqa_anonymous",
+        "domain": "ggz.be",
+        "expires": 1964270892.64801,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  }
 }
