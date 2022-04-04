@@ -99,7 +99,75 @@ def time_to_live_distribution(filename, outfile):
 
     data = [c for c in data if c >= 0]
     plt.hist(data, bins=100)
-    plt.show()
+    plt.close()
+    # plt.show()
+
+def thirdparty_stats(filename):
+    processedCookies = process_cookies(filename)
+
+    cookieCount = 0
+    thirdpartyCookies = 0
+    websites_with_thirdparty_cookies = 0
+
+    shouldCount = True
+    for website in processedCookies:
+        for cookie in processedCookies[website]["frontpage"]:
+            cookieCount += 1
+            if cookie["third_party"]:
+                thirdpartyCookies += 1
+                if shouldCount:
+                    websites_with_thirdparty_cookies += 1
+                    shouldCount = False
+
+        for cookie in processedCookies[website]["hopped"]:
+            cookieCount += 1
+            if cookie["third_party"]:
+                thirdpartyCookies += 1
+                if shouldCount:
+                    websites_with_thirdparty_cookies += 1
+                    shouldCount = False
+
+        shouldCount = True
+
+    percentage_thirdparty_cookies = thirdpartyCookies / cookieCount
+    avg_thirdparty_cookies =  thirdpartyCookies / len(processedCookies)
+    percentage_with_thirdparty_cookies = websites_with_thirdparty_cookies / len(processedCookies)
+    avg_thirdparty_cookies_for_present = thirdpartyCookies / websites_with_thirdparty_cookies
+    print(filename)
+    print("third party cookie percentage: " + str(percentage_thirdparty_cookies))
+    print("Percentage of websites of third party cookies: " + str(percentage_with_thirdparty_cookies))
+    print("Average amount of third party cookies: " + str(avg_thirdparty_cookies))
+    print("Average amount of third party cookies for the amount of websites that have third party cookies: " + str(avg_thirdparty_cookies_for_present))
+
+def tracker_stats(filename):
+    processedCookies = process_cookies(filename)
+
+    totalTrackers = 0
+    websitesWithTrackers = 0
+
+    shouldCount = True
+    for website in processedCookies:
+        totalCookies = processedCookies[website]["frontpage"] + processedCookies[website]["hopped"]
+        for cookie in totalCookies:
+            if  len(cookie["trackers_list"]) > 0:
+                totalTrackers += 1
+                if shouldCount:
+                    websitesWithTrackers += 1
+                    shouldCount = False
+
+        shouldCount = True
+
+
+    percentage_websites_with_trackers = websitesWithTrackers / len(processedCookies)
+    avg_trackers = totalTrackers / len(processedCookies)
+    avg_trackers_for_tracker_website = totalTrackers / websitesWithTrackers
+
+    print(filename)
+    print("Total trackers: " + str(totalTrackers))
+    print("Percentage of websites with trackers: " + str(percentage_websites_with_trackers))
+    print("Average trackers for all websites: " + str(avg_trackers))
+    print("Average trackers for all websites with trackers: " + str(avg_trackers_for_tracker_website))
+
 
 if __name__ == "__main__":
     frontpage_vs_hop_cookies("out/government-out.json", "graphs/government_frontpage_vs_hopped_cookies_bar.png")
@@ -111,3 +179,11 @@ if __name__ == "__main__":
     total_cookies_vs_thirdparty_cookies("out/universities-out.json", "graphs/universities_total_vs_thirdparty.png")
 
     time_to_live_distribution("out/government-out.json", "graphs/government-time-to-live-distribution.png")
+
+    #thirdparty_stats("out/government-out.json")
+    #thirdparty_stats("out/health-out.json")
+    #thirdparty_stats("out/universities-out.json")
+
+    tracker_stats("out/government-out.json")
+    tracker_stats("out/health-out.json")
+    tracker_stats("out/universities-out.json")
