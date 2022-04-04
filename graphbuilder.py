@@ -85,21 +85,6 @@ def total_cookies_vs_thirdparty_cookies(filename, outfile):
     plt.savefig(outfile)
     plt.close()
 
-def time_to_live_distribution(filename, outfile):
-    processedCookies = process_cookies(filename)
-
-    data = []
-    for website in processedCookies:
-        for cookie in processedCookies[website]["frontpage"]:
-            data.append(cookie["time_to_live"])
-        for cookie in processedCookies[website]["hopped"]:
-            data.append(cookie["time_to_live"])
-
-    data = [c for c in data if c >= 0]
-    plt.hist(data, bins=100)
-    plt.close()
-    # plt.show()
-
 def thirdparty_stats(filename):
     processedCookies = process_cookies(filename)
 
@@ -166,6 +151,88 @@ def tracker_stats(filename):
     print("Average trackers for all websites: " + str(avg_trackers))
     print("Average trackers for all websites with trackers: " + str(avg_trackers_for_tracker_website))
 
+def expiry_time_graph(filename, outfile):
+    processedCookies = process_cookies(filename)
+
+    data = {"session": [], "hour": [], "day": [], "month": [], "year": [], "greaterthanyear": []}  # Percentages
+    sortedCookies = {"fp": [], "tp": [], "tpt": []}
+
+    # Sort cookies based on their category
+    for website in processedCookies:
+        cookies = processedCookies[website]["frontpage"] + processedCookies[website]["hopped"]
+        for cookie in cookies:
+            if not cookie["third_party"]:
+                sortedCookies["fp"].append(cookie)
+            else:
+                if len(cookie["trackers_list"]) > 0:
+                    sortedCookies["tpt"].append(cookie)
+                else:
+                    sortedCookies["tp"].append(cookie)
+
+    times = [3600, 86400, 2629743, 31536000]
+    timeNames = ["hour", "day", "month", "year"]
+
+    # Session & more than a year
+    for cookieType in sortedCookies:
+        cookies = sortedCookies[cookieType]
+        count = {"session": 0, "hour": 0, "day": 0, "month": 0, "year": 0, "greaterthanyear": 0}
+
+        for cookie in cookies:
+            if cookie["time_to_live"] <= 0:
+                count["session"] += 1
+            elif cookie["time_to_live"] > 31536000:
+                count["greaterthanyear"] += 1
+            elif cookie["time_to_live"] < times[0]:
+                count["hour"] += 1
+            else:
+                current_time_to_live = cookie["time_to_live"]
+                # Find out between which times it is
+                for x in range(4):
+                    if times[x] <= current_time_to_live <= times[x + 1]:
+                        if current_time_to_live - times[x] >= times[x + 1] - current_time_to_live:
+                            count[timeNames[x+1]] += 1
+                        else:
+                            count[timeNames[x]] += 1
+                        break
+
+        # Calculate percentages
+        for timespan in data:
+            percentage = (count[timespan] / len(cookies)) * 100
+            data[timespan].append(percentage)
+
+    total = [0, 0, 0]
+    for timespan in data:
+        for x in range(len(data[timespan])):
+            total[x] += data[timespan][x]
+    print(total)
+    # Making graph
+    index = np.arange(3) + 0.3
+
+    print(index)
+    leftCoordinates = {"session":[0,0,0], "hour": [0,0,0], "day": [0,0,0], "month": [0,0,0], "year": [0,0,0], "greaterthanyear": [0,0,0]}
+    allNames = ["session", "hour", "day", "month", "year", "greaterthanyear"]
+    # offsets
+    for x in range(1, len(allNames)):
+        for y in range(len(leftCoordinates[allNames[x]])):
+            leftCoordinates[allNames[x]][y] += leftCoordinates[allNames[x-1]][y] + data[allNames[x-1]][y]
+
+    plt.figure(figsize=(5,4))
+    plt.barh(index, width=data["session"], height=0.6, label="session")
+    plt.barh(index, width=data["hour"], height=0.6, left=leftCoordinates["hour"], label="hour")
+    plt.barh(index, width=data["day"], height=0.6, left=leftCoordinates["day"], label="day")
+    plt.barh(index, width=data["month"], height=0.6, left=leftCoordinates["month"], label="month")
+    plt.barh(index, width=data["year"], height=0.6, left=leftCoordinates["year"], label="year")
+    plt.barh(index, width=data["greaterthanyear"], height=0.6, left=leftCoordinates["greaterthanyear"], label="More than a year")
+
+    plt.yticks(index, ["FP" + "(" + str(len(sortedCookies["fp"])) + ")", "TP" + "(" + str(len(sortedCookies["tp"])) + ")", "TPT" + "(" + str(len(sortedCookies["tpt"])) + ")"])
+    plt.xticks(np.arange(start=0, stop=100, step=20) + 20)
+    plt.margins(x=0)
+    plt.xlabel("Percentage %")
+
+    plt.legend(loc='upper center', bbox_to_anchor=(0.5,-0.12), ncol=3)
+    print("d")
+    plt.savefig(outfile, bbox_inches='tight')
+    plt.close()
 
 if __name__ == "__main__":
     frontpage_vs_hop_cookies("out/government-out.json", "graphs/government_frontpage_vs_hopped_cookies_bar.png")
@@ -176,12 +243,14 @@ if __name__ == "__main__":
     total_cookies_vs_thirdparty_cookies("out/health-out.json", "graphs/health_total_vs_thirdparty.png")
     total_cookies_vs_thirdparty_cookies("out/universities-out.json", "graphs/universities_total_vs_thirdparty.png")
 
-    time_to_live_distribution("out/government-out.json", "graphs/government-time-to-live-distribution.png")
-
     #thirdparty_stats("out/government-out.json")
     #thirdparty_stats("out/health-out.json")
     #thirdparty_stats("out/universities-out.json")
 
-    tracker_stats("out/government-out.json")
-    tracker_stats("out/health-out.json")
-    tracker_stats("out/universities-out.json")
+    #tracker_stats("out/government-out.json")
+    #tracker_stats("out/health-out.json")
+    #tracker_stats("out/universities-out.json")
+
+    expiry_time_graph("out/government-out.json", "graphs/gov-time-to-live-graph.png")
+    expiry_time_graph("out/health-out.json", "graphs/health-time-to-live-graph.png")
+    expiry_time_graph("out/universities-out.json", "graphs/universities-time-to-live-graph.png")

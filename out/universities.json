@@ -1,30 +1,10 @@
 {
-  "tilburguniversity.edu": {
-    "frontpage": [
-      {
-        "domain": "www.tilburguniversity.edu",
-        "expires": -1,
-        "httpOnly": false,
-        "name": "worker",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": true,
-        "size": 12,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": ".fabri",
-        "time_to_live": -1648932921.0651774
-      }
-    ],
-    "hopped": []
-  },
   "wur.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "wageningenur.blueconic.net",
-        "expires": 1680468921.910043,
+        "expires": 1680618250.085048,
         "httpOnly": true,
         "name": "BCSessionID",
         "path": "/DG/DEFAULT",
@@ -36,8 +16,8 @@
         "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "c99f32b3-155d-4ed8-afc2-308e8bd8f400",
-        "time_to_live": 31535999.726195097
+        "value": "97b9e2be-b869-4cc4-b4e0-296c287bf1ed",
+        "time_to_live": 31535999.788875103
       },
       {
         "domain": "wur.nl",
@@ -52,8 +32,8 @@
         "size": 116,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "01dbcbefac2ad90812f192c368b2ce062600e00b2c984622d41ebf86553b11e29dd4faa7786c62358952fa088834d3cdf2f000b6f5",
-        "time_to_live": -1648932923.183848
+        "value": "01dbcbefac93eaa0354466a11631b8e23defe290abff6984a6806f8a450d077a0a260c7ff9fc87a5525072313c3b9ea72b1d7badd7",
+        "time_to_live": -1649082251.2961729
       },
       {
         "domain": "www.wur.nl",
@@ -68,12 +48,12 @@
         "size": 116,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "01dbcbefacdcbbaef04e0b03df745ae40d5d2a1a850362c8f1b97c363a88502da83013f0be948d33c780889c038a36cb3ebbae3f56",
-        "time_to_live": -1648932923.183848
+        "value": "01dbcbefacff2a0b84946f0821abad0f83342c522c73a460abcd6f277fbabf0a259c884369c1850fa4f637aa4e8b3ca67488b67ad4",
+        "time_to_live": -1649082251.2961729
       },
       {
         "domain": ".wur.nl",
-        "expires": 1680555321,
+        "expires": 1680704649,
         "httpOnly": false,
         "name": "_vwo_uuid_v2",
         "path": "/",
@@ -84,12 +64,12 @@
         "size": 78,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "D6ABE59D361422E8F3D72AB982C8A15AB|607f9deca0f0e10b8ada757cecfa5fe5",
-        "time_to_live": 31622398.816152096
+        "value": "DA5A4C3CAF3B870BE868EDC3B86EC9D03|e1ec3732de78bfffda4b3caf3c48ee18",
+        "time_to_live": 31622398.703827143
       },
       {
         "domain": ".wur.nl",
-        "expires": 1656708921,
+        "expires": 1656858249,
         "httpOnly": false,
         "name": "_gcl_au",
         "path": "/",
@@ -97,15 +77,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 30,
+        "size": 32,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "1.1.15936412.1648932921",
-        "time_to_live": 7775998.816152096
+        "value": "1.1.1893217179.1649082250",
+        "time_to_live": 7775998.703827143
       },
       {
         "domain": ".wur.nl",
-        "expires": 1712004922,
+        "expires": 1712154250,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -116,12 +96,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.2083219433.1648932922",
-        "time_to_live": 63071999.816152096
+        "value": "GA1.2.1081742111.1649082250",
+        "time_to_live": 63071999.70382714
       },
       {
         "domain": ".wur.nl",
-        "expires": 1649019322,
+        "expires": 1649168650,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -129,15 +109,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 30,
+        "size": 31,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.340863450.1648932922",
-        "time_to_live": 86399.8161520958
+        "value": "GA1.2.1606188153.1649082250",
+        "time_to_live": 86399.70382714272
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
         "httpOnly": false,
         "name": "_dc_gtm_UA-33618209-9",
         "path": "/",
@@ -149,11 +129,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.81615209579468
+        "time_to_live": 58.703827142715454
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
         "httpOnly": false,
         "name": "_gat_null",
         "path": "/",
@@ -165,11 +145,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.81615209579468
+        "time_to_live": 58.703827142715454
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
         "httpOnly": false,
         "name": "_dc_gtm_UA-33618209-1",
         "path": "/",
@@ -181,11 +161,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.81615209579468
+        "time_to_live": 58.703827142715454
       },
       {
         "domain": ".wur.nl",
-        "expires": 1680468921,
+        "expires": 1680618249,
         "httpOnly": false,
         "name": "BCSessionID",
         "path": "/",
@@ -196,12 +176,12 @@
         "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "c99f32b3-155d-4ed8-afc2-308e8bd8f400",
-        "time_to_live": 31535998.816152096
+        "value": "97b9e2be-b869-4cc4-b4e0-296c287bf1ed",
+        "time_to_live": 31535998.703827143
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082310,
         "httpOnly": false,
         "name": "_gat_UA-33618209-9",
         "path": "/",
@@ -213,11 +193,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.81615209579468
+        "time_to_live": 59.703827142715454
       },
       {
         "domain": ".wur.nl",
-        "expires": 1680468922,
+        "expires": 1680618250,
         "httpOnly": false,
         "name": "_hjSessionUser_31224",
         "path": "/",
@@ -229,12 +209,12 @@
         "size": 136,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "eyJpZCI6IjJkYjJiZWYwLTFkM2ItNWRmOC05NmQ4LTg5YmUxM2JiM2QzMSIsImNyZWF0ZWQiOjE2NDg5MzI5MjIwMzksImV4aXN0aW5nIjpmYWxzZX0=",
-        "time_to_live": 31535999.816152096
+        "value": "eyJpZCI6ImUwZDBiOWU1LTI2ZTMtNTcyZC1iZGJjLTU0ZWUyMDM4ZDAzMiIsImNyZWF0ZWQiOjE2NDkwODIyNTAwMzcsImV4aXN0aW5nIjpmYWxzZX0=",
+        "time_to_live": 31535999.703827143
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
         "httpOnly": false,
         "name": "_hjFirstSeen",
         "path": "/",
@@ -247,11 +227,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 1799.8161520957947
+        "time_to_live": 1799.7038271427155
       },
       {
         "domain": "www.wur.nl",
-        "expires": 1648933042,
+        "expires": 1649082370,
         "httpOnly": false,
         "name": "_hjIncludedInSessionSample",
         "path": "/",
@@ -263,12 +243,12 @@
         "size": 27,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 119.81615209579468
+        "value": "0",
+        "time_to_live": 119.70382714271545
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
         "httpOnly": false,
         "name": "_hjSession_31224",
         "path": "/",
@@ -280,12 +260,12 @@
         "size": 132,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "eyJpZCI6IjgxNzIyOTE0LWMwMWEtNDVjMS1iNThmLWM4ZDJhYWU1OTBmYyIsImNyZWF0ZWQiOjE2NDg5MzI5MjIwNDcsImluU2FtcGxlIjp0cnVlfQ==",
-        "time_to_live": 1799.8161520957947
+        "value": "eyJpZCI6IjBiMTBhYjlmLWY0ZTctNDdkMi1hNDE5LTdmMWZjNjdmZjI4ZSIsImNyZWF0ZWQiOjE2NDkwODIyNTAxMjksImluU2FtcGxlIjpmYWxzZX0=",
+        "time_to_live": 1799.7038271427155
       },
       {
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
         "httpOnly": false,
         "name": "_hjAbsoluteSessionInProgress",
         "path": "/",
@@ -297,12 +277,12 @@
         "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "0",
-        "time_to_live": 1799.8161520957947
+        "value": "1",
+        "time_to_live": 1799.7038271427155
       },
       {
         "domain": "wageningenur.blueconic.net",
-        "expires": 1649537722.500094,
+        "expires": 1649687050.575078,
         "httpOnly": false,
         "name": "AWSALBCORS",
         "path": "/",
@@ -314,49 +294,134 @@
         "size": 134,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "hUQjn5FlsQ4k/+voKauANKbglqJmIyDUSY59Fiep1UH+TS9BOqj2pusJ3wj912T6GovUCPo2qcrfBTHfufV+gQfR/LxS7MWEVfZdh9pE8G+kNUid/Jtx4H9/Ln4p",
-        "time_to_live": 604800.3162460327
+        "value": "8hSJuYFWDUw/MkT86we4hkX0BHckd1w4QY/8WdeQ1qvTOYPOP+8d9JTI/28YZa+jJcxKeBA6eJl/UHt7I/UViW2qvhqEVOfskz2uWimWJq+5fDBPHDBLjxvw4TDw",
+        "time_to_live": 604800.2789051533
       }
-    ],
-    "hopped": []
+    ]
   },
-  "ru.nl": {
+  "tua.nl": {
+    "hopped": [],
     "frontpage": [
       {
-        "domain": ".ru.nl",
-        "expires": 1680468921,
+        "domain": "www.tua.nl",
+        "expires": -1,
         "httpOnly": false,
-        "name": "cookie_notification",
+        "name": "PHPSESSID",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
-        "secure": true,
+        "secure": false,
+        "session": true,
+        "size": 35,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "g0paknpggu8meghlc471rpsled",
+        "time_to_live": -1649082256.0365794
+      },
+      {
+        "domain": ".tua.nl",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
         "session": false,
         "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "functional",
-        "time_to_live": 31535998.453123093
+        "value": "GA1.2.486560219.1649082252",
+        "time_to_live": 63071996.96342063
       },
       {
-        "domain": ".ru.nl",
-        "expires": 1680468922,
+        "domain": ".tua.nl",
+        "expires": 1649168652,
         "httpOnly": false,
-        "name": "cookies_consent",
+        "name": "_gid",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
-        "secure": true,
+        "secure": false,
         "session": false,
-        "size": 17,
+        "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "-1",
-        "time_to_live": 31535999.453123093
+        "value": "GA1.2.811894664.1649082252",
+        "time_to_live": 86396.9634206295
+      },
+      {
+        "domain": ".tua.nl",
+        "expires": 1649082312,
+        "httpOnly": false,
+        "name": "_gat_gtag_UA_2143424_36",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 24,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 56.96342062950134
+      },
+      {
+        "domain": ".tua.nl",
+        "expires": 1656858252,
+        "httpOnly": false,
+        "name": "_fbp",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 33,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "fb.1.1649082252319.1268960355",
+        "time_to_live": 7775996.9634206295
+      }
+    ]
+  },
+  "ru.nl": {
+    "hopped": [],
+    "frontpage": [
+      {
+        "domain": ".ru.nl",
+        "expires": 1712154255,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.238293917.1649082256",
+        "time_to_live": 63071998.65176821
+      },
+      {
+        "domain": ".ru.nl",
+        "expires": 1649168655,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.95178196.1649082256",
+        "time_to_live": 86398.65176820755
       },
       {
         "domain": "www.ru.nl",
-        "expires": 1682888122,
+        "expires": 1683037456,
         "httpOnly": false,
         "name": "_pk_id.4.4de0",
         "path": "/",
@@ -368,12 +433,12 @@
         "size": 41,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "a9f04b7c20153112.1648932922.",
-        "time_to_live": 33955199.45312309
+        "value": "28035cd16263879d.1649082256.",
+        "time_to_live": 33955199.65176821
       },
       {
         "domain": "www.ru.nl",
-        "expires": 1648934722,
+        "expires": 1649084055,
         "httpOnly": false,
         "name": "_pk_ses.4.4de0",
         "path": "/",
@@ -386,183 +451,48 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 1799.4531230926514
+        "time_to_live": 1798.65176820755
       },
       {
         "domain": ".ru.nl",
-        "expires": 1712004922,
+        "expires": 1680618256,
         "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1388481823.1648932922",
-        "time_to_live": 63071999.45312309
-      },
-      {
-        "domain": ".ru.nl",
-        "expires": 1649019322,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1414813481.1648932922",
-        "time_to_live": 86399.45312309265
-      }
-    ],
-    "hopped": []
-  },
-  "uva.nl": {
-    "frontpage": [
-      {
-        "domain": "uva.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
+        "name": "cookie_notification",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
         "secure": true,
-        "session": true,
-        "size": 61,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "v1Kug8GA__C4J",
-        "time_to_live": -1648932924.9816265
-      },
-      {
-        "domain": "www.uva.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": true,
-        "size": 61,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "v1K+g8GA__v5J",
-        "time_to_live": -1648932924.9816265
-      },
-      {
-        "domain": ".uva.nl",
-        "expires": -1,
-        "httpOnly": false,
-        "name": "PageCount",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": true,
-        "size": 10,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": -1648932924.9816265
-      },
-      {
-        "domain": ".uva.nl",
-        "expires": 1712004921,
-        "httpOnly": false,
-        "name": "_ga_44XGTNSN28",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 48,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GS1.1.1648932921.1.0.1648932921.60",
-        "time_to_live": 63071997.01837349
-      },
-      {
-        "domain": ".uva.nl",
-        "expires": 1712004921,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
         "session": false,
         "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.324539796.1648932921",
-        "time_to_live": 63071997.01837349
+        "value": "functional",
+        "time_to_live": 31535999.651768208
       },
       {
-        "domain": ".uva.nl",
-        "expires": 1649019321,
+        "domain": ".ru.nl",
+        "expires": 1680618256,
         "httpOnly": false,
-        "name": "_gid",
+        "name": "cookies_consent",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 29,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.72650152.1648932922",
-        "time_to_live": 86397.01837348938
-      },
-      {
-        "domain": ".uva.nl",
-        "expires": 1735332921,
-        "httpOnly": false,
-        "name": "nmstat",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 42,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "0cfd13b4-aae0-a2af-1837-5933a5b54f40",
-        "time_to_live": 86399997.01837349
-      },
-      {
-        "domain": "6004849.global.siteimproveanalytics.io",
-        "expires": -1,
-        "httpOnly": false,
-        "name": "AWSELBCORS",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
         "secure": true,
-        "session": true,
-        "size": 148,
+        "session": false,
+        "size": 17,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "C9B1F577120E440C5BC6CF2BEEAD5A6600C7A9F91DD6756BBB69D51B559910AB86E8D42ED6A0DE76ECD27E9AE2E238485B337AACD544DF4D09ADA2CC19DBEEE4EB16E85193",
-        "time_to_live": -1648932924.9816265
+        "value": "-1",
+        "time_to_live": 31535999.651768208
       }
-    ],
-    "hopped": []
+    ]
   },
   "utwente.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "www.utwente.nl",
-        "expires": 1680468927,
+        "expires": 1680618259,
         "httpOnly": false,
         "name": "",
         "path": "/",
@@ -573,8 +503,8 @@
         "size": 99,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "%7B%22v%22%3A2%2C%22c%22%3A%5B%22analytics%22%5D%2C%22lc%22%3A%222022-04-02T20%3A55%3A27.655Z%22%7D",
-        "time_to_live": 31535998.501173735
+        "value": "%7B%22v%22%3A2%2C%22c%22%3A%5B%22analytics%22%5D%2C%22lc%22%3A%222022-04-04T14%3A24%3A19.579Z%22%7D",
+        "time_to_live": 31535998.54306507
       },
       {
         "domain": "www.utwente.nl",
@@ -589,12 +519,12 @@
         "size": 75,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "%7B%22referrer%22%3A%22direct%3A%22%2C%22start%22%3A1648932927657%7D",
-        "time_to_live": -1648932929.4988263
+        "value": "%7B%22referrer%22%3A%22direct%3A%22%2C%22start%22%3A1649082259581%7D",
+        "time_to_live": -1649082261.456935
       },
       {
         "domain": ".fonts.net",
-        "expires": 1648934727.718369,
+        "expires": 1649084059.659077,
         "httpOnly": true,
         "name": "__cf_bm",
         "path": "/",
@@ -606,12 +536,12 @@
         "size": 152,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "c1tRkTEbt3E9mecGlxjkfnODLzlJk7fa95WSbe0m77E-1648932927-0-AUzaiAu4AAU4BEf6wxk4mqqxTSq4YfW/KHr5kyz+YFXG+uGWL0NJVH2S3WJ8KPSouyyRyObIQqy25Jzceuz7atE=",
-        "time_to_live": 1799.2195427417755
+        "value": "eI_T10nDX73iPq80uhM1ZSl_9LyijRgGIufa.bhCjPo-1649082259-0-AYu/lF/8ML1K9ckjaqheQeGOgydHL8xvOCGe4PPJ4Sz5Uf5VBthjzerFehJjWxVqoORwrOXRm0rizv6BYfXWPVY=",
+        "time_to_live": 1799.2021420001984
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1649019328,
+        "expires": 1649168660,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -619,15 +549,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 31,
+        "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1118487471.1648932929",
-        "time_to_live": 86399.50117373466
+        "value": "GA1.2.472877561.1649082261",
+        "time_to_live": 86399.5430650711
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1712004928,
+        "expires": 1712154260,
         "httpOnly": false,
         "name": "_ga_DHY20KGR51",
         "path": "/",
@@ -638,12 +568,12 @@
         "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GS1.1.1648932928.1.0.1648932928.0",
-        "time_to_live": 63071999.501173735
+        "value": "GS1.1.1649082260.1.0.1649082260.0",
+        "time_to_live": 63071999.54306507
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1712004928,
+        "expires": 1712154260,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -651,15 +581,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 30,
+        "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.1.1714152527.1648932929",
-        "time_to_live": 63071999.501173735
+        "value": "GA1.1.347189849.1649082261",
+        "time_to_live": 63071999.54306507
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1712004928,
+        "expires": 1712154260,
         "httpOnly": false,
         "name": "__utma",
         "path": "/",
@@ -667,11 +597,11 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 60,
+        "size": 59,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "84296669.1714152527.1648932929.1648932929.1648932929.1",
-        "time_to_live": 63071999.501173735
+        "value": "84296669.347189849.1649082261.1649082261.1649082261.1",
+        "time_to_live": 63071999.54306507
       },
       {
         "domain": ".utwente.nl",
@@ -687,11 +617,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "84296669",
-        "time_to_live": -1648932929.4988263
+        "time_to_live": -1649082261.456935
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1664700928,
+        "expires": 1664850260,
         "httpOnly": false,
         "name": "__utmz",
         "path": "/",
@@ -702,12 +632,12 @@
         "size": 75,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "84296669.1648932929.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
-        "time_to_live": 15767999.501173735
+        "value": "84296669.1649082261.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+        "time_to_live": 15767999.543065071
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1648933528,
+        "expires": 1649082860,
         "httpOnly": false,
         "name": "__utmt_UA-9767236-8",
         "path": "/",
@@ -719,11 +649,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 599.5011737346649
+        "time_to_live": 599.543065071106
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1648934728,
+        "expires": 1649084060,
         "httpOnly": false,
         "name": "__utmb",
         "path": "/",
@@ -734,12 +664,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "84296669.1.10.1648932929",
-        "time_to_live": 1799.501173734665
+        "value": "84296669.1.10.1649082261",
+        "time_to_live": 1799.543065071106
       },
       {
         "domain": "www.utwente.nl",
-        "expires": 1651524928,
+        "expires": 1651674260,
         "httpOnly": false,
         "name": "monsido",
         "path": "/",
@@ -750,12 +680,12 @@
         "size": 23,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "0DA1648932928680",
-        "time_to_live": 2591999.5011737347
+        "value": "1E21649082260631",
+        "time_to_live": 2591999.543065071
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1680468928,
+        "expires": 1680618260,
         "httpOnly": false,
         "name": "_hjSessionUser_85186",
         "path": "/",
@@ -767,12 +697,12 @@
         "size": 136,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "eyJpZCI6IjI4YTdjYTc4LTBjZmEtNWQ2Ny05YmMzLWEyYjczOWEyNzg2ZSIsImNyZWF0ZWQiOjE2NDg5MzI5Mjg3NzAsImV4aXN0aW5nIjpmYWxzZX0=",
-        "time_to_live": 31535999.501173735
+        "value": "eyJpZCI6IjM2MGUyZWMyLTVkNDUtNTc5OS1iOTM0LWQ0ODlhNTJmYzkzMiIsImNyZWF0ZWQiOjE2NDkwODIyNjA3NzQsImV4aXN0aW5nIjpmYWxzZX0=",
+        "time_to_live": 31535999.54306507
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1648934728,
+        "expires": 1649084060,
         "httpOnly": false,
         "name": "_hjFirstSeen",
         "path": "/",
@@ -785,11 +715,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 1799.501173734665
+        "time_to_live": 1799.543065071106
       },
       {
         "domain": "www.utwente.nl",
-        "expires": 1648933048,
+        "expires": 1649082380,
         "httpOnly": false,
         "name": "_hjIncludedInSessionSample",
         "path": "/",
@@ -802,11 +732,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 119.50117373466492
+        "time_to_live": 119.54306507110596
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1648934728,
+        "expires": 1649084060,
         "httpOnly": false,
         "name": "_hjSession_85186",
         "path": "/",
@@ -818,12 +748,12 @@
         "size": 132,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "eyJpZCI6ImVlMmZjODRiLTcyMWUtNGI4ZC05ZmU3LThiYmExNmUwODk3OCIsImNyZWF0ZWQiOjE2NDg5MzI5Mjg4MDAsImluU2FtcGxlIjp0cnVlfQ==",
-        "time_to_live": 1799.501173734665
+        "value": "eyJpZCI6ImQ1NzczZWYzLWEwZGUtNDhmOC04YmIwLWY0OTkxOTk2ZThjZSIsImNyZWF0ZWQiOjE2NDkwODIyNjA4MTAsImluU2FtcGxlIjp0cnVlfQ==",
+        "time_to_live": 1799.543065071106
       },
       {
         "domain": ".utwente.nl",
-        "expires": 1648934728,
+        "expires": 1649084060,
         "httpOnly": false,
         "name": "_hjAbsoluteSessionInProgress",
         "path": "/",
@@ -836,11 +766,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "0",
-        "time_to_live": 1799.501173734665
+        "time_to_live": 1799.543065071106
       },
       {
         "domain": "www.utwente.nl",
-        "expires": 1680468928,
+        "expires": 1680618260,
         "httpOnly": false,
         "name": "ut-settings",
         "path": "/",
@@ -848,52 +778,101 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 207,
+        "size": 206,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "%7B%22firstreferrer%22%3A%22direct%3A%22%2C%22firstrefertime%22%3A1648932927657%2C%22country%22%3A%22NL%22%2C%22countryname%22%3A%22Netherlands%22%2C%22clientid%22%3A%221714152527.1648932929%22%7D",
-        "time_to_live": 31535999.501173735
+        "value": "%7B%22firstreferrer%22%3A%22direct%3A%22%2C%22firstrefertime%22%3A1649082259581%2C%22country%22%3A%22NL%22%2C%22countryname%22%3A%22Netherlands%22%2C%22clientid%22%3A%22347189849.1649082261%22%7D",
+        "time_to_live": 31535999.54306507
       }
-    ],
-    "hopped": []
+    ]
   },
-  "pthu.nl": {
+  "uva.nl": {
+    "hopped": [],
     "frontpage": [
       {
-        "domain": ".pthu.nl",
-        "expires": 1712004942,
+        "domain": "uva.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 61,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "v1LOg8GA__9oD",
+        "time_to_live": -1649082253.865126
+      },
+      {
+        "domain": "www.uva.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": true,
+        "size": 61,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "v1LOg8GA__9oD",
+        "time_to_live": -1649082253.865126
+      },
+      {
+        "domain": ".uva.nl",
+        "expires": -1,
         "httpOnly": false,
-        "name": "_ga_D3D5QG8KS",
+        "name": "PageCount",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": true,
+        "size": 10,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": -1649082253.865126
+      },
+      {
+        "domain": ".uva.nl",
+        "expires": 1735482251,
+        "httpOnly": false,
+        "name": "nmstat",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 42,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "bd809ea4-f5a7-b87a-8746-0e5911cc6147",
+        "time_to_live": 86399998.1348741
+      },
+      {
+        "domain": ".uva.nl",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga_44XGTNSN28",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 46,
+        "size": 48,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GS1.1.1648932942.1.0.1648932942.0",
-        "time_to_live": 63071999.51386857
+        "value": "GS1.1.1649082250.1.0.1649082250.60",
+        "time_to_live": 63071999.134874105
       },
       {
-        "domain": ".pthu.nl",
-        "expires": 1712004942,
-        "httpOnly": false,
-        "name": "_ga_D3D5QG8KST",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GS1.1.1648932942.1.0.1648932942.0",
-        "time_to_live": 63071999.51386857
-      },
-      {
-        "domain": ".pthu.nl",
-        "expires": 1712004942,
+        "domain": ".uva.nl",
+        "expires": 1712154252,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -904,49 +883,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1257626506.1648932942",
-        "time_to_live": 63071999.51386857
+        "value": "GA1.2.1668996193.1649082252",
+        "time_to_live": 63071999.134874105
       },
       {
-        "domain": ".pthu.nl",
-        "expires": 1649019342,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.175465061.1648932942",
-        "time_to_live": 86399.51386857033
-      }
-    ],
-    "hopped": []
-  },
-  "tukampen.nl": {
-    "frontpage": [
-      {
-        "domain": ".tukampen.nl",
-        "expires": 1712004936,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 29,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.699392709.1648932936",
-        "time_to_live": 63071999.26230073
-      },
-      {
-        "domain": ".tukampen.nl",
-        "expires": 1649019336,
+        "domain": ".uva.nl",
+        "expires": 1649168652,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -957,12 +899,135 @@
         "size": 31,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1277391252.1648932936",
-        "time_to_live": 86399.26230072975
+        "value": "GA1.2.1654037246.1649082252",
+        "time_to_live": 86399.13487410545
+      },
+      {
+        "domain": "6004849.global.siteimproveanalytics.io",
+        "expires": -1,
+        "httpOnly": false,
+        "name": "AWSELBCORS",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 148,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "C9B1F577120E440C5BC6CF2BEEAD5A6600C7A9F91D9584A1D9207CDD752076E72A6D8A8F8C38043D7D04EE779F3EDBEE6F50A5668B9CFD8319E69D914FC0EBA3142F3AA16D",
+        "time_to_live": -1649082253.865126
+      }
+    ]
+  },
+  "pthu.nl": {
+    "hopped": [],
+    "frontpage": [
+      {
+        "domain": ".pthu.nl",
+        "expires": 1712154275,
+        "httpOnly": false,
+        "name": "_ga_D3D5QG8KS",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 46,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082275.1.0.1649082275.0",
+        "time_to_live": 63071999.714422226
+      },
+      {
+        "domain": ".pthu.nl",
+        "expires": 1712154275,
+        "httpOnly": false,
+        "name": "_ga_D3D5QG8KST",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082275.1.0.1649082275.0",
+        "time_to_live": 63071999.714422226
+      },
+      {
+        "domain": ".pthu.nl",
+        "expires": 1712154275,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.785902267.1649082275",
+        "time_to_live": 63071999.714422226
+      },
+      {
+        "domain": ".pthu.nl",
+        "expires": 1649168675,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.954507442.1649082275",
+        "time_to_live": 86399.71442222595
+      }
+    ]
+  },
+  "tukampen.nl": {
+    "hopped": [],
+    "frontpage": [
+      {
+        "domain": ".tukampen.nl",
+        "expires": 1712154272,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1200244527.1649082272",
+        "time_to_live": 63071999.25751734
       },
       {
         "domain": ".tukampen.nl",
-        "expires": 1648932996,
+        "expires": 1649168672,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.881578063.1649082272",
+        "time_to_live": 86399.2575173378
+      },
+      {
+        "domain": ".tukampen.nl",
+        "expires": 1649082332,
         "httpOnly": false,
         "name": "_gat_gtag_UA_152884493_1",
         "path": "/",
@@ -974,11 +1039,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 59.26230072975159
+        "time_to_live": 59.25751733779907
       },
       {
         "domain": ".vimeo.com",
-        "expires": 1712004936,
+        "expires": 1712154272,
         "httpOnly": false,
         "name": "vuid",
         "path": "/",
@@ -990,351 +1055,12 @@
         "size": 26,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "pl736339887.1587934670",
-        "time_to_live": 63071999.26230073
-      }
-    ],
-    "hopped": []
-  },
-  "uu.nl": {
-    "frontpage": [
-      {
-        "domain": ".uu.nl",
-        "expires": 1656708921,
-        "httpOnly": false,
-        "name": "_gcl_au",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1.1.40215623.1648932921",
-        "time_to_live": 7775999.074970007
-      },
-      {
-        "domain": ".uu.nl",
-        "expires": 1712004921,
-        "httpOnly": false,
-        "name": "_ga_WJ30DT8NHH",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GS1.1.1648932921.1.0.1648932921.0",
-        "time_to_live": 63071999.07497001
-      },
-      {
-        "domain": ".uu.nl",
-        "expires": 1712004921,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1440005405.1648932922",
-        "time_to_live": 63071999.07497001
-      },
-      {
-        "domain": ".uu.nl",
-        "expires": 1649019321,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1585936736.1648932922",
-        "time_to_live": 86399.07497000694
-      },
-      {
-        "domain": ".uu.nl",
-        "expires": 1648932981,
-        "httpOnly": false,
-        "name": "_gat_UA-3961816-1",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 18,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 59.07497000694275
-      }
-    ],
-    "hopped": [
-      {
-        "domain": ".vimeo.com",
-        "expires": 1712004981,
-        "httpOnly": false,
-        "name": "vuid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 26,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "pl125855721.1316362111"
+        "value": "pl1536020083.483438997",
+        "time_to_live": 63071999.25751734
       }
     ]
   },
-  "uvh.nl": {
-    "frontpage": [
-      {
-        "domain": "uvh.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "secureid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": true,
-        "session": true,
-        "size": 22,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "aqoapnrvavqkiC",
-        "time_to_live": -1648932925.4037387
-      },
-      {
-        "domain": "uvh.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "predestination",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": true,
-        "session": true,
-        "size": 18,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "wax8",
-        "time_to_live": -1648932925.4037387
-      },
-      {
-        "domain": "www.uvh.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "secureid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": true,
-        "session": true,
-        "size": 22,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "shyqcziwjmqtcB",
-        "time_to_live": -1648932925.4037387
-      },
-      {
-        "domain": "www.uvh.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "predestination",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": true,
-        "session": true,
-        "size": 18,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "wax8",
-        "time_to_live": -1648932925.4037387
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1649019322,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1085068590.1648932922",
-        "time_to_live": 86397.5962612629
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1648932982,
-        "httpOnly": false,
-        "name": "_dc_gtm_UA-23824664-1",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 22,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 57.59626126289368
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1712004922,
-        "httpOnly": false,
-        "name": "_ga_TTNPB5GFNH",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GS1.1.1648932922.1.0.1648932922.0",
-        "time_to_live": 63071997.59626126
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1712004922,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.1.1128157349.1648932922",
-        "time_to_live": 63071997.59626126
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1680468922,
-        "httpOnly": false,
-        "name": "_hjSessionUser_905524",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 137,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "eyJpZCI6ImQwY2EwMTczLWY0YTQtNWNjNC04MzAwLTdiYmNmMmY1ZDE2ZSIsImNyZWF0ZWQiOjE2NDg5MzI5MjI0ODYsImV4aXN0aW5nIjpmYWxzZX0=",
-        "time_to_live": 31535997.596261263
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1648934722,
-        "httpOnly": false,
-        "name": "_hjFirstSeen",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 13,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 1797.5962612628937
-      },
-      {
-        "domain": "www.uvh.nl",
-        "expires": 1648933042,
-        "httpOnly": false,
-        "name": "_hjIncludedInSessionSample",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 27,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 117.59626126289368
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1648934722,
-        "httpOnly": false,
-        "name": "_hjSession_905524",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 133,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "eyJpZCI6ImM4NmFmNTY3LTk2MGMtNGEyMS04NjM2LTRmMzdiODYyYjVhYiIsImNyZWF0ZWQiOjE2NDg5MzI5MjI0OTYsImluU2FtcGxlIjp0cnVlfQ==",
-        "time_to_live": 1797.5962612628937
-      },
-      {
-        "domain": "www.uvh.nl",
-        "expires": 1648933042,
-        "httpOnly": false,
-        "name": "_hjIncludedInPageviewSample",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 28,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 117.59626126289368
-      },
-      {
-        "domain": ".uvh.nl",
-        "expires": 1648934722,
-        "httpOnly": false,
-        "name": "_hjAbsoluteSessionInProgress",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": false,
-        "session": false,
-        "size": 29,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 1797.5962612628937
-      }
-    ],
+  "tilburguniversity.edu": {
     "hopped": [
       {
         "domain": ".youtube.com",
@@ -1350,11 +1076,12 @@
         "size": 14,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "mAaVQj2HMPw"
+        "value": "I4ToaxKskq8",
+        "time_to_live": -1649082272.6101325
       },
       {
         "domain": ".youtube.com",
-        "expires": 1664484985.00039,
+        "expires": 1664634270.663375,
         "httpOnly": true,
         "name": "VISITOR_INFO1_LIVE",
         "path": "/",
@@ -1366,56 +1093,440 @@
         "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "SPNBgSy_0eg"
-      },
+        "value": "-UuvvqUSwOQ",
+        "time_to_live": 15551999.053242445
+      }
+    ],
+    "frontpage": [
       {
-        "domain": "crm.uvh.nl",
-        "expires": 1964552212.388833,
+        "domain": "www.tilburguniversity.edu",
+        "expires": -1,
         "httpOnly": false,
-        "name": "locale",
+        "name": "worker",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 8,
+        "secure": false,
+        "session": true,
+        "size": 12,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "nl"
+        "value": ".fabri",
+        "time_to_live": -1649082253.935937
       },
       {
-        "domain": "crm.uvh.nl",
-        "expires": 1964552212.388803,
-        "httpOnly": true,
-        "name": "_fullfabric_uuid",
+        "domain": ".tilburguniversity.edu",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga_9LNCW846MJ",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
-        "secure": true,
+        "secure": false,
         "session": false,
-        "size": 80,
+        "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "7390e7aa28a2ebb81801a1f06b9d73b4eb0b4dd03718a2096c46db51d50ddab0"
+        "value": "GS1.1.1649082252.1.0.1649082252.0",
+        "time_to_live": 63071999.06406307
       },
       {
-        "domain": "crm.uvh.nl",
+        "domain": ".tilburguniversity.edu",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.1.1296126585.1649082252",
+        "time_to_live": 63071999.06406307
+      }
+    ]
+  },
+  "uu.nl": {
+    "hopped": [
+      {
+        "domain": ".vimeo.com",
+        "expires": 1712154369,
+        "httpOnly": false,
+        "name": "vuid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 25,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "pl403117441.635460544",
+        "time_to_live": 63071999.016697645
+      }
+    ],
+    "frontpage": [
+      {
+        "domain": ".uu.nl",
+        "expires": 1656858253,
+        "httpOnly": false,
+        "name": "_gcl_au",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 32,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1.1.1082679258.1649082253",
+        "time_to_live": 7775998.65607357
+      },
+      {
+        "domain": ".uu.nl",
+        "expires": 1712154253,
+        "httpOnly": false,
+        "name": "_ga_WJ30DT8NHH",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082253.1.0.1649082253.0",
+        "time_to_live": 63071998.65607357
+      },
+      {
+        "domain": ".uu.nl",
+        "expires": 1712154253,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.2032803135.1649082253",
+        "time_to_live": 63071998.65607357
+      },
+      {
+        "domain": ".uu.nl",
+        "expires": 1649168653,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1938208345.1649082253",
+        "time_to_live": 86398.65607357025
+      },
+      {
+        "domain": ".uu.nl",
+        "expires": 1649082313,
+        "httpOnly": false,
+        "name": "_gat_UA-3961816-1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 58.656073570251465
+      }
+    ]
+  },
+  "uvh.nl": {
+    "hopped": [
+      {
+        "domain": "www.uvh.nl",
+        "expires": 1649082380,
+        "httpOnly": false,
+        "name": "_hjIncludedInPageviewSample",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 28,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 119.24187159538269
+      },
+      {
+        "domain": ".youtube.com",
         "expires": -1,
         "httpOnly": true,
-        "name": "_fullfabric_session",
+        "name": "YSC",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
+        "sameSite": "None",
         "secure": true,
         "session": true,
-        "size": 46,
+        "size": 14,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "5Z1rTFHUAHM4CuqxCy_m7o5bwUw"
+        "value": "pocUtzD-b6A",
+        "time_to_live": -1649082268.5197115
+      },
+      {
+        "domain": ".youtube.com",
+        "expires": 1664634266.52694,
+        "httpOnly": true,
+        "name": "VISITOR_INFO1_LIVE",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "QHF3HaT1zFs",
+        "time_to_live": 15551999.007228613
+      }
+    ],
+    "frontpage": [
+      {
+        "domain": "uvh.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "secureid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 22,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "cpyusydrlrdzpD",
+        "time_to_live": -1649082254.8648517
+      },
+      {
+        "domain": "uvh.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "predestination",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "wax8",
+        "time_to_live": -1649082254.8648517
+      },
+      {
+        "domain": "www.uvh.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "secureid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 22,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "gnmwtsoaoknrpD",
+        "time_to_live": -1649082254.8648517
+      },
+      {
+        "domain": "www.uvh.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "predestination",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 18,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "wax8",
+        "time_to_live": -1649082254.8648517
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1649168652,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 31,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.1946001259.1649082252",
+        "time_to_live": 86398.13514828682
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1649082312,
+        "httpOnly": false,
+        "name": "_dc_gtm_UA-23824664-1",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 22,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 58.13514828681946
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga_TTNPB5GFNH",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082251.1.0.1649082251.0",
+        "time_to_live": 63071998.13514829
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1712154252,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.1.303873105.1649082252",
+        "time_to_live": 63071998.13514829
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1680618252,
+        "httpOnly": false,
+        "name": "_hjSessionUser_905524",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 137,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "eyJpZCI6ImYzOGEyMjE5LWExNGUtNTg4ZS1hZmQ2LWVhOWNhNGEzZDdmNSIsImNyZWF0ZWQiOjE2NDkwODIyNTIzNTUsImV4aXN0aW5nIjpmYWxzZX0=",
+        "time_to_live": 31535998.135148287
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1649084052,
+        "httpOnly": false,
+        "name": "_hjFirstSeen",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 13,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 1798.1351482868195
+      },
+      {
+        "domain": "www.uvh.nl",
+        "expires": 1649082372,
+        "httpOnly": false,
+        "name": "_hjIncludedInSessionSample",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 27,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 118.13514828681946
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1649084052,
+        "httpOnly": false,
+        "name": "_hjSession_905524",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 133,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "eyJpZCI6IjM2NTM2ZmIwLTI5ZGItNDM2NS1iNjA5LTUyMTUxNzcyZTIwMSIsImNyZWF0ZWQiOjE2NDkwODIyNTI0NDEsImluU2FtcGxlIjp0cnVlfQ==",
+        "time_to_live": 1798.1351482868195
+      },
+      {
+        "domain": ".uvh.nl",
+        "expires": 1649084052,
+        "httpOnly": false,
+        "name": "_hjAbsoluteSessionInProgress",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "0",
+        "time_to_live": 1798.1351482868195
       }
     ]
   },
   "rug.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "www.rug.nl",
@@ -1430,8 +1541,8 @@
         "size": 42,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "2558BE4E2852DD0E5B9097BB523D3138",
-        "time_to_live": -1648932926.6259344
+        "value": "BFF8C516A7F87BD2C38C01B1D50F634E",
+        "time_to_live": -1649082257.7577107
       },
       {
         "domain": "www.rug.nl",
@@ -1446,12 +1557,12 @@
         "size": 50,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "522261932.31779.0000",
-        "time_to_live": -1648932926.6259344
+        "value": "539039148.31779.0000",
+        "time_to_live": -1649082257.7577107
       },
       {
         "domain": ".rug.nl",
-        "expires": 1712004923,
+        "expires": 1712154256,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -1459,15 +1570,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 30,
+        "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1280490216.1648932923",
-        "time_to_live": 63071997.37406564
+        "value": "GA1.2.924527034.1649082256",
+        "time_to_live": 63071999.242289305
       },
       {
         "domain": ".rug.nl",
-        "expires": 1649019323,
+        "expires": 1649168656,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -1478,12 +1589,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.769595952.1648932923",
-        "time_to_live": 86397.37406563759
+        "value": "GA1.2.993146786.1649082256",
+        "time_to_live": 86399.24228930473
       },
       {
         "domain": ".rug.nl",
-        "expires": 1648932983,
+        "expires": 1649082316,
         "httpOnly": false,
         "name": "_gat_UA-773007-1",
         "path": "/",
@@ -1495,174 +1606,12 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 57.3740656375885
-      }
-    ],
-    "hopped": [
-      {
-        "domain": ".fd13.formdesk.com",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "rvtoken.441547559dfd45da854fc83508f9078b",
-        "path": "/rug",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": true,
-        "size": 100,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "dkKpF-zs_hAU2SSSdCKQx1U_PcX4qUtAD0jQMwea_sA1%7B1648932992%7D"
-      },
-      {
-        "domain": "signon.rug.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "UrnNovellNidpClusterMemberId",
-        "path": "/nidp",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": true,
-        "size": 56,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "~03~05~7Dbb~03~14~14od~7B~03"
-      },
-      {
-        "domain": "sp.ucms.rug.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "LastMRH_Session",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": true,
-        "size": 23,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "faee3a5d"
-      },
-      {
-        "domain": "sp.ucms.rug.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "MRHSession",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": true,
-        "size": 42,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "4d3a50019aed6e01eab56805faee3a5d"
-      },
-      {
-        "domain": "signon.rug.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "iam-nam-idps",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": true,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "41359020.64288.0000"
+        "time_to_live": 59.242289304733276
       }
     ]
   },
-  "tua.nl": {
-    "frontpage": [
-      {
-        "domain": "www.tua.nl",
-        "expires": -1,
-        "httpOnly": false,
-        "name": "PHPSESSID",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": true,
-        "size": 35,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "9jacmiq3p7tvc6kuivg8lbgiu3",
-        "time_to_live": -1648933061.5727134
-      },
-      {
-        "domain": ".tua.nl",
-        "expires": 1712004921,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 30,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1536608980.1648932921",
-        "time_to_live": 63071860.427286625
-      },
-      {
-        "domain": ".tua.nl",
-        "expires": 1649019321,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1900824879.1648932921",
-        "time_to_live": 86260.42728662491
-      },
-      {
-        "domain": ".tua.nl",
-        "expires": 1656708922,
-        "httpOnly": false,
-        "name": "_fbp",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 33,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "fb.1.1648932921602.1482341449",
-        "time_to_live": 7775861.427286625
-      },
-      {
-        "domain": ".tua.nl",
-        "expires": 1648933120,
-        "httpOnly": false,
-        "name": "_gat_gtag_UA_2143424_36",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 24,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1",
-        "time_to_live": 59.42728662490845
-      }
-    ],
-    "hopped": []
-  },
   "tudelft.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "www.tudelft.nl",
@@ -1678,8 +1627,8 @@
         "size": 38,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "1648932921.137.263.627400",
-        "time_to_live": -1648932924.955696
+        "value": "1649082251.606.269.141818",
+        "time_to_live": -1649082255.2751274
       },
       {
         "domain": "www.tudelft.nl",
@@ -1695,12 +1644,97 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": -1648932924.955696
+        "time_to_live": -1649082255.2751274
       }
-    ],
-    "hopped": []
+    ]
   },
   "ou.nl": {
+    "hopped": [
+      {
+        "domain": ".accounts.livechatinc.com",
+        "expires": 1712154288.065228,
+        "httpOnly": true,
+        "name": "__lc_cid",
+        "path": "/v2/customer/token",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 44,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "83738c4f-5f20-47ba-606c-6a668bdbb562",
+        "time_to_live": 63072000.2343719
+      },
+      {
+        "domain": ".accounts.livechatinc.com",
+        "expires": 1712154288.065269,
+        "httpOnly": true,
+        "name": "__lc_cst",
+        "path": "/v2/customer/token",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 132,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "423ef8d3f0d0066465da63b70154298af9ec86f9b0033f9bd0a97aef0f3d2eeb34897350e337379d0115a2bb2b549f4ce99eff4d488c2d82c132b2fd4a39",
+        "time_to_live": 63072000.23441291
+      },
+      {
+        "domain": ".accounts.livechatinc.com",
+        "expires": 1712154288.065289,
+        "httpOnly": true,
+        "name": "__lc_cid",
+        "path": "/customer/token",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 44,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "83738c4f-5f20-47ba-606c-6a668bdbb562",
+        "time_to_live": 63072000.234432936
+      },
+      {
+        "domain": ".accounts.livechatinc.com",
+        "expires": 1712154288.065303,
+        "httpOnly": true,
+        "name": "__lc_cst",
+        "path": "/customer/token",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 132,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "423ef8d3f0d0066465da63b70154298af9ec86f9b0033f9bd0a97aef0f3d2eeb34897350e337379d0115a2bb2b549f4ce99eff4d488c2d82c132b2fd4a39",
+        "time_to_live": 63072000.234447
+      },
+      {
+        "domain": ".ou.nl",
+        "expires": 1649082346,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 5,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1",
+        "time_to_live": 58.16914391517639
+      }
+    ],
     "frontpage": [
       {
         "domain": "www.ou.nl",
@@ -1715,12 +1749,12 @@
         "size": 42,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "9F17CA930471DDCB42FA5EEB4CD16E81",
-        "time_to_live": -1648932949.716188
+        "value": "9388976426108BC359739D10B59DCF11",
+        "time_to_live": -1649082281.9325063
       },
       {
         "domain": "www.ou.nl",
-        "expires": 1680468946.532503,
+        "expires": 1680618278.423841,
         "httpOnly": true,
         "name": "COOKIE_SUPPORT",
         "path": "/",
@@ -1732,11 +1766,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "true",
-        "time_to_live": 31535997.816314936
+        "time_to_live": 31535997.491334677
       },
       {
         "domain": "www.ou.nl",
-        "expires": 1680468946.532563,
+        "expires": 1680618278.423999,
         "httpOnly": true,
         "name": "GUEST_LANGUAGE_ID",
         "path": "/",
@@ -1748,11 +1782,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "nl_NL",
-        "time_to_live": 31535997.816375017
+        "time_to_live": 31535997.49149275
       },
       {
         "domain": ".ou.nl",
-        "expires": 1712004947,
+        "expires": 1712154279,
         "httpOnly": false,
         "name": "_ga_R12VNJGEGL",
         "path": "/",
@@ -1763,12 +1797,12 @@
         "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GS1.1.1648932947.1.0.1648932947.0",
-        "time_to_live": 63071998.283812046
+        "value": "GS1.1.1649082278.1.0.1649082278.0",
+        "time_to_live": 63071998.06749368
       },
       {
         "domain": ".ou.nl",
-        "expires": 1712004948,
+        "expires": 1712154280,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -1776,15 +1810,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 30,
+        "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1301640721.1648932947",
-        "time_to_live": 63071999.283812046
+        "value": "GA1.2.499183270.1649082279",
+        "time_to_live": 63071999.06749368
       },
       {
         "domain": ".ou.nl",
-        "expires": 1649019348,
+        "expires": 1649168680,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -1795,12 +1829,12 @@
         "size": 31,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1702658326.1648932948",
-        "time_to_live": 86399.28381204605
+        "value": "GA1.2.2105032892.1649082279",
+        "time_to_live": 86399.06749367714
       },
       {
         "domain": ".ou.nl",
-        "expires": 1648933007,
+        "expires": 1649082339,
         "httpOnly": false,
         "name": "_gat_UA-1768413-2",
         "path": "/",
@@ -1812,7 +1846,7 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.283812046051025
+        "time_to_live": 58.06749367713928
       },
       {
         "domain": "www.ou.nl",
@@ -1827,217 +1861,17 @@
         "size": 36,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "1648932948054",
-        "time_to_live": -1648932949.716188
-      }
-    ],
-    "hopped": [
-      {
-        "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597031,
-        "httpOnly": true,
-        "name": "__lc_cid",
-        "path": "/v2/customer/token",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 44,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "a8fa1dc6-2d22-4adf-5db3-ebd2f1a72617"
-      },
-      {
-        "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597074,
-        "httpOnly": true,
-        "name": "__lc_cst",
-        "path": "/v2/customer/token",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 132,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "459f6bf3659210e06b59dc0c5a8b592f3fd5df72d40e642e46d7fed24003fc241efe4eb9437ec95520507c3d7d1bb0ab44bf6fb44f49dfb1fbb4b9521fd3"
-      },
-      {
-        "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597087,
-        "httpOnly": true,
-        "name": "__lc_cid",
-        "path": "/customer/token",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 44,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "a8fa1dc6-2d22-4adf-5db3-ebd2f1a72617"
-      },
-      {
-        "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597101,
-        "httpOnly": true,
-        "name": "__lc_cst",
-        "path": "/customer/token",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 132,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "459f6bf3659210e06b59dc0c5a8b592f3fd5df72d40e642e46d7fed24003fc241efe4eb9437ec95520507c3d7d1bb0ab44bf6fb44f49dfb1fbb4b9521fd3"
-      },
-      {
-        "domain": ".ou.nl",
-        "expires": 1648933081,
-        "httpOnly": false,
-        "name": "_gat",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 5,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1"
-      },
-      {
-        "domain": ".fd7.formdesk.com",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "rvtoken.07c01edef97f4bd49ab60cbad768d6d0",
-        "path": "/openuniversiteit",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": true,
-        "size": 100,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "dDEsB6W12PTYEHmEWoDauPDu4tZASWRgYY9cWNsa77U1%7B1648933029%7D"
-      }
-    ]
-  },
-  "maastrichtuniversity.nl": {
-    "frontpage": [
-      {
-        "domain": "maastrichtuniversity.blueconic.net",
-        "expires": 1680468952.954138,
-        "httpOnly": true,
-        "name": "BCSessionID",
-        "path": "/DG/DEFAULT",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1e6b7fce-54d2-4700-8c0b-2ee507c115ed",
-        "time_to_live": 31536000.310577393
-      },
-      {
-        "domain": ".maastrichtuniversity.nl",
-        "expires": 1680468952,
-        "httpOnly": false,
-        "name": "BCSessionID",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "1e6b7fce-54d2-4700-8c0b-2ee507c115ed",
-        "time_to_live": 31535999.356439352
-      },
-      {
-        "domain": "maastrichtuniversity.blueconic.net",
-        "expires": 1649537752.954853,
-        "httpOnly": false,
-        "name": "AWSALBCORS",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 134,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "Xx8EcXtsUGS9ua2pk9xH8a8nmWOzO5lLWtkX+bj7UTRQUlbQyzYPF+zWw671uPCvBcTKHx16hhCQIIWBsvg6nLQtf94rYE69CC64JRgxNk8U+cyGUnKwgtk24/Xn",
-        "time_to_live": 604800.3112924099
-      }
-    ],
-    "hopped": [
-      {
-        "domain": ".youtube.com",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "YSC",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": true,
-        "size": 14,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "7689A1-Zaw4"
-      },
-      {
-        "domain": ".youtube.com",
-        "expires": 1664484984.054351,
-        "httpOnly": true,
-        "name": "VISITOR_INFO1_LIVE",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 29,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "3uUfDSG7iQU"
-      },
-      {
-        "domain": "maastrichtuniversity.bbvms.com",
-        "expires": 1680468998,
-        "httpOnly": false,
-        "name": "uuid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "None",
-        "secure": true,
-        "session": false,
-        "size": 40,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "98E21777-BF5A-4469-8784-3C151E312D0E"
+        "value": "1649082279949",
+        "time_to_live": -1649082281.9325063
       }
     ]
   },
   "tue.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "www.tue.nl",
-        "expires": 1649537738.527102,
+        "expires": 1649687071.017646,
         "httpOnly": false,
         "name": "AWSALB",
         "path": "/",
@@ -2048,12 +1882,12 @@
         "size": 130,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "ErNFfG6fdWxEFfZG52wtWFG6uGmgTAlEuLKbtJb77Bm4uZ099aO5KerGMXenoe2+M1tbSUR3N1hXJ0uuMliUKvBIV2/HbQMgvvmHJsSngArJ7l9N0Vbiqua+Vgaw",
-        "time_to_live": 604798.9925553799
+        "value": "HAnU5Ri1aV96qmaW/3CCzsW0S0noJMIouP4wbMqZ/jf5VUDlzP+FS7/2srfwvg4rqKXpy6Ysuis2VBxdxNJDkv0YsXsJMekaOwg9l7ihNZ8J2UQ0TD4RA16Ppr/H",
+        "time_to_live": 604799.4434177876
       },
       {
         "domain": "www.tue.nl",
-        "expires": 1649537738.527128,
+        "expires": 1649687071.017687,
         "httpOnly": false,
         "name": "AWSALBCORS",
         "path": "/",
@@ -2065,12 +1899,12 @@
         "size": 134,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "ErNFfG6fdWxEFfZG52wtWFG6uGmgTAlEuLKbtJb77Bm4uZ099aO5KerGMXenoe2+M1tbSUR3N1hXJ0uuMliUKvBIV2/HbQMgvvmHJsSngArJ7l9N0Vbiqua+Vgaw",
-        "time_to_live": 604798.9925813675
+        "value": "HAnU5Ri1aV96qmaW/3CCzsW0S0noJMIouP4wbMqZ/jf5VUDlzP+FS7/2srfwvg4rqKXpy6Ysuis2VBxdxNJDkv0YsXsJMekaOwg9l7ihNZ8J2UQ0TD4RA16Ppr/H",
+        "time_to_live": 604799.4434587955
       },
       {
         "domain": ".tue.nl",
-        "expires": 1656708938,
+        "expires": 1656858271,
         "httpOnly": false,
         "name": "_gcl_au",
         "path": "/",
@@ -2081,12 +1915,12 @@
         "size": 31,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "1.1.757954889.1648932939",
-        "time_to_live": 7775998.465453386
+        "value": "1.1.764700416.1649082272",
+        "time_to_live": 7775999.425771713
       },
       {
         "domain": ".tue.nl",
-        "expires": 1680468939,
+        "expires": 1680618271,
         "httpOnly": false,
         "name": "_gat_UA-53705384-1",
         "path": "/",
@@ -2098,13 +1932,29 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 31535999.465453386
+        "time_to_live": 31535999.425771713
       },
       {
         "domain": ".tue.nl",
-        "expires": 1712004939,
+        "expires": 1712154271,
         "httpOnly": false,
         "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.163366443.1649082272",
+        "time_to_live": 63071999.42577171
+      },
+      {
+        "domain": ".tue.nl",
+        "expires": 1649168671,
+        "httpOnly": false,
+        "name": "_gid",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
@@ -2113,28 +1963,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1564531934.1648932939",
-        "time_to_live": 63071999.46545339
-      },
-      {
-        "domain": ".tue.nl",
-        "expires": 1649019339,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.1271137818.1648932939",
-        "time_to_live": 86399.4654533863
+        "value": "GA1.2.207402380.1649082272",
+        "time_to_live": 86399.42577171326
       },
       {
         "domain": ".linkedin.com",
-        "expires": 1651524938.976892,
+        "expires": 1651674271.917418,
         "httpOnly": false,
         "name": "UserMatchHistory",
         "path": "/",
@@ -2146,12 +1980,12 @@
         "size": 94,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "AQJM4eSB1oH31gAAAX_sD-MKjwZR5ivubkJjaeZFo8NdzRrMmJVrtkN8t-fWLby8Uq_Py90Xfjgskw",
-        "time_to_live": 2591999.442345381
+        "value": "AQJDCTPiYQgMqQAAAX_09ocXcHYdH2uaIK5CHs2ay7XiW6oz_bD6Q9ivHpfJQ6XN0aSrMl_koT-2Jg",
+        "time_to_live": 2592000.3431897163
       },
       {
         "domain": ".linkedin.com",
-        "expires": 1651524938.976913,
+        "expires": 1651674271.917441,
         "httpOnly": false,
         "name": "AnalyticsSyncHistory",
         "path": "/",
@@ -2163,8 +1997,8 @@
         "size": 106,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "AQImy2i5NfzriQAAAX_sD-MK1lXqxaVy3B-8_HEiaM9mAphN9DkEzxIITHKLz73eZm91JY8Jk7jYjhz41Ljslg",
-        "time_to_live": 2591999.4423663616
+        "value": "AQIO91vpMmPthAAAAX_09ocXG02Y3d0TLIMoZ56VxL-hV5RT28MyZO52hcFkxaqQ5Bs3TZDf0zpwCfFqJmIKtQ",
+        "time_to_live": 2592000.3432126045
       },
       {
         "domain": ".ads.linkedin.com",
@@ -2181,11 +2015,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "v=2&lang=en-us",
-        "time_to_live": -1648932940.5345466
+        "time_to_live": -1649082272.5742283
       },
       {
         "domain": ".linkedin.com",
-        "expires": 1712046791.976928,
+        "expires": 1712196123.917456,
         "httpOnly": false,
         "name": "bcookie",
         "path": "/",
@@ -2197,12 +2031,12 @@
         "size": 49,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "\"v=2&efa0c1a7-f5ee-445e-8788-cceee612d8b0\"",
-        "time_to_live": 63113852.44238138
+        "value": "\"v=2&55d415a3-6fa9-455e-8ee6-50046db80a72\"",
+        "time_to_live": 63113852.343227625
       },
       {
         "domain": ".linkedin.com",
-        "expires": 1649019339.97694,
+        "expires": 1649168671.917468,
         "httpOnly": false,
         "name": "lidc",
         "path": "/",
@@ -2214,8 +2048,8 @@
         "size": 112,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "\"b=TGST06:s=T:r=T:a=T:p=T:g=2393:u=1:x=1:i=1648932938:t=1649019338:v=2:sig=AQEIBbLAhD_RpIJOk9mKABTDPEw6t_l-\"",
-        "time_to_live": 86400.44239330292
+        "value": "\"b=OGST06:s=O:r=O:a=O:p=O:g=2369:u=1:x=1:i=1649082271:t=1649168671:v=2:sig=AQGWf2WW6418T-QZd6wue-DIRm39wQA_\"",
+        "time_to_live": 86400.34323978424
       },
       {
         "domain": ".linkedin.com",
@@ -2232,11 +2066,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "v=2&lang=en-us",
-        "time_to_live": -1648932940.5345466
+        "time_to_live": -1649082272.5742283
       },
       {
         "domain": ".www.linkedin.com",
-        "expires": 1712046791.160445,
+        "expires": 1712196124.123942,
         "httpOnly": true,
         "name": "bscookie",
         "path": "/",
@@ -2248,12 +2082,12 @@
         "size": 96,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "\"v=1&202204022055385fe6f1ee-db77-484e-8873-f83d4e0be03eAQHa38qd8C0wYeNyf3RV6prnikIvc8l4\"",
-        "time_to_live": 63113851.62589836
+        "value": "\"v=1&2022040414243169d1fff7-2ae5-4c2c-82d4-76093c5cdce9AQHWDMa1v2SegP_lX_r-XUxsHHW4ld9_\"",
+        "time_to_live": 63113852.54971361
       },
       {
         "domain": ".linkedin.com",
-        "expires": 1711571544.160475,
+        "expires": 1711666888.123965,
         "httpOnly": false,
         "name": "li_gc",
         "path": "/",
@@ -2265,13 +2099,120 @@
         "size": 77,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "MTswOzE2NDg5MzI5Mzg7MjswMjGK4TkIz+oVlLNPHJEuiniOtxvZAetLMtENRDWBOOlxpA==",
-        "time_to_live": 62638604.6259284
+        "value": "MTswOzE2NDkwODIyNzE7MjswMjFuTy5Wmd17oQCTd7Al1AprZ98TU0IOsPerlhDynzp+NA==",
+        "time_to_live": 62584616.54973674
+      }
+    ]
+  },
+  "maastrichtuniversity.nl": {
+    "hopped": [
+      {
+        "domain": "maastrichtuniversity.bbvms.com",
+        "expires": 1680618298,
+        "httpOnly": false,
+        "name": "uuid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 40,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "6F4DD4BC-BFAF-475A-9100-4913204BD6FB",
+        "time_to_live": 31535998.43558836
+      },
+      {
+        "domain": ".youtube.com",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "YSC",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": true,
+        "size": 14,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "PPoWrZ5-3EY",
+        "time_to_live": -1649082421.0693178
+      },
+      {
+        "domain": ".youtube.com",
+        "expires": 1664634419.199712,
+        "httpOnly": true,
+        "name": "VISITOR_INFO1_LIVE",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "w5SxqH8Bctk",
+        "time_to_live": 15551999.13039422
       }
     ],
-    "hopped": []
+    "frontpage": [
+      {
+        "domain": "maastrichtuniversity.blueconic.net",
+        "expires": 1680618285.714007,
+        "httpOnly": true,
+        "name": "BCSessionID",
+        "path": "/DG/DEFAULT",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "ccb1be23-a91e-4a0f-9f09-532880b7cdd7",
+        "time_to_live": 31536000.298049927
+      },
+      {
+        "domain": ".maastrichtuniversity.nl",
+        "expires": 1680618285,
+        "httpOnly": false,
+        "name": "BCSessionID",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "ccb1be23-a91e-4a0f-9f09-532880b7cdd7",
+        "time_to_live": 31535999.584043026
+      },
+      {
+        "domain": "maastrichtuniversity.blueconic.net",
+        "expires": 1649687085.78559,
+        "httpOnly": false,
+        "name": "AWSALBCORS",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "None",
+        "secure": true,
+        "session": false,
+        "size": 134,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "+q1vH8X3DyO8tcLfFrjb70Tqa5B4mK9aStayzao6N9S8FHUDfdWF400pq9J7bk8Sj6Wumg2iWGdUpJhOkkUV1LhDBESZWV1PJuk9qtWqoGmfC2pVAChVWDJ+mXE2",
+        "time_to_live": 604800.3696329594
+      }
+    ]
   },
   "universiteitleiden.nl": {
+    "hopped": [],
     "frontpage": [
       {
         "domain": "www.universiteitleiden.nl",
@@ -2288,11 +2229,11 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "http://10.0.19.51:8080",
-        "time_to_live": -1648932925.5957813
+        "time_to_live": -1649082255.827083
       },
       {
         "domain": ".universiteitleiden.nl",
-        "expires": 1648976122.615107,
+        "expires": 1649125453.590957,
         "httpOnly": true,
         "name": "JSESSIONID",
         "path": "/",
@@ -2304,12 +2245,12 @@
         "size": 42,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "93901BC9E5A5DA9FB1253E006D308B8F",
-        "time_to_live": 43198.019325733185
+        "value": "A97278859DA0110D28ED32C2BEBE418A",
+        "time_to_live": 43198.76387381554
       },
       {
         "domain": ".universiteitleiden.nl",
-        "expires": 1712004923,
+        "expires": 1712154254,
         "httpOnly": false,
         "name": "_ga_0RSX4L0ZPZ",
         "path": "/",
@@ -2320,12 +2261,12 @@
         "size": 47,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GS1.1.1648932923.1.0.1648932923.0",
-        "time_to_live": 63071998.40421867
+        "value": "GS1.1.1649082254.1.0.1649082254.0",
+        "time_to_live": 63071999.17291689
       },
       {
         "domain": ".universiteitleiden.nl",
-        "expires": 1712004923,
+        "expires": 1712154254,
         "httpOnly": false,
         "name": "_ga",
         "path": "/",
@@ -2336,12 +2277,12 @@
         "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1750435944.1648932924",
-        "time_to_live": 63071998.40421867
+        "value": "GA1.2.1788841899.1649082254",
+        "time_to_live": 63071999.17291689
       },
       {
         "domain": ".universiteitleiden.nl",
-        "expires": 1649019323,
+        "expires": 1649168654,
         "httpOnly": false,
         "name": "_gid",
         "path": "/",
@@ -2349,15 +2290,15 @@
         "sameParty": false,
         "secure": false,
         "session": false,
-        "size": 31,
+        "size": 30,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.2.1417521676.1648932924",
-        "time_to_live": 86398.4042186737
+        "value": "GA1.2.379510288.1649082254",
+        "time_to_live": 86399.17291688919
       },
       {
         "domain": ".universiteitleiden.nl",
-        "expires": 1648932983,
+        "expires": 1649082314,
         "httpOnly": false,
         "name": "_gat_UA-65023507-1",
         "path": "/",
@@ -2369,16 +2310,113 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "1",
-        "time_to_live": 58.404218673706055
+        "time_to_live": 59.172916889190674
       }
-    ],
-    "hopped": []
+    ]
   },
   "eur.nl": {
+    "hopped": [
+      {
+        "domain": "www.eur.nl",
+        "expires": 2082758400.919808,
+        "httpOnly": true,
+        "name": "ERES__gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 105,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "Utxr5cimIxXh5pEBy+Af18g+LMghxEysiDWbnnqLsU74kkd8MedIMKKhyG/+xFSv/AdpNV1SETr49EM0sZxt5FQ9g9vh6XZT",
+        "time_to_live": 433676039.12885165
+      },
+      {
+        "domain": "www.eur.nl",
+        "expires": 2082758400.919832,
+        "httpOnly": true,
+        "name": "ERES_veuid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 170,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "1SfatIwDLmsRf462mzcNqSDxnXurssn2aDFxeCOQAF2A4rpZsM3dNW+5B6yr6ZbA5527gzJhjf7PqXPi28ZBwBxwKMQzlIQeDcgQZfizXraL0hHV8ksYeiSEdojwFuP9oBbfj0OXOiPsNnu9w0vBRIb5YyoKm49t",
+        "time_to_live": 433676039.12887573
+      },
+      {
+        "domain": "www.eur.nl",
+        "expires": 2082758400.919885,
+        "httpOnly": true,
+        "name": "ERES_venc",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 85,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "Chx7cBeGQQm8s/kTrHc2vjdaylLnIxrO1NWJ+T1+ppKQdjVfYliet4YGxg+4vm7roughqQeMdrE=",
+        "time_to_live": 433676039.12892866
+      }
+    ],
     "frontpage": [
       {
+        "domain": ".eur.nl",
+        "expires": 1712154354,
+        "httpOnly": false,
+        "name": "_ga_HVMDBN9MFB",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082354.1.0.1649082354.0",
+        "time_to_live": 63071999.62223077
+      },
+      {
+        "domain": "www.eur.nl",
+        "expires": 2082758401.298377,
+        "httpOnly": true,
+        "name": "_ga_HVMDBN9MFB",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 47,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GS1.1.1649082354.1.0.1649082354.0",
+        "time_to_live": 433676046.9206078
+      },
+      {
+        "domain": "www.eur.nl",
+        "expires": 2082758401.298416,
+        "httpOnly": true,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": true,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.1.693967488.1649082354",
+        "time_to_live": 433676046.92064667
+      },
+      {
         "domain": ".www.eur.nl",
-        "expires": 1680469013,
+        "expires": 1680618354,
         "httpOnly": false,
         "name": "OptanonConsent",
         "path": "/",
@@ -2390,92 +2428,44 @@
         "size": 345,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "isGpcEnabled=0&datestamp=Sat+Apr+02+2022+22%3A56%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=6.23.0&isIABGlobal=false&landingPath=https%3A%2F%2Fwww.eur.nl%2F&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&hosts=H8%3A0%2CH3%3A0%2CH29%3A0%2CH2%3A0%2CH6%3A0%2CH22%3A0%2CH31%3A0%2CH32%3A0%2CH11%3A0%2CH30%3A1%2CH18%3A1",
-        "time_to_live": 31535999.12902236
-      },
-      {
-        "domain": ".eur.nl",
-        "expires": 1712005013,
-        "httpOnly": false,
-        "name": "_ga_HVMDBN9MFB",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 47,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GS1.1.1648933013.1.0.1648933013.0",
-        "time_to_live": 63071999.12902236
+        "value": "isGpcEnabled=0&datestamp=Mon+Apr+04+2022+16%3A25%3A54+GMT%2B0200+(Central+European+Summer+Time)&version=6.23.0&isIABGlobal=false&landingPath=https%3A%2F%2Fwww.eur.nl%2F&groups=C0003%3A0%2CC0004%3A0%2CC0002%3A0%2CC0001%3A1&hosts=H8%3A0%2CH3%3A0%2CH29%3A0%2CH2%3A0%2CH6%3A0%2CH22%3A0%2CH31%3A0%2CH32%3A0%2CH11%3A0%2CH30%3A1%2CH18%3A1",
+        "time_to_live": 31535999.62223077
       },
       {
         "domain": "www.eur.nl",
-        "expires": 2082758400.826887,
+        "expires": 2082758401.298406,
         "httpOnly": true,
-        "name": "_ga_HVMDBN9MFB",
+        "name": "ERES__ga_HVMDBN9MFB",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
         "secure": true,
         "session": false,
-        "size": 47,
+        "size": 139,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GS1.1.1648933013.1.0.1648933013.0",
-        "time_to_live": 433825386.95590925
+        "value": "Q/gv0VT4HXJInDjzgN/SdxsclID54ZYP0LSsYq6T73CVTyE9C/DcwXmnRnoIExW3SCgWmnwkFbCH1SSh+udX+QPQ9PG2EJ4Fmu4+mEMcGyQ5rgcD20EKfQ==",
+        "time_to_live": 433676046.92063665
       },
       {
         "domain": "www.eur.nl",
-        "expires": 2082758400.826927,
+        "expires": 2082758401.298425,
         "httpOnly": true,
-        "name": "_ga",
+        "name": "ERES__ga",
         "path": "/",
         "priority": "Medium",
         "sameParty": false,
         "secure": true,
         "session": false,
-        "size": 29,
+        "size": 104,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "GA1.1.558735084.1648933014",
-        "time_to_live": 433825386.9559493
+        "value": "yGZbVfTJjlcYQt/fRnCpKY99wJjYtROVL25iUl2rJYs14So785esAQbN1TOOxMgG354NOe7quFjBEuSDyPEkm5RHBQ/b0KzY",
+        "time_to_live": 433676046.9206557
       },
       {
         "domain": ".eur.nl",
-        "expires": 1712005013,
-        "httpOnly": false,
-        "name": "_ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 29,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.558735084.1648933014",
-        "time_to_live": 63071999.12902236
-      },
-      {
-        "domain": ".eur.nl",
-        "expires": 1649019413,
-        "httpOnly": false,
-        "name": "_gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": false,
-        "session": false,
-        "size": 31,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "GA1.2.2050923394.1648933014",
-        "time_to_live": 86399.12902235985
-      },
-      {
-        "domain": ".eur.nl",
-        "expires": 1648934813,
+        "expires": 1649084154,
         "httpOnly": false,
         "name": "venc",
         "path": "/",
@@ -2487,43 +2477,43 @@
         "sourcePort": 443,
         "sourceScheme": "Secure",
         "value": "yes_ _2_0",
-        "time_to_live": 1799.129022359848
-      },
-      {
-        "domain": "www.eur.nl",
-        "expires": 2082758400.826917,
-        "httpOnly": true,
-        "name": "ERES__ga_HVMDBN9MFB",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 139,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "HBRNTttj/I35XdidxG6orGPUofGP6QS20Nfd4tFrGwpHBuzyCjT9WYnhMMc57qSyZAd+EtUW5RZWaSlo6uh/tHj9YqN9TwnKFRbpBMw3W3/O0W9TZKSe0Q==",
-        "time_to_live": 433825386.9559393
-      },
-      {
-        "domain": "www.eur.nl",
-        "expires": 2082758400.826936,
-        "httpOnly": true,
-        "name": "ERES__ga",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 104,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "mz9v8KXrbPi4pTFyhJV+gbMosxLwSIZ3mVyQfAqUBIPa4kouHKn/oa2fhi8xaafdBSpLUH5FyCkT2tW6PyLV9es3yNEDTmu9",
-        "time_to_live": 433825386.95595837
+        "time_to_live": 1799.6222307682037
       },
       {
         "domain": ".eur.nl",
-        "expires": 1711141013,
+        "expires": 1712154354,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 29,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.693967488.1649082354",
+        "time_to_live": 63071999.62223077
+      },
+      {
+        "domain": ".eur.nl",
+        "expires": 1649168754,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "secure": false,
+        "session": false,
+        "size": 30,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "GA1.2.541851312.1649082354",
+        "time_to_live": 86399.6222307682
+      },
+      {
+        "domain": ".eur.nl",
+        "expires": 1711290354,
         "httpOnly": false,
         "name": "veuid",
         "path": "/",
@@ -2534,8 +2524,8 @@
         "size": 82,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "bb23b982-e2bd-4c7c-8fd5-da99bb56e770_eb8758334bf254ffbecee7d537e83e9838ee15b8",
-        "time_to_live": 62207999.12902236
+        "value": "859cf307-c26a-44c5-8ef1-0f73deb0f0f2_493389f2758daa8f633707a4de8744763bbbc201",
+        "time_to_live": 62207999.62223077
       },
       {
         "domain": ".www.eur.nl",
@@ -2550,8 +2540,8 @@
         "size": 85,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "xfwgr5AvpaSATIO6EFd-z-khun2iDOn6GLi22u8cMWLDmZua",
-        "time_to_live": -1648933014.8709776
+        "value": "eEvR9reQIYLwcq5tl82i5tK2d6ho0FHlwhAVRK7xF9J9J2DK",
+        "time_to_live": -1649082355.3777692
       },
       {
         "domain": ".www.eur.nl",
@@ -2566,78 +2556,12 @@
         "size": 214,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "dZ56I27Iusqw6YpJBiWD9PiwqPQlHKPiWZusMrvOHsvmSN5XK2f/DSyg82WddwaxJhHeX+PiFEc2RvyhnTn//Wgl9+J3I75tu0s0C7qeNPNaNQoUQQo8KWDMK06SEO5uMRDR8flktgc8hCukzvevVYoyz85JyMKmF5Br2ji9NDw=",
-        "time_to_live": -1648933014.8709776
-      }
-    ],
-    "hopped": [
-      {
-        "domain": "www.eur.nl",
-        "expires": 2082758401.293442,
-        "httpOnly": true,
-        "name": "ERES__gid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 105,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "VNl+1ELpBScb9mCb7t8g4LnqeaScalMh0e8ZxAER5oeOax0J4/pC+vIiTvtQTG646wRbraQouCeZSTZ9DNpTvkeIlNoxf73o"
-      },
-      {
-        "domain": "www.eur.nl",
-        "expires": 2082758401.293465,
-        "httpOnly": true,
-        "name": "ERES_veuid",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 170,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "fpiOIpA9GRqnTdcuUlN1Yl8ck7p/gYehxcn2dUHSBg/GzjP35TFv8MvRhCI2wzcHe8o96w0o7zUu7N8fFZEIHCS+XfIItVhht1120qpTGbdMMDpRa4m+V8tGj83UdThkf1YEUnWxCpMHwCnugy0/G9c+ms9n5WO8"
-      },
-      {
-        "domain": "www.eur.nl",
-        "expires": 2082758401.293503,
-        "httpOnly": true,
-        "name": "ERES_venc",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "secure": true,
-        "session": false,
-        "size": 85,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "ZVhbV+itgIzWwBKWn08/Tde51eo2XN4jME1vbL90Xv0yK9sgQy0K758Kx5CfSLcsP3oV38hOu6Q="
+        "value": "nNdD9CQTb0+1vLmdxIlFhMF+kPA+KbISiWU4azZMCATqs48K7iJ4fuMPzj+Eg00JV7zWxd2CVti1FgZGDYg7svA9ELKs1ePb8uyiKe9SVYcqymQUqlK+YsPJgaSlsl7QTlm2jFS6I5wvO0SmXz2qrbHrbzWlmHp4eeqZdRpEkYI=",
+        "time_to_live": -1649082355.3777692
       }
     ]
   },
   "vu.nl": {
-    "frontpage": [
-      {
-        "domain": ".vu.nl",
-        "expires": -1,
-        "httpOnly": true,
-        "name": "sess_auth_vu_nl",
-        "path": "/",
-        "priority": "Medium",
-        "sameParty": false,
-        "sameSite": "Lax",
-        "secure": true,
-        "session": true,
-        "size": 76,
-        "sourcePort": 443,
-        "sourceScheme": "Secure",
-        "value": "Cf9ph8ZBiUSIVAAOU21rRA|1648936642|WW9Uo7p_WPxY2OgVCANO356wS70",
-        "time_to_live": -1648933045.5687003
-      }
-    ],
     "hopped": [
       {
         "domain": ".youtube.com",
@@ -2653,11 +2577,12 @@
         "size": 14,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "RUozUbH_vGQ"
+        "value": "F5lpxgtfsh0",
+        "time_to_live": -1649082438.2742653
       },
       {
         "domain": ".youtube.com",
-        "expires": 1664485071.735244,
+        "expires": 1664634435.709571,
         "httpOnly": true,
         "name": "VISITOR_INFO1_LIVE",
         "path": "/",
@@ -2669,7 +2594,27 @@
         "size": 29,
         "sourcePort": 443,
         "sourceScheme": "Secure",
-        "value": "sqK64cnzb2E"
+        "value": "NmywCQCqfqY",
+        "time_to_live": 15551998.435305595
+      }
+    ],
+    "frontpage": [
+      {
+        "domain": ".vu.nl",
+        "expires": -1,
+        "httpOnly": true,
+        "name": "sess_auth_vu_nl",
+        "path": "/",
+        "priority": "Medium",
+        "sameParty": false,
+        "sameSite": "Lax",
+        "secure": true,
+        "session": true,
+        "size": 76,
+        "sourcePort": 443,
+        "sourceScheme": "Secure",
+        "value": "xZqPtCKCyNoPtWc9rbLHWw|1649085975|5M9d8W9a1N3eJdHbdJyI4JfNT7w",
+        "time_to_live": -1649082378.5706737
       }
     ]
   }

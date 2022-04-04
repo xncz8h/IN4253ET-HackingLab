@@ -62,3 +62,6 @@ def is_tracker(domain_name: str, trackers_list: np.array) -> bool:
     # Binary search.
     index = np.searchsorted(trackers_list, domain_name)
     return trackers_list[index] == domain_name and index != len(trackers_list)
+
+if __name__ == "__main__":
+    print(check_trackers("6006206.global.siteimproveanalytics.io"))

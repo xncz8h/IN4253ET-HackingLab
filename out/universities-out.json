@@ -1,22 +1,11 @@
 {
-  "tilburguniversity.edu": {
-    "frontpage": [
-      {
-        "name": "worker",
-        "domain": "www.tilburguniversity.edu",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      }
-    ],
-    "hopped": []
-  },
   "wur.nl": {
     "frontpage": [
       {
         "name": "BCSessionID",
         "domain": "wageningenur.blueconic.net",
-        "expires": 1680468921.910043,
+        "expires": 1680618250.085048,
+        "time_to_live": 31535999.788875103,
         "third_party": true,
         "trackers_list": []
       },
@@ -24,6 +13,7 @@
         "name": "TS0157cc3c",
         "domain": "wur.nl",
         "expires": -1,
+        "time_to_live": -1649082251.2961729,
         "third_party": false,
         "trackers_list": []
       },
@@ -31,112 +21,173 @@
         "name": "TS0157cc3c",
         "domain": "www.wur.nl",
         "expires": -1,
+        "time_to_live": -1649082251.2961729,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_vwo_uuid_v2",
         "domain": ".wur.nl",
-        "expires": 1680555321,
+        "expires": 1680704649,
+        "time_to_live": 31622398.703827143,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gcl_au",
         "domain": ".wur.nl",
-        "expires": 1656708921,
+        "expires": 1656858249,
+        "time_to_live": 7775998.703827143,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".wur.nl",
-        "expires": 1712004922,
+        "expires": 1712154250,
+        "time_to_live": 63071999.70382714,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".wur.nl",
-        "expires": 1649019322,
+        "expires": 1649168650,
+        "time_to_live": 86399.70382714272,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_dc_gtm_UA-33618209-9",
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
+        "time_to_live": 58.703827142715454,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_null",
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
+        "time_to_live": 58.703827142715454,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_dc_gtm_UA-33618209-1",
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082309,
+        "time_to_live": 58.703827142715454,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "BCSessionID",
         "domain": ".wur.nl",
-        "expires": 1680468921,
+        "expires": 1680618249,
+        "time_to_live": 31535998.703827143,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-33618209-9",
         "domain": ".wur.nl",
-        "expires": 1648932981,
+        "expires": 1649082310,
+        "time_to_live": 59.703827142715454,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjSessionUser_31224",
         "domain": ".wur.nl",
-        "expires": 1680468922,
+        "expires": 1680618250,
+        "time_to_live": 31535999.703827143,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjFirstSeen",
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
+        "time_to_live": 1799.7038271427155,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjIncludedInSessionSample",
         "domain": "www.wur.nl",
-        "expires": 1648933042,
+        "expires": 1649082370,
+        "time_to_live": 119.70382714271545,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjSession_31224",
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
+        "time_to_live": 1799.7038271427155,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjAbsoluteSessionInProgress",
         "domain": ".wur.nl",
-        "expires": 1648934722,
+        "expires": 1649084050,
+        "time_to_live": 1799.7038271427155,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "AWSALBCORS",
         "domain": "wageningenur.blueconic.net",
-        "expires": 1649537722.500094,
+        "expires": 1649687050.575078,
+        "time_to_live": 604800.2789051533,
         "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "tua.nl": {
+    "frontpage": [
+      {
+        "name": "PHPSESSID",
+        "domain": "www.tua.nl",
+        "expires": -1,
+        "time_to_live": -1649082256.0365794,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".tua.nl",
+        "expires": 1712154252,
+        "time_to_live": 63071996.96342063,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".tua.nl",
+        "expires": 1649168652,
+        "time_to_live": 86396.9634206295,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gat_gtag_UA_2143424_36",
+        "domain": ".tua.nl",
+        "expires": 1649082312,
+        "time_to_live": 56.96342062950134,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_fbp",
+        "domain": ".tua.nl",
+        "expires": 1656858252,
+        "time_to_live": 7775996.9634206295,
+        "third_party": false,
         "trackers_list": []
       }
     ],
@@ -145,44 +196,199 @@
   "ru.nl": {
     "frontpage": [
       {
-        "name": "cookie_notification",
-        "domain": ".ru.nl",
-        "expires": 1680468921,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "cookies_consent",
-        "domain": ".ru.nl",
-        "expires": 1680468922,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_pk_id.4.4de0",
-        "domain": "www.ru.nl",
-        "expires": 1682888122,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_pk_ses.4.4de0",
-        "domain": "www.ru.nl",
-        "expires": 1648934722,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
         "name": "_ga",
         "domain": ".ru.nl",
-        "expires": 1712004922,
+        "expires": 1712154255,
+        "time_to_live": 63071998.65176821,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".ru.nl",
-        "expires": 1649019322,
+        "expires": 1649168655,
+        "time_to_live": 86398.65176820755,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_id.4.4de0",
+        "domain": "www.ru.nl",
+        "expires": 1683037456,
+        "time_to_live": 33955199.65176821,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_pk_ses.4.4de0",
+        "domain": "www.ru.nl",
+        "expires": 1649084055,
+        "time_to_live": 1798.65176820755,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookie_notification",
+        "domain": ".ru.nl",
+        "expires": 1680618256,
+        "time_to_live": 31535999.651768208,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "cookies_consent",
+        "domain": ".ru.nl",
+        "expires": 1680618256,
+        "time_to_live": 31535999.651768208,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": []
+  },
+  "utwente.nl": {
+    "frontpage": [
+      {
+        "name": "",
+        "domain": "www.utwente.nl",
+        "expires": 1680618259,
+        "time_to_live": 31535998.54306507,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ut-sess",
+        "domain": "www.utwente.nl",
+        "expires": -1,
+        "time_to_live": -1649082261.456935,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".fonts.net",
+        "expires": 1649084059.659077,
+        "time_to_live": 1799.2021420001984,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".utwente.nl",
+        "expires": 1649168660,
+        "time_to_live": 86399.5430650711,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_DHY20KGR51",
+        "domain": ".utwente.nl",
+        "expires": 1712154260,
+        "time_to_live": 63071999.54306507,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".utwente.nl",
+        "expires": 1712154260,
+        "time_to_live": 63071999.54306507,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utma",
+        "domain": ".utwente.nl",
+        "expires": 1712154260,
+        "time_to_live": 63071999.54306507,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmc",
+        "domain": ".utwente.nl",
+        "expires": -1,
+        "time_to_live": -1649082261.456935,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmz",
+        "domain": ".utwente.nl",
+        "expires": 1664850260,
+        "time_to_live": 15767999.543065071,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmt_UA-9767236-8",
+        "domain": ".utwente.nl",
+        "expires": 1649082860,
+        "time_to_live": 599.543065071106,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "__utmb",
+        "domain": ".utwente.nl",
+        "expires": 1649084060,
+        "time_to_live": 1799.543065071106,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "monsido",
+        "domain": "www.utwente.nl",
+        "expires": 1651674260,
+        "time_to_live": 2591999.543065071,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSessionUser_85186",
+        "domain": ".utwente.nl",
+        "expires": 1680618260,
+        "time_to_live": 31535999.54306507,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjFirstSeen",
+        "domain": ".utwente.nl",
+        "expires": 1649084060,
+        "time_to_live": 1799.543065071106,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjIncludedInSessionSample",
+        "domain": "www.utwente.nl",
+        "expires": 1649082380,
+        "time_to_live": 119.54306507110596,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjSession_85186",
+        "domain": ".utwente.nl",
+        "expires": 1649084060,
+        "time_to_live": 1799.543065071106,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "domain": ".utwente.nl",
+        "expires": 1649084060,
+        "time_to_live": 1799.543065071106,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "ut-settings",
+        "domain": "www.utwente.nl",
+        "expires": 1680618260,
+        "time_to_live": 31535999.54306507,
         "third_party": false,
         "trackers_list": []
       }
@@ -195,6 +401,7 @@
         "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
         "domain": "uva.nl",
         "expires": -1,
+        "time_to_live": -1649082253.865126,
         "third_party": false,
         "trackers_list": []
       },
@@ -202,6 +409,7 @@
         "name": "ef9nygDQ3keaRUYOqh66uH2YAM8j1aVmQ5T0iaXFjSnUGVmR",
         "domain": "www.uva.nl",
         "expires": -1,
+        "time_to_live": -1649082253.865126,
         "third_party": false,
         "trackers_list": []
       },
@@ -209,34 +417,39 @@
         "name": "PageCount",
         "domain": ".uva.nl",
         "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga_44XGTNSN28",
-        "domain": ".uva.nl",
-        "expires": 1712004921,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga",
-        "domain": ".uva.nl",
-        "expires": 1712004921,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_gid",
-        "domain": ".uva.nl",
-        "expires": 1649019321,
+        "time_to_live": -1649082253.865126,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "nmstat",
         "domain": ".uva.nl",
-        "expires": 1735332921,
+        "expires": 1735482251,
+        "time_to_live": 86399998.1348741,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_44XGTNSN28",
+        "domain": ".uva.nl",
+        "expires": 1712154252,
+        "time_to_live": 63071999.134874105,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".uva.nl",
+        "expires": 1712154252,
+        "time_to_live": 63071999.134874105,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".uva.nl",
+        "expires": 1649168652,
+        "time_to_live": 86399.13487410545,
         "third_party": false,
         "trackers_list": []
       },
@@ -244,138 +457,8 @@
         "name": "AWSELBCORS",
         "domain": "6004849.global.siteimproveanalytics.io",
         "expires": -1,
+        "time_to_live": -1649082253.865126,
         "third_party": true,
-        "trackers_list": []
-      }
-    ],
-    "hopped": []
-  },
-  "utwente.nl": {
-    "frontpage": [
-      {
-        "name": "",
-        "domain": "www.utwente.nl",
-        "expires": 1680468927,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "ut-sess",
-        "domain": "www.utwente.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__cf_bm",
-        "domain": ".fonts.net",
-        "expires": 1648934727.718369,
-        "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "_gid",
-        "domain": ".utwente.nl",
-        "expires": 1649019328,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga_DHY20KGR51",
-        "domain": ".utwente.nl",
-        "expires": 1712004928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga",
-        "domain": ".utwente.nl",
-        "expires": 1712004928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__utma",
-        "domain": ".utwente.nl",
-        "expires": 1712004928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__utmc",
-        "domain": ".utwente.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__utmz",
-        "domain": ".utwente.nl",
-        "expires": 1664700928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__utmt_UA-9767236-8",
-        "domain": ".utwente.nl",
-        "expires": 1648933528,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "__utmb",
-        "domain": ".utwente.nl",
-        "expires": 1648934728,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "monsido",
-        "domain": "www.utwente.nl",
-        "expires": 1651524928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjSessionUser_85186",
-        "domain": ".utwente.nl",
-        "expires": 1680468928,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjFirstSeen",
-        "domain": ".utwente.nl",
-        "expires": 1648934728,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjIncludedInSessionSample",
-        "domain": "www.utwente.nl",
-        "expires": 1648933048,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjSession_85186",
-        "domain": ".utwente.nl",
-        "expires": 1648934728,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjAbsoluteSessionInProgress",
-        "domain": ".utwente.nl",
-        "expires": 1648934728,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "ut-settings",
-        "domain": "www.utwente.nl",
-        "expires": 1680468928,
-        "third_party": false,
         "trackers_list": []
       }
     ],
@@ -386,28 +469,32 @@
       {
         "name": "_ga_D3D5QG8KS",
         "domain": ".pthu.nl",
-        "expires": 1712004942,
+        "expires": 1712154275,
+        "time_to_live": 63071999.714422226,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga_D3D5QG8KST",
         "domain": ".pthu.nl",
-        "expires": 1712004942,
+        "expires": 1712154275,
+        "time_to_live": 63071999.714422226,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".pthu.nl",
-        "expires": 1712004942,
+        "expires": 1712154275,
+        "time_to_live": 63071999.714422226,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".pthu.nl",
-        "expires": 1649019342,
+        "expires": 1649168675,
+        "time_to_live": 86399.71442222595,
         "third_party": false,
         "trackers_list": []
       }
@@ -419,68 +506,123 @@
       {
         "name": "_ga",
         "domain": ".tukampen.nl",
-        "expires": 1712004936,
+        "expires": 1712154272,
+        "time_to_live": 63071999.25751734,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".tukampen.nl",
-        "expires": 1649019336,
+        "expires": 1649168672,
+        "time_to_live": 86399.2575173378,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_gtag_UA_152884493_1",
         "domain": ".tukampen.nl",
-        "expires": 1648932996,
+        "expires": 1649082332,
+        "time_to_live": 59.25751733779907,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "vuid",
         "domain": ".vimeo.com",
-        "expires": 1712004936,
+        "expires": 1712154272,
+        "time_to_live": 63071999.25751734,
         "third_party": true,
         "trackers_list": []
       }
     ],
     "hopped": []
   },
+  "tilburguniversity.edu": {
+    "frontpage": [
+      {
+        "name": "worker",
+        "domain": "www.tilburguniversity.edu",
+        "expires": -1,
+        "time_to_live": -1649082253.935937,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_9LNCW846MJ",
+        "domain": ".tilburguniversity.edu",
+        "expires": 1712154252,
+        "time_to_live": 63071999.06406307,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".tilburguniversity.edu",
+        "expires": 1712154252,
+        "time_to_live": 63071999.06406307,
+        "third_party": false,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1649082272.6101325,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664634270.663375,
+        "time_to_live": 15551999.053242445,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
+  },
   "uu.nl": {
     "frontpage": [
       {
         "name": "_gcl_au",
         "domain": ".uu.nl",
-        "expires": 1656708921,
+        "expires": 1656858253,
+        "time_to_live": 7775998.65607357,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga_WJ30DT8NHH",
         "domain": ".uu.nl",
-        "expires": 1712004921,
+        "expires": 1712154253,
+        "time_to_live": 63071998.65607357,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".uu.nl",
-        "expires": 1712004921,
+        "expires": 1712154253,
+        "time_to_live": 63071998.65607357,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".uu.nl",
-        "expires": 1649019321,
+        "expires": 1649168653,
+        "time_to_live": 86398.65607357025,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-3961816-1",
         "domain": ".uu.nl",
-        "expires": 1648932981,
+        "expires": 1649082313,
+        "time_to_live": 58.656073570251465,
         "third_party": false,
         "trackers_list": []
       }
@@ -489,7 +631,8 @@
       {
         "name": "vuid",
         "domain": ".vimeo.com",
-        "expires": 1712004981,
+        "expires": 1712154369,
+        "time_to_live": 63071999.016697645,
         "third_party": true,
         "trackers_list": []
       }
@@ -501,6 +644,7 @@
         "name": "secureid",
         "domain": "uvh.nl",
         "expires": -1,
+        "time_to_live": -1649082254.8648517,
         "third_party": false,
         "trackers_list": []
       },
@@ -508,6 +652,7 @@
         "name": "predestination",
         "domain": "uvh.nl",
         "expires": -1,
+        "time_to_live": -1649082254.8648517,
         "third_party": false,
         "trackers_list": []
       },
@@ -515,6 +660,7 @@
         "name": "secureid",
         "domain": "www.uvh.nl",
         "expires": -1,
+        "time_to_live": -1649082254.8648517,
         "third_party": false,
         "trackers_list": []
       },
@@ -522,114 +668,106 @@
         "name": "predestination",
         "domain": "www.uvh.nl",
         "expires": -1,
+        "time_to_live": -1649082254.8648517,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".uvh.nl",
-        "expires": 1649019322,
+        "expires": 1649168652,
+        "time_to_live": 86398.13514828682,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_dc_gtm_UA-23824664-1",
         "domain": ".uvh.nl",
-        "expires": 1648932982,
+        "expires": 1649082312,
+        "time_to_live": 58.13514828681946,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga_TTNPB5GFNH",
         "domain": ".uvh.nl",
-        "expires": 1712004922,
+        "expires": 1712154252,
+        "time_to_live": 63071998.13514829,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".uvh.nl",
-        "expires": 1712004922,
+        "expires": 1712154252,
+        "time_to_live": 63071998.13514829,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjSessionUser_905524",
         "domain": ".uvh.nl",
-        "expires": 1680468922,
+        "expires": 1680618252,
+        "time_to_live": 31535998.135148287,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjFirstSeen",
         "domain": ".uvh.nl",
-        "expires": 1648934722,
+        "expires": 1649084052,
+        "time_to_live": 1798.1351482868195,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjIncludedInSessionSample",
         "domain": "www.uvh.nl",
-        "expires": 1648933042,
+        "expires": 1649082372,
+        "time_to_live": 118.13514828681946,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjSession_905524",
         "domain": ".uvh.nl",
-        "expires": 1648934722,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_hjIncludedInPageviewSample",
-        "domain": "www.uvh.nl",
-        "expires": 1648933042,
+        "expires": 1649084052,
+        "time_to_live": 1798.1351482868195,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_hjAbsoluteSessionInProgress",
         "domain": ".uvh.nl",
-        "expires": 1648934722,
+        "expires": 1649084052,
+        "time_to_live": 1798.1351482868195,
         "third_party": false,
         "trackers_list": []
       }
     ],
     "hopped": [
       {
+        "name": "_hjIncludedInPageviewSample",
+        "domain": "www.uvh.nl",
+        "expires": 1649082380,
+        "time_to_live": 119.24187159538269,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
         "name": "YSC",
         "domain": ".youtube.com",
         "expires": -1,
+        "time_to_live": -1649082268.5197115,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "VISITOR_INFO1_LIVE",
         "domain": ".youtube.com",
-        "expires": 1664484985.00039,
+        "expires": 1664634266.52694,
+        "time_to_live": 15551999.007228613,
         "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "locale",
-        "domain": "crm.uvh.nl",
-        "expires": 1964552212.388833,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_fullfabric_uuid",
-        "domain": "crm.uvh.nl",
-        "expires": 1964552212.388803,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_fullfabric_session",
-        "domain": "crm.uvh.nl",
-        "expires": -1,
-        "third_party": false,
         "trackers_list": []
       }
     ]
@@ -640,6 +778,7 @@
         "name": "JSESSIONID",
         "domain": "www.rug.nl",
         "expires": -1,
+        "time_to_live": -1649082257.7577107,
         "third_party": false,
         "trackers_list": []
       },
@@ -647,103 +786,31 @@
         "name": "BIGipServerucms_pool_prod_9084",
         "domain": "www.rug.nl",
         "expires": -1,
+        "time_to_live": -1649082257.7577107,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".rug.nl",
-        "expires": 1712004923,
+        "expires": 1712154256,
+        "time_to_live": 63071999.242289305,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".rug.nl",
-        "expires": 1649019323,
+        "expires": 1649168656,
+        "time_to_live": 86399.24228930473,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-773007-1",
         "domain": ".rug.nl",
-        "expires": 1648932983,
-        "third_party": false,
-        "trackers_list": []
-      }
-    ],
-    "hopped": [
-      {
-        "name": "rvtoken.441547559dfd45da854fc83508f9078b",
-        "domain": ".fd13.formdesk.com",
-        "expires": -1,
-        "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "UrnNovellNidpClusterMemberId",
-        "domain": "signon.rug.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "LastMRH_Session",
-        "domain": "sp.ucms.rug.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "MRHSession",
-        "domain": "sp.ucms.rug.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "iam-nam-idps",
-        "domain": "signon.rug.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      }
-    ]
-  },
-  "tua.nl": {
-    "frontpage": [
-      {
-        "name": "PHPSESSID",
-        "domain": "www.tua.nl",
-        "expires": -1,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga",
-        "domain": ".tua.nl",
-        "expires": 1712004921,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_gid",
-        "domain": ".tua.nl",
-        "expires": 1649019321,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_fbp",
-        "domain": ".tua.nl",
-        "expires": 1656708922,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_gat_gtag_UA_2143424_36",
-        "domain": ".tua.nl",
-        "expires": 1648933120,
+        "expires": 1649082316,
+        "time_to_live": 59.242289304733276,
         "third_party": false,
         "trackers_list": []
       }
@@ -756,6 +823,7 @@
         "name": "aff_fb800eb71",
         "domain": "www.tudelft.nl",
         "expires": -1,
+        "time_to_live": -1649082255.2751274,
         "third_party": false,
         "trackers_list": []
       },
@@ -763,6 +831,7 @@
         "name": "fontsLoaded",
         "domain": "www.tudelft.nl",
         "expires": -1,
+        "time_to_live": -1649082255.2751274,
         "third_party": false,
         "trackers_list": []
       }
@@ -775,48 +844,55 @@
         "name": "JSESSIONID",
         "domain": "www.ou.nl",
         "expires": -1,
+        "time_to_live": -1649082281.9325063,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "COOKIE_SUPPORT",
         "domain": "www.ou.nl",
-        "expires": 1680468946.532503,
+        "expires": 1680618278.423841,
+        "time_to_live": 31535997.491334677,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "GUEST_LANGUAGE_ID",
         "domain": "www.ou.nl",
-        "expires": 1680468946.532563,
+        "expires": 1680618278.423999,
+        "time_to_live": 31535997.49149275,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga_R12VNJGEGL",
         "domain": ".ou.nl",
-        "expires": 1712004947,
+        "expires": 1712154279,
+        "time_to_live": 63071998.06749368,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".ou.nl",
-        "expires": 1712004948,
+        "expires": 1712154280,
+        "time_to_live": 63071999.06749368,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".ou.nl",
-        "expires": 1649019348,
+        "expires": 1649168680,
+        "time_to_live": 86399.06749367714,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-1768413-2",
         "domain": ".ou.nl",
-        "expires": 1648933007,
+        "expires": 1649082339,
+        "time_to_live": 58.06749367713928,
         "third_party": false,
         "trackers_list": []
       },
@@ -824,6 +900,7 @@
         "name": "LFR_SESSION_STATE_20158",
         "domain": "www.ou.nl",
         "expires": -1,
+        "time_to_live": -1649082281.9325063,
         "third_party": false,
         "trackers_list": []
       }
@@ -832,91 +909,41 @@
       {
         "name": "__lc_cid",
         "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597031,
+        "expires": 1712154288.065228,
+        "time_to_live": 63072000.2343719,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "__lc_cst",
         "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597074,
+        "expires": 1712154288.065269,
+        "time_to_live": 63072000.23441291,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "__lc_cid",
         "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597087,
+        "expires": 1712154288.065289,
+        "time_to_live": 63072000.234432936,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "__lc_cst",
         "domain": ".accounts.livechatinc.com",
-        "expires": 1712005023.597101,
+        "expires": 1712154288.065303,
+        "time_to_live": 63072000.234447,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "_gat",
         "domain": ".ou.nl",
-        "expires": 1648933081,
+        "expires": 1649082346,
+        "time_to_live": 58.16914391517639,
         "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "rvtoken.07c01edef97f4bd49ab60cbad768d6d0",
-        "domain": ".fd7.formdesk.com",
-        "expires": -1,
-        "third_party": true,
-        "trackers_list": []
-      }
-    ]
-  },
-  "maastrichtuniversity.nl": {
-    "frontpage": [
-      {
-        "name": "BCSessionID",
-        "domain": "maastrichtuniversity.blueconic.net",
-        "expires": 1680468952.954138,
-        "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "BCSessionID",
-        "domain": ".maastrichtuniversity.nl",
-        "expires": 1680468952,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "AWSALBCORS",
-        "domain": "maastrichtuniversity.blueconic.net",
-        "expires": 1649537752.954853,
-        "third_party": true,
-        "trackers_list": []
-      }
-    ],
-    "hopped": [
-      {
-        "name": "YSC",
-        "domain": ".youtube.com",
-        "expires": -1,
-        "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "VISITOR_INFO1_LIVE",
-        "domain": ".youtube.com",
-        "expires": 1664484984.054351,
-        "third_party": true,
-        "trackers_list": []
-      },
-      {
-        "name": "uuid",
-        "domain": "maastrichtuniversity.bbvms.com",
-        "expires": 1680468998,
-        "third_party": true,
         "trackers_list": []
       }
     ]
@@ -926,56 +953,64 @@
       {
         "name": "AWSALB",
         "domain": "www.tue.nl",
-        "expires": 1649537738.527102,
+        "expires": 1649687071.017646,
+        "time_to_live": 604799.4434177876,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "AWSALBCORS",
         "domain": "www.tue.nl",
-        "expires": 1649537738.527128,
+        "expires": 1649687071.017687,
+        "time_to_live": 604799.4434587955,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gcl_au",
         "domain": ".tue.nl",
-        "expires": 1656708938,
+        "expires": 1656858271,
+        "time_to_live": 7775999.425771713,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-53705384-1",
         "domain": ".tue.nl",
-        "expires": 1680468939,
+        "expires": 1680618271,
+        "time_to_live": 31535999.425771713,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".tue.nl",
-        "expires": 1712004939,
+        "expires": 1712154271,
+        "time_to_live": 63071999.42577171,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".tue.nl",
-        "expires": 1649019339,
+        "expires": 1649168671,
+        "time_to_live": 86399.42577171326,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "UserMatchHistory",
         "domain": ".linkedin.com",
-        "expires": 1651524938.976892,
+        "expires": 1651674271.917418,
+        "time_to_live": 2592000.3431897163,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "AnalyticsSyncHistory",
         "domain": ".linkedin.com",
-        "expires": 1651524938.976913,
+        "expires": 1651674271.917441,
+        "time_to_live": 2592000.3432126045,
         "third_party": true,
         "trackers_list": []
       },
@@ -983,6 +1018,7 @@
         "name": "lang",
         "domain": ".ads.linkedin.com",
         "expires": -1,
+        "time_to_live": -1649082272.5742283,
         "third_party": true,
         "trackers_list": [
           "adguarddns",
@@ -992,14 +1028,16 @@
       {
         "name": "bcookie",
         "domain": ".linkedin.com",
-        "expires": 1712046791.976928,
+        "expires": 1712196123.917456,
+        "time_to_live": 63113852.343227625,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "lidc",
         "domain": ".linkedin.com",
-        "expires": 1649019339.97694,
+        "expires": 1649168671.917468,
+        "time_to_live": 86400.34323978424,
         "third_party": true,
         "trackers_list": []
       },
@@ -1007,25 +1045,82 @@
         "name": "lang",
         "domain": ".linkedin.com",
         "expires": -1,
+        "time_to_live": -1649082272.5742283,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "bscookie",
         "domain": ".www.linkedin.com",
-        "expires": 1712046791.160445,
+        "expires": 1712196124.123942,
+        "time_to_live": 63113852.54971361,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "li_gc",
         "domain": ".linkedin.com",
-        "expires": 1711571544.160475,
+        "expires": 1711666888.123965,
+        "time_to_live": 62584616.54973674,
         "third_party": true,
         "trackers_list": []
       }
     ],
     "hopped": []
+  },
+  "maastrichtuniversity.nl": {
+    "frontpage": [
+      {
+        "name": "BCSessionID",
+        "domain": "maastrichtuniversity.blueconic.net",
+        "expires": 1680618285.714007,
+        "time_to_live": 31536000.298049927,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "BCSessionID",
+        "domain": ".maastrichtuniversity.nl",
+        "expires": 1680618285,
+        "time_to_live": 31535999.584043026,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "AWSALBCORS",
+        "domain": "maastrichtuniversity.blueconic.net",
+        "expires": 1649687085.78559,
+        "time_to_live": 604800.3696329594,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ],
+    "hopped": [
+      {
+        "name": "uuid",
+        "domain": "maastrichtuniversity.bbvms.com",
+        "expires": 1680618298,
+        "time_to_live": 31535998.43558836,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "YSC",
+        "domain": ".youtube.com",
+        "expires": -1,
+        "time_to_live": -1649082421.0693178,
+        "third_party": true,
+        "trackers_list": []
+      },
+      {
+        "name": "VISITOR_INFO1_LIVE",
+        "domain": ".youtube.com",
+        "expires": 1664634419.199712,
+        "time_to_live": 15551999.13039422,
+        "third_party": true,
+        "trackers_list": []
+      }
+    ]
   },
   "universiteitleiden.nl": {
     "frontpage": [
@@ -1033,41 +1128,47 @@
         "name": "ROUTEID",
         "domain": "www.universiteitleiden.nl",
         "expires": -1,
+        "time_to_live": -1649082255.827083,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "JSESSIONID",
         "domain": ".universiteitleiden.nl",
-        "expires": 1648976122.615107,
+        "expires": 1649125453.590957,
+        "time_to_live": 43198.76387381554,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga_0RSX4L0ZPZ",
         "domain": ".universiteitleiden.nl",
-        "expires": 1712004923,
+        "expires": 1712154254,
+        "time_to_live": 63071999.17291689,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_ga",
         "domain": ".universiteitleiden.nl",
-        "expires": 1712004923,
+        "expires": 1712154254,
+        "time_to_live": 63071999.17291689,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gid",
         "domain": ".universiteitleiden.nl",
-        "expires": 1649019323,
+        "expires": 1649168654,
+        "time_to_live": 86399.17291688919,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "_gat_UA-65023507-1",
         "domain": ".universiteitleiden.nl",
-        "expires": 1648932983,
+        "expires": 1649082314,
+        "time_to_live": 59.172916889190674,
         "third_party": false,
         "trackers_list": []
       }
@@ -1077,72 +1178,82 @@
   "eur.nl": {
     "frontpage": [
       {
+        "name": "_ga_HVMDBN9MFB",
+        "domain": ".eur.nl",
+        "expires": 1712154354,
+        "time_to_live": 63071999.62223077,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga_HVMDBN9MFB",
+        "domain": "www.eur.nl",
+        "expires": 2082758401.298377,
+        "time_to_live": 433676046.9206078,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": "www.eur.nl",
+        "expires": 2082758401.298416,
+        "time_to_live": 433676046.92064667,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
         "name": "OptanonConsent",
         "domain": ".www.eur.nl",
-        "expires": 1680469013,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga_HVMDBN9MFB",
-        "domain": ".eur.nl",
-        "expires": 1712005013,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga_HVMDBN9MFB",
-        "domain": "www.eur.nl",
-        "expires": 2082758400.826887,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga",
-        "domain": "www.eur.nl",
-        "expires": 2082758400.826927,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_ga",
-        "domain": ".eur.nl",
-        "expires": 1712005013,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "_gid",
-        "domain": ".eur.nl",
-        "expires": 1649019413,
-        "third_party": false,
-        "trackers_list": []
-      },
-      {
-        "name": "venc",
-        "domain": ".eur.nl",
-        "expires": 1648934813,
+        "expires": 1680618354,
+        "time_to_live": 31535999.62223077,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "ERES__ga_HVMDBN9MFB",
         "domain": "www.eur.nl",
-        "expires": 2082758400.826917,
+        "expires": 2082758401.298406,
+        "time_to_live": 433676046.92063665,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "ERES__ga",
         "domain": "www.eur.nl",
-        "expires": 2082758400.826936,
+        "expires": 2082758401.298425,
+        "time_to_live": 433676046.9206557,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "venc",
+        "domain": ".eur.nl",
+        "expires": 1649084154,
+        "time_to_live": 1799.6222307682037,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_ga",
+        "domain": ".eur.nl",
+        "expires": 1712154354,
+        "time_to_live": 63071999.62223077,
+        "third_party": false,
+        "trackers_list": []
+      },
+      {
+        "name": "_gid",
+        "domain": ".eur.nl",
+        "expires": 1649168754,
+        "time_to_live": 86399.6222307682,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "veuid",
         "domain": ".eur.nl",
-        "expires": 1711141013,
+        "expires": 1711290354,
+        "time_to_live": 62207999.62223077,
         "third_party": false,
         "trackers_list": []
       },
@@ -1150,6 +1261,7 @@
         "name": "SSESSe6f9f67bc2f663532b6c6100f272e417",
         "domain": ".www.eur.nl",
         "expires": -1,
+        "time_to_live": -1649082355.3777692,
         "third_party": false,
         "trackers_list": []
       },
@@ -1157,6 +1269,7 @@
         "name": "ERES_SSESSe6f9f67bc2f663532b6c6100f272e417",
         "domain": ".www.eur.nl",
         "expires": -1,
+        "time_to_live": -1649082355.3777692,
         "third_party": false,
         "trackers_list": []
       }
@@ -1165,21 +1278,24 @@
       {
         "name": "ERES__gid",
         "domain": "www.eur.nl",
-        "expires": 2082758401.293442,
+        "expires": 2082758400.919808,
+        "time_to_live": 433676039.12885165,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "ERES_veuid",
         "domain": "www.eur.nl",
-        "expires": 2082758401.293465,
+        "expires": 2082758400.919832,
+        "time_to_live": 433676039.12887573,
         "third_party": false,
         "trackers_list": []
       },
       {
         "name": "ERES_venc",
         "domain": "www.eur.nl",
-        "expires": 2082758401.293503,
+        "expires": 2082758400.919885,
+        "time_to_live": 433676039.12892866,
         "third_party": false,
         "trackers_list": []
       }
@@ -1191,6 +1307,7 @@
         "name": "sess_auth_vu_nl",
         "domain": ".vu.nl",
         "expires": -1,
+        "time_to_live": -1649082378.5706737,
         "third_party": false,
         "trackers_list": []
       }
@@ -1200,13 +1317,15 @@
         "name": "YSC",
         "domain": ".youtube.com",
         "expires": -1,
+        "time_to_live": -1649082438.2742653,
         "third_party": true,
         "trackers_list": []
       },
       {
         "name": "VISITOR_INFO1_LIVE",
         "domain": ".youtube.com",
-        "expires": 1664485071.735244,
+        "expires": 1664634435.709571,
+        "time_to_live": 15551998.435305595,
         "third_party": true,
         "trackers_list": []
       }
