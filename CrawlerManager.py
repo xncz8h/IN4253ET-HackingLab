@@ -43,6 +43,7 @@ class CrawlerManager:
         # notifications
         self.chromeOptions.add_argument("disable-notifications")
         self.chromeOptions.add_argument("allow-running-insecure-content")
+        self.chromeOptions.add_argument('log-level=3')
 
     # def setup_urls(self, files):
     #     print("Initializing urls...")
@@ -120,7 +121,7 @@ class CrawlerManager:
                 if self.threads[x] is None:
                     count = count + 1
 
-            print(count)
+            # print(count)
             # If all threads are dead, we can stop checking
             if count == self.numThreads:
                 break
@@ -132,3 +133,5 @@ class CrawlerManager:
         self.allCookies[crawler.websiteUrl]['frontpage'] = crawler.frontpage_cookies
         if self.hops:
             self.allCookies[crawler.websiteUrl]['hopped'] = crawler.hopCookies
+        else:
+            self.allCookies[crawler.websiteUrl]['hopped'] = []
