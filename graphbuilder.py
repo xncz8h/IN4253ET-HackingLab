@@ -7,8 +7,6 @@ def process_cookies(filename):
         allCookies = json.load(jsonFile)
         jsonFile.close()
 
-    processedCookies = dict()
-
     for website in allCookies:
         allCookies[website]["website"] = website
         allCookies[website]["frontpage_cookies"] = len(allCookies[website]["frontpage"])
@@ -149,7 +147,7 @@ def tracker_stats(filename):
     for website in processedCookies:
         totalCookies = processedCookies[website]["frontpage"] + processedCookies[website]["hopped"]
         for cookie in totalCookies:
-            if  len(cookie["trackers_list"]) > 0:
+            if len(cookie["trackers_list"]) > 0:
                 totalTrackers += 1
                 if shouldCount:
                     websitesWithTrackers += 1
